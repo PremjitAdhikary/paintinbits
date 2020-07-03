@@ -1,0 +1,51 @@
+<div>
+  <app-article-header id=1002></app-article-header>
+  <p>
+    When I first bought my laptop, the same that I am using right now to create this page, I wanted 
+    to make it a bit different.  I surfed and found a site which allows custom artwork to be 
+    applied as a sticker on the laptop.  They call it Skin.  All I had to do is upload an image 
+    (and pay $$), they would print that out on a sticker to the exact size of my laptop and ship 
+    it to me.  That got me excited and I started off on a look that would be 'cool'.  So again my 
+    ego ruled and I came to the conclusion that what better than to have 'me' on my laptop.
+  </p>
+  <app-collapsible-section heading="The Skin">
+    <p>Here's the Skin that I came up with... Pretty cool right? Kidding!</p>
+    <p>
+      <app-image-holder 
+        [imageDetails]="skinImg">
+      </app-image-holder>
+    </p>
+  </app-collapsible-section>
+  <app-collapsible-section heading="The Avatar">
+    <p>
+      One of the side products of this was a new Avatar which I started using as my login picture 
+      in my laptop.  It also stayed as my Facebook profile picture for quite a while.
+    </p>
+    <p>
+      <app-image-holder 
+        [imageDetails]="avatarImg">
+      </app-image-holder>
+    </p>
+  </app-collapsible-section>
+  <app-collapsible-section heading="The Wallpaper">
+    <p>Another side product was an awesome wallpaper.  Check it out.</p>
+    <p>
+      <app-image-holder 
+        [imageDetails]="wallpaperImg">
+      </app-image-holder>
+    </p>
+  </app-collapsible-section>
+  <app-collapsible-section heading="The Making">
+    <p>
+      I had a lot of fun working on the Skin Project.  I had also created a small video out of 
+      it.  I was helped by my then room-mate Harsh Mehta to create this video.  He is good with 
+      the camera too and he took all the pictures during this project.
+    </p>
+    <p class="video-container">
+      <video width="480" controls>
+        <source src="{{ makingVdo }}" type="video/webm">
+        Your browser does not support HTML video.
+      </video>
+    </p>
+  </app-collapsible-section>
+</div>

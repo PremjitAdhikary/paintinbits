@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --background-color: #2e2e2e;
+  --text-color: #cccccc;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Lato;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}

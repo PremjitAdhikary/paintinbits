@@ -1,0 +1,12 @@
+<div>
+  <h2>All Articles</h2>
+  <div class="list-container">
+    <div *ngFor="let article of articles" class="article-container">
+      <a routerLink="../{{ article.path }}"><h4>{{ article.name }}</h4></a>
+      <p>{{ formatDate(article.date) }}</p>
+      <p><span class="img-container"><img src='{{ getImagePath(article.preview) }}'></span></p>
+      <p>{{ article.description }}</p>
+      <p><a routerLink="../{{ article.path }}">See more...</a></p>
+    </div>
+  </div>
+</div>

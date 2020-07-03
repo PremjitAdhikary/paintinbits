@@ -1,0 +1,37 @@
+<div class="main-container">
+  <div class="control-container">
+    <span 
+      [ngClass]="{'button': currentImageIndex != 0, 'disabled-button': currentImageIndex == 0 }" 
+      (click)="select(0)">First</span>
+    <span 
+      [ngClass]="{'button': currentImageIndex != 0, 'disabled-button': currentImageIndex == 0 }" 
+      (click)="prev()">Prev</span>
+    <span>{{ (currentImageIndex+1) + ' of ' + allImages.length }}</span>
+    <span 
+      [ngClass]="{'button': currentImageIndex != allImages.length-1, 'disabled-button': currentImageIndex == allImages.length-1 }" 
+      (click)="next()">Next</span>
+    <span 
+      [ngClass]="{'button': currentImageIndex != allImages.length-1, 'disabled-button': currentImageIndex == allImages.length-1 }" 
+      (click)="select(allImages.length-1)">Last</span>
+  </div>
+  <div class="image-container">
+    <app-image-holder 
+      [imageDetails]="currentImage"
+      [showText]="showText" [showDescription]="showDescription">
+    </app-image-holder>
+    <div 
+      [ngClass]="{'float-left': currentImageIndex != 0}" 
+      (click)="prev()"></div>
+    <div 
+      [ngClass]="{'float-right': currentImageIndex != allImages.length-1}" 
+      (click)="next()"></div>
+  </div>
+  <div *ngIf="showBelt" class="belt-container">
+    <span *ngFor="let image of allImages; index as i;">
+      <img 
+        [ngClass]="{'selected-thumb': currentImageIndex == i , 'unselected-thumb': currentImageIndex != i}"
+        src='{{ image.thumbPath }}' 
+        (click) = "select(i)">
+    </span>
+  </div>
+</div>

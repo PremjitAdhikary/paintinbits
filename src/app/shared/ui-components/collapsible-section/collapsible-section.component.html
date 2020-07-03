@@ -1,0 +1,15 @@
+<div>
+  <div class="heading" (click)="show = !show">
+    &nbsp;&nbsp;
+    <div *ngIf="show; then thenBlock; else elseBlock">this is ignored</div>
+    <ng-template #thenBlock>&#8722;</ng-template>
+    <ng-template #elseBlock><b>&#43;</b></ng-template>
+    &nbsp;&nbsp;
+    <h3>{{ heading }}</h3>
+  </div>
+  <div *ngIf="show">
+    <br>
+    <ng-content></ng-content>
+  </div>
+  <br>
+</div>

@@ -1,0 +1,35 @@
+.list-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.article-container {
+  display: inline-block;
+  width: 80%;
+  border: 2px solid #cccccc;
+  padding: 1px 20px;
+  text-align: left;
+}
+
+a {
+  color: #cccccc;
+}
+
+.img-container {
+  text-align: center;
+  display: block;
+}
+
+img {
+  border: 5px solid black;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 575px) {
+  .article-container {
+    width: 100%;
+    padding: 0px;
+  }
+}

@@ -1,0 +1,46 @@
+<div>
+  <app-article-header id=1003></app-article-header>
+  <p>
+    I would say these were my first steps towards serious digital painting.  I actually started 
+    using Wacom the way it should be used.  Lots of online tutorials on digital painting 101, lots 
+    of youtube videos, lots of visits to the graphic novel section of Centerville Library, and I 
+    was like 'Game On'.
+  </p>
+  <p>
+    My first attempt was simply what I saw on a tutorial while surfing the net.  Had easy 
+     instructions, so I thought why not try something easy.  Here's the fruit of my effort.
+  </p>
+  <p>
+    <app-image-holder 
+      [imageDetails]="landscapesFirstImg">
+    </app-image-holder>
+  </p>
+  <app-collapsible-section heading="Gacier Inspired">
+    <p>
+      My next attempt was just after I came back from Glacier National Park.  Inspired by the 
+      beauty around, I brought this out on the canvas.  It's not much of a technical challenge, 
+      but I am not ashamed to say that I got to experiment with loads of brushes here.
+    </p>
+    <p>
+      <app-image-holder 
+        [imageDetails]="landscapesGlaciertImg">
+      </app-image-holder>
+    </p>
+  </app-collapsible-section>
+  <app-collapsible-section heading="Steps to Lansdscapes">
+    <p>
+      The next work was where I upped my game a bit.  I found a tutorial where it was a bit more 
+      than basic.  It had what I would call a composition of different elements, all with different 
+      level of detail.  I even liked the whole flow how the scene came out at the end.  What I came 
+      out at the end is not exactly what was there on the tutorial (it had a few other outworldly 
+      elements, while I wanted to keep mine in reality).
+    </p>
+    <p>This slide is more of to remind me on what steps I took to paint this out.</p>
+    <p>
+      <app-carousel 
+        [allImages]="slideImages" 
+        [showDescription]="true" 
+        [showBelt]="true"></app-carousel>
+    </p>
+  </app-collapsible-section>
+</div>

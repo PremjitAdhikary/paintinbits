@@ -1,0 +1,32 @@
+<div>
+  <app-article-header id=1005></app-article-header>
+  <p>
+    By this time I had already drawn a few landscapes in Photoshop. I was quite confident that 
+    I could take on a full fledged artwork. Boy how wrong was I...
+  </p>
+  <p>
+    <app-image-holder 
+      [imageDetails]="finalImg">
+    </app-image-holder>
+  </p>
+  <p>
+    <b>Warcraft: Frozen Throne</b> was (and still is) my favorite strategy game, not first, but 
+    favorite.  I always played with Undead.  Arthas was the coolest game character I ever 
+    known.  Being a big fan of the unit Necromancer, this idea popped - how about a necromancer 
+    doing what he does in a graveyard setting???
+  </p>
+  <app-collapsible-section heading="The Process">
+    <p>This slide is more of a step by step for me to look back at.</p>
+    <ul>
+      <li>Draw the initial outlines</li>
+      <li>Then it is all shades and smudge craft</li>
+      <li>Then comes the colors</li>
+    </ul>
+    <p>
+      <app-carousel 
+        [allImages]="slideImages" 
+        [showDescription]="true" 
+        [showText]="true"></app-carousel>
+    </p>
+  </app-collapsible-section>
+</div>

@@ -1,0 +1,66 @@
+.content {
+  max-width: 950px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.toolbar {
+  background-image: url("https://github.com/PremjitAdhikary/myFiles/blob/master/paintinbits/header_desk.jpg?raw=true");
+  background-repeat: no-repeat;
+  width: 950px;
+  height: 250px;
+  line-height: 250px;
+}
+
+.toolbar > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  vertical-align:bottom;
+  display:inline-block;
+}
+
+.toolbar > ul > li {
+  float: left;
+  line-height:50px;
+}
+
+.toolbar > ul > li > a {
+  color: #003965;
+  text-align: center;
+  font-family: 'Arial Black', Gadget, sans-serif;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #00ddff;
+}
+
+.toolbar > ul > li > a:hover {
+  background-color: #00ffff;
+}
+
+.toolbar > ul > li > a.active-link {
+  background-color: #00ffff;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 950px) {
+  .toolbar {
+    background-image: none;
+    width: auto;
+    height: auto;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    border: 1px blue solid;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .content {
+    border: 1px green solid;
+  }
+}

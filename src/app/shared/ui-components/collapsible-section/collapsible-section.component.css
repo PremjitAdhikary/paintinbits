@@ -1,0 +1,11 @@
+.heading {
+  width: 100%;
+  background-color: #cccccc;
+  color: #2e2e2e;
+  padding: 1px 0px 1px 10px;
+  cursor: pointer;
+}
+
+.heading * {
+  display: inline-block;
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1001,
+    "name": "Whiteboard",
+    "path": "articles/whiteboard",
+    "description": "Here I talk about my attempts on the office whiteboard. These little art attempts kept my juices running. They kept me in touch with my artistic side.",
+    "date": "2012-05-04",
+    "preview": "whiteboard_banner"
+  },
+  {
+    "id": 1002,
+    "name": "Project Skin",
+    "path": "articles/project-skin",
+    "description": "Here I talk about one of my fun projects. The main aim was to create a skin for my laptop, everything else just fell into place.",
+    "date": "2012-05-05",
+    "preview": "projectskin_banner"
+  },
+  {
+    "id": 1003,
+    "name": "Landscapes",
+    "path": "articles/landscapes",
+    "description": "Here I talk about my first attempts at serious digital paintings.",
+    "date": "2012-05-06",
+    "preview": "landscapes_banner"
+  },
+  {
+    "id": 1004,
+    "name": "Moods",
+    "path": "articles/moods",
+    "description": "Here I talk about how much more the Sky is than just a blue background.",
+    "date": "2012-05-07",
+    "preview": "moods_banner"
+  },
+  {
+    "id": 1005,
+    "name": "Raise the Dead",
+    "path": "articles/raise-the-dead",
+    "description": "Here I detail out on what went through to envision and draw the Necromancer from Warcraft: Frozen Throne.  I captured all the intermediate stages so that the reader can relive at what went through to create this.",
+    "date": "2012-05-08",
+    "preview": "raise_banner"
+  },
+  {
+    "id": 1006,
+    "name": "Avatars",
+    "path": "articles/avatars",
+    "description": "Here I detail out on all my different avatars that I had created.  From way early days when I first started to draw digitally.  You will find how the avatars evolved from my early feeble attempts.",
+    "date": "2012-05-09",
+    "preview": "avatars_banner"
+  },
+  {
+    "id": 1007,
+    "name": "First Digital Comic",
+    "path": "articles/first-digital-comic",
+    "description": "Here I talk about my first attempt on a digital comic.",
+    "date": "Dec 27, 2016",
+    "preview": "first_comic_banner"
+  },
+  {
+    "id": 1008,
+    "name": "Project Etch",
+    "path": "articles/project-etch",
+    "description": "Here I put out the characters that I had done to be later etched onto my laptop.",
+    "date": "Dec 28, 2016",
+    "preview": "etch_banner"
+  },
+  {
+    "id": 1009,
+    "name": "Second Digital Comic",
+    "path": "articles/second-digital-comic",
+    "description": "Here I talk about my second attempt on a digital comic.",
+    "date": "Jan 3, 2017",
+    "preview": "second_comic_banner"
+  },
+  {
+    "id": 1010,
+    "name": "Third Digital Comic",
+    "path": "articles/third-digital-comic",
+    "description": "Here I talk about my third attempt on a digital comic.",
+    "date": "Sep 2, 2018",
+    "preview": "third_comic_banner"
+  },
+  {
+    "id": 1011,
+    "name": "Doodles",
+    "path": "articles/doodles",
+    "description": "All my doodles.",
+    "date": "Jan 5, 2020",
+    "preview": "doodles_banner"
+  }
+]

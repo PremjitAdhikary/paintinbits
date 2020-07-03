@@ -1,0 +1,12 @@
+.breaks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 850px) {
+  .breaks {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,147 @@
+<div>
+  <app-article-header id=1010></app-article-header>
+  <p>Digital comic attempt number three.</p>
+  <p>
+    In my new company every year we have a DevCon event.  For those uninitiated, DevCon is short 
+    for Developers Conference, where developers get to speak about anything technical that they 
+    believe will benefit the community.  The way it works here is that Request For Papers come 
+    out, developers submit their paper(s), a review board sits on those submitted papers and 
+    select the best among them, those selected papers are presented by respective authors in 
+    DevCon.
+  </p>
+  <p>
+    Along with RFPs. there are other fun events that do get promoted too for DevCon.  One of them 
+    was a 'Comic Strip Challenge'.  The idea was to come up with a comic strip which forms a story 
+    the 2018 DevCon event and it's theme, Avengers - Infinity War
+  </p>
+  <p>
+    Avengers???  GAME ON!  So motivation high, re-watched Avengers few more times, came up with a 
+    few narrations, selected the best ones and hit the drawing board
+  </p>
+  <p>Fair warning, comics are best experienced on a laptop or desktop.</p>
+  <p>
+    <app-carousel 
+      [allImages]="comics" 
+      [showText]="false" 
+      [showDescription]="false" 
+      [showBelt]="false"></app-carousel>
+  </p>
+
+  <app-collapsible-section heading="Process and Artwork">
+    <p>The simple process I followed to come up with the comic strips:</p>
+    <ul>
+      <li>Come up with an awesome idea</li>
+      <li>Transform that idea into a script</li>
+      <li>Art the script out</li>
+    </ul>
+    <p>
+      For the artwork, because these are established characters, it was easy for me to get a lot of 
+      reference.  The challenge was that Superhero comics have a varied array of art styles.  Anything 
+      from noir (Batman and Punisher has some excellent noir titles) to uber-stylized-realism 
+      (Marvels, Kingdom Come).  So for each of my strips, I tried a different style.
+    </p>
+    <p>For the first strip, my attempt was to reach realism.  Easier said than done.</p>
+    <p>
+      Second is with more emphasis on inks and blacks.  Looked into a lot of comics for this.  Took 
+      a lot of time to complete this as it was a long one, eight panels to draw.  So split it up 
+      into 2 strips.  Lot of cleanup was required too.  Didn't submit the first part.
+    </p>
+    <p>
+      Third with emphasis on pencils and a bit of smudge.  This was the easiest of the lot for me to 
+      complete.  Also note that I was able to reuse art from panel one into three.
+    </p>
+    <p>Fourth one I decided to noir it up.  But had to add the red.  This one was not submitted.</p>
+    <p>I will detail out the first one.  For the rest it will be short and crisp.</p>
+  </app-collapsible-section>
+  
+  <app-collapsible-section heading="Strip: Is your paper ready?">
+    <p>
+      The underlying idea for this strip was a take on "Get this man a shield" from the original 
+      trailer.  With that in mind, came up with the following script:
+    </p>
+    <div class="script-mode">
+      <p>Panel 1: Black Panther pointing his finger to off screen character.</p>
+      <p>BP: Evacuate the city.  Engage all defenses.  And get this man a laptop.</p>
+      <p>Panel 2: Captain America, with a blank expression.</p>
+      <p>CA: Laptop?</p>
+      <p>Panel 3: CA with the laptop instead of shield.  BP explains...</p>
+      <p>BP: To submit your paper for the DevCon Captain.</p>
+    </div>
+    <p>
+      Now that the script was ready, hunt for inspirations for the panel art.  This was easy as all 
+      the scenes were played in the movie
+    </p>
+    <p>
+      <app-image-holder 
+        [imageDetails]="strip1Inspiration">
+      </app-image-holder>
+    </p>
+    <p>With that in place, the artwork process is laid below:</p>
+    <p>
+      <app-carousel 
+        [allImages]="strip1Slide" 
+        [showText]="true" 
+        [showDescription]="false" 
+        [showBelt]="true"></app-carousel>
+    </p>
+  </app-collapsible-section>
+  
+  <app-collapsible-section heading="Strip: Is your paper worthy enough?">
+    <p>
+      One of the most significant point in Infinity War was when Doctor Strange visits multiple 
+      futures to play out the scenario.  This strip was dedicated to that moment.  As stated 
+      before, I wont go into details of the whole strip, as it was pretty much the same.  Here 
+      except Strange I kept rest of the characters masked.  Tony, Doctor, both with beard, would 
+      look odd on the panel.  Did anyone notice almost everybody in Infinity War was sporting a 
+      beard? Captain, Tony, Strange, Star Lord, Winter Soldier, Black Panther, even that 
+      Falcon.
+    </p>
+    <p>
+      But drawing Strange was, well strange.  I couldn't think of a way to depict all the vibration 
+      from the movie in the comic, whatever I did, made the art messy.  So instead I just kept him 
+      afloat.
+    </p>
+    <p>
+      <app-carousel 
+        [allImages]="strangeSlide" 
+        [showText]="true" 
+        [showDescription]="false" 
+        [showBelt]="true"></app-carousel>
+    </p>
+  </app-collapsible-section>
+  
+  <app-collapsible-section heading="Strip: Will your paper survive the snap?">
+    <p>
+      The Snap.  I had to do something around it.  Problem was I didn't want to show any 
+      <b><em>DEATH</em></b> on this strip (corporate and all).  So instead I decided on dusting 
+      the papers.  As the story for this strip had no underlying scenario in the movie, for 
+      inspiration I had to be a bit more creative.
+    </p>
+    <p>
+      For example, the last panel where Thanos smiles is an inspiration from the first Avengers 
+      movie.
+    </p>
+    <p>
+      <app-image-holder 
+        [imageDetails]="strip3Inspiration">
+      </app-image-holder>
+    </p>
+  </app-collapsible-section>
+  
+  <app-collapsible-section heading="Strip: The unsubmitted paper!">
+    <p>
+      This strip was something I couldn't stop myself from drawing.  This has nothing to do with 
+      Avengers, depicts death, but I just loved Deadpool soooo much.  Needless to say that I did 
+      not submit this strip for the challenge.  See what I did there?  <b><em>The unsubmitted 
+      Strip</em></b>.  Again, a heavy take on the Deadpool 2 post credit scene.  So if you have 
+      not watched the movie yet...
+    </p>
+    <p>Check out the blacks...</p>
+    <p>
+      <app-image-holder 
+        [imageDetails]="strip4Blacks">
+      </app-image-holder>
+    </p>
+  </app-collapsible-section>
+
+</div>

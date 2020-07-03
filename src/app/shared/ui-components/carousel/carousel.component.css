@@ -1,0 +1,76 @@
+.main-container {
+  background-color: black;
+}
+
+.control-container {
+  position: relative;
+  text-align: center;
+}
+
+.control-container > span {
+  margin: 5px;
+}
+
+.button, .disabled-button {
+  padding: 1px 5px;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: #cccccc;
+  color: black;
+  cursor: pointer;
+}
+
+.disabled-button {
+  background-color: #cccccc;
+  color: white;
+  cursor: default;
+}
+
+.image-container {
+  position: relative;
+}
+
+.float-left, .float-right {
+  position: absolute;
+  z-index: 1000;
+  width: 150px;
+  height: 100%;
+  cursor: pointer;
+  top: 0px;
+}
+
+.float-left:hover, .float-right:hover {
+  background-color: #2e2e2e;
+  opacity: 0.3;
+}
+
+.float-left {
+  float: left;
+  left: 0px;
+}
+
+.float-right {
+  float: right;
+  right: 0px;
+}
+
+.belt-container {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.unselected-thumb, .selected-thumb {
+  margin: 5px;
+  cursor: pointer;
+  width:auto;
+}
+
+.unselected-thumb {
+  border: 2px solid black;
+}
+
+.selected-thumb {
+  border: 2px solid #cccccc;
+}

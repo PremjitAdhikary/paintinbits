@@ -1,0 +1,29 @@
+<div>
+  <app-article-header id=1001></app-article-header>
+  <p>
+    While most of the people use the whiteboards in their office to jot down important things like 
+    To-dos, project pointers, everyday contacts, workflow etc, I usually would draw something on it 
+    and keep it for days before erasing it off and drawing something new.  They were mostly 
+    inspired from existing artwork in and around that I tried with a marker.  It was kind of a 
+    release to draw in office.  Also gave my work area a personal touch.  Too bad now I don't have 
+    a whiteboard in my current location.
+  </p>
+  <p>
+    <app-image-holder 
+      [imageDetails]="fromMyComicImg">
+    </app-image-holder>
+  </p>
+  <app-collapsible-section heading="Whiteboard Art">
+    <p>
+      All the whiteboard art that I have done (and have pictures) are here. More will be added as 
+      and when more drawings are er... drawn.
+    </p>
+    <p>
+      <app-carousel 
+        [allImages]="slideImages" 
+        [showText]="true" 
+        [showDescription]="true" 
+        [showBelt]="true"></app-carousel>
+    </p>
+  </app-collapsible-section>
+</div>

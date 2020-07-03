@@ -1,0 +1,16 @@
+<div>
+  <span class="img-container">
+      <picture>
+        <source srcset='{{ imageDetails.mobilePath }}' media="(max-width: 575px)">
+        <source srcset='{{ imageDetails.tabPath }}' media="(max-width: 850px)">
+        <source srcset='{{ imageDetails.desktopPath }}'>
+        <img 
+          src='{{ imageDetails.desktopPath }}' 
+          title="{{ imageDetails.alt }}" 
+          alt="{{ imageDetails.alt }}" 
+          style="width:auto;">
+      </picture>
+      <div *ngIf="showText">{{ imageDetails.text }}</div>
+  </span>
+  <div *ngIf="showDescription"><p>{{ imageDetails.description }}</p></div>
+</div>
