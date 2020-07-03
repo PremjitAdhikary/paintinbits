@@ -8,7 +8,7 @@ import { IArticle } from '../domain/article';
 })
 export class ArticlesService {
 
-  private _url: string = "/assets/data/articles.json";
+  private _url: string = "../../../assets/data/articles.json";
 
   private _months = [
     'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
