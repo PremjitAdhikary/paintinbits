@@ -32,4 +32,4 @@ ng g s <service-name>
 ng g s <folder-name>/<service-name>
 
 Build:
-ng build --prod --output-path docs --base-href /paintinbits/
+ng build --prod --output-path docs --base-href "https://premjitadhikary.github.io/paintinbits/"
