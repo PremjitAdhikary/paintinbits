@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from'@angular/common/http';
+import { APP_BASE_HREF, PlatformLocation } from '@angular/common';
 
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -27,7 +28,12 @@ import { MetaTagService } from './shared/services/meta-tag.service';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [ArticlesService, ImageLocationService, MetaTagService],
+  providers: [ArticlesService, ImageLocationService, MetaTagService,
+  {
+    provide: APP_BASE_HREF,
+    useFactory: (s: PlatformLocation) => s.getBaseHrefFromDOM(),
+    deps: [PlatformLocation]
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
