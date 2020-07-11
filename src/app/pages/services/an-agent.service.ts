@@ -5,7 +5,7 @@ import { IImage } from 'src/app/shared/domain/image';
 @Injectable({
   providedIn: 'root'
 })
-export class FirstDigitalComicService {
+export class AnAgentService {
 
   constructor(private _imgLocationService: ImageLocationService) { }
 
@@ -16,144 +16,144 @@ export class FirstDigitalComicService {
   getComic(): IImage[] {
     return [
       {
-        hiPath: this.getImagePath('first_01_hi'),
-        loPath: this.getImagePath('first_01_lo'),
+        hiPath: this.getImagePath('agent_01_hi'),
+        loPath: this.getImagePath('agent_01_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        hiPath: this.getImagePath('first_02_hi'),
-        loPath: this.getImagePath('first_02_lo'),
+        hiPath: this.getImagePath('agent_02_hi'),
+        loPath: this.getImagePath('agent_02_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        hiPath: this.getImagePath('first_03_hi'),
-        loPath: this.getImagePath('first_03_lo'),
+        hiPath: this.getImagePath('agent_03_hi'),
+        loPath: this.getImagePath('agent_03_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        hiPath: this.getImagePath('first_04_hi'),
-        loPath: this.getImagePath('first_04_lo'),
+        hiPath: this.getImagePath('agent_04_hi'),
+        loPath: this.getImagePath('agent_04_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        hiPath: this.getImagePath('first_05_hi'),
-        loPath: this.getImagePath('first_05_lo'),
+        hiPath: this.getImagePath('agent_05_hi'),
+        loPath: this.getImagePath('agent_05_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        hiPath: this.getImagePath('first_06_hi'),
-        loPath: this.getImagePath('first_06_lo'),
+        hiPath: this.getImagePath('agent_06_hi'),
+        loPath: this.getImagePath('agent_06_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        hiPath: this.getImagePath('first_07_hi'),
-        loPath: this.getImagePath('first_07_lo'),
+        hiPath: this.getImagePath('agent_07_hi'),
+        loPath: this.getImagePath('agent_07_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        hiPath: this.getImagePath('first_08_hi'),
-        loPath: this.getImagePath('first_08_lo'),
+        hiPath: this.getImagePath('agent_08_hi'),
+        loPath: this.getImagePath('agent_08_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        hiPath: this.getImagePath('first_09_hi'),
-        loPath: this.getImagePath('first_09_lo'),
+        hiPath: this.getImagePath('agent_09_hi'),
+        loPath: this.getImagePath('agent_09_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        hiPath: this.getImagePath('first_10_hi'),
-        loPath: this.getImagePath('first_10_lo'),
+        hiPath: this.getImagePath('agent_10_hi'),
+        loPath: this.getImagePath('agent_10_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        hiPath: this.getImagePath('first_11_hi'),
-        loPath: this.getImagePath('first_11_lo'),
+        hiPath: this.getImagePath('agent_11_hi'),
+        loPath: this.getImagePath('agent_11_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        hiPath: this.getImagePath('first_12_hi'),
-        loPath: this.getImagePath('first_12_lo'),
+        hiPath: this.getImagePath('agent_12_hi'),
+        loPath: this.getImagePath('agent_12_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        hiPath: this.getImagePath('first_13_hi'),
-        loPath: this.getImagePath('first_13_lo'),
+        hiPath: this.getImagePath('agent_13_hi'),
+        loPath: this.getImagePath('agent_13_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        hiPath: this.getImagePath('first_14_hi'),
-        loPath: this.getImagePath('first_14_lo'),
+        hiPath: this.getImagePath('agent_14_hi'),
+        loPath: this.getImagePath('agent_14_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        hiPath: this.getImagePath('first_15_hi'),
-        loPath: this.getImagePath('first_15_lo'),
+        hiPath: this.getImagePath('agent_15_hi'),
+        loPath: this.getImagePath('agent_15_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        hiPath: this.getImagePath('first_16_hi'),
-        loPath: this.getImagePath('first_16_lo'),
+        hiPath: this.getImagePath('agent_16_hi'),
+        loPath: this.getImagePath('agent_16_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        hiPath: this.getImagePath('first_17_hi'),
-        loPath: this.getImagePath('first_17_lo'),
+        hiPath: this.getImagePath('agent_17_hi'),
+        loPath: this.getImagePath('agent_17_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        hiPath: this.getImagePath('first_18_hi'),
-        loPath: this.getImagePath('first_18_lo'),
+        hiPath: this.getImagePath('agent_18_hi'),
+        loPath: this.getImagePath('agent_18_lo'),
         thumbPath: '',
         alt: '',
         text: '',
@@ -161,4 +161,5 @@ export class FirstDigitalComicService {
       }
     ];
   }
+  
 }

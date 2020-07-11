@@ -13,9 +13,8 @@ For Art.
 
 ## Image Specs
 
-  - desktop: 800-950px wide by 650px high
-  - tab: 650px wide 500px high
-  - mobile: 350px wide and high
+  - hi: 1400 px wide
+  - lo: 800px wide
   - thumbnail: 100px high
 
 ## Commands
@@ -35,6 +34,11 @@ Service addition:
 ```sh
 ng g s <service-name>
 ng g s <folder-name>/<service-name>
+```
+
+Directive addition:
+```sh
+ng g directive <name>
 ```
 
 Build:

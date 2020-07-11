@@ -1,7 +1,6 @@
 export interface IImage {
-  desktopPath: string,
-  tabPath: string,
-  mobilePath: string,
+  hiPath: string,
+  loPath: string,
   thumbPath: string,
   alt: string,
   text: string,

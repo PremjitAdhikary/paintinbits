@@ -13,6 +13,7 @@ import { ProjectEtchComponent } from './pages/project-etch/project-etch.componen
 import { SecondDigitalComicComponent } from './pages/second-digital-comic/second-digital-comic.component';
 import { ThirdDigitalComicComponent } from './pages/third-digital-comic/third-digital-comic.component';
 import { DoodlesComponent } from './pages/doodles/doodles.component';
+import { AnAgentComponent } from './pages/an-agent/an-agent.component';
 
 
 const routes: Routes = [
@@ -29,6 +30,7 @@ const routes: Routes = [
   { path: 'articles/second-digital-comic', component: SecondDigitalComicComponent },
   { path: 'articles/third-digital-comic', component: ThirdDigitalComicComponent },
   { path: 'articles/doodles', component: DoodlesComponent },
+  { path: 'articles/an-agent', component: AnAgentComponent },
   { path: '', redirectTo: '/article-list', pathMatch: 'full' }
 ];
 
@@ -41,5 +43,5 @@ export const routingComponents = [
   ArticleListComponent, AboutComponent, WhiteboardComponent, ProjectSkinComponent, 
   LandscapesComponent, MoodsComponent, RaiseTheDeadComponent, AvatarsComponent, 
   FirstDigitalComicComponent, ProjectEtchComponent, SecondDigitalComicComponent, 
-  ThirdDigitalComicComponent, DoodlesComponent
+  ThirdDigitalComicComponent, DoodlesComponent, AnAgentComponent
 ]

@@ -1,11 +1,10 @@
 <div>
   <span class="img-container">
       <picture>
-        <source srcset='{{ imageDetails.mobilePath }}' media="(max-width: 575px)">
-        <source srcset='{{ imageDetails.tabPath }}' media="(max-width: 850px)">
-        <source srcset='{{ imageDetails.desktopPath }}'>
+        <source srcset='{{ imageDetails.loPath }}' media="(max-width: 575px)">
+        <source srcset='{{ imageDetails.hiPath }}'>
         <img 
-          src='{{ imageDetails.desktopPath }}' 
+          src='{{ imageDetails.hiPath }}' 
           title="{{ imageDetails.alt }}" 
           alt="{{ imageDetails.alt }}" 
           style="width:auto;">

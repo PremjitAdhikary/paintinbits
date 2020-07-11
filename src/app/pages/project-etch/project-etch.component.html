@@ -10,13 +10,15 @@
     I had a crazy idea.  Why don't I draw few of my favorite characters and line them up?  Here 
     they go ...
   </p>
-  <p>
-    <app-carousel 
-      [allImages]="slideImages" 
-      [showText]="false" 
-      [showDescription]="true" 
-      [showBelt]="true"></app-carousel>
-  </p>
+  <div class="all-slides-holder"><div class="all-slides">
+    <p>
+      <app-carousel 
+        [allImages]="slideImages" 
+        [showText]="false" 
+        [showDescription]="true" 
+        [showBelt]="true"></app-carousel>
+    </p>
+  </div></div>
   <app-collapsible-section heading="All together">
     <p>All together now.  I was ready with the artwork to be etched on my laptop.</p>
     <p>

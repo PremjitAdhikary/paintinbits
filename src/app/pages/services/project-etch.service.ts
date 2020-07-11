@@ -15,9 +15,8 @@ export class ProjectEtchService {
 
   getAll(): IImage {
     return {
-      desktopPath: this.getImagePath('etch_all_desk'),
-      tabPath: this.getImagePath('etch_all_tab'),
-      mobilePath: this.getImagePath('etch_all_mob'),
+      hiPath: this.getImagePath('etch_all_hi'),
+      loPath: this.getImagePath('etch_all_lo'),
       thumbPath: '',
       alt: 'all together',
       text: '',
@@ -28,9 +27,8 @@ export class ProjectEtchService {
   getSlides(): IImage[] {
     return [
       {
-        desktopPath: this.getImagePath('etch_01_desk'),
-        tabPath: this.getImagePath('etch_01_tab'),
-        mobilePath: this.getImagePath('etch_01_mob'),
+        hiPath: this.getImagePath('etch_01_hi'),
+        loPath: this.getImagePath('etch_01_lo'),
         thumbPath: this.getImagePath('etch_01_thumb'),
         alt: 'Ichigo',
         text: '',
@@ -38,36 +36,32 @@ export class ProjectEtchService {
         characters in my opinion.`
       },
       {
-        desktopPath: this.getImagePath('etch_02_desk'),
-        tabPath: this.getImagePath('etch_02_tab'),
-        mobilePath: this.getImagePath('etch_02_mob'),
+        hiPath: this.getImagePath('etch_02_hi'),
+        loPath: this.getImagePath('etch_02_lo'),
         thumbPath: this.getImagePath('etch_02_thumb'),
         alt: 'Tintin',
         text: '',
         description: `Next, Tintin and Snowy.  They were my introduction to comics.`
       },
       {
-        desktopPath: this.getImagePath('etch_03_desk'),
-        tabPath: this.getImagePath('etch_03_tab'),
-        mobilePath: this.getImagePath('etch_03_mob'),
+        hiPath: this.getImagePath('etch_03_hi'),
+        loPath: this.getImagePath('etch_03_lo'),
         thumbPath: this.getImagePath('etch_03_thumb'),
         alt: 'Mogli',
         text: '',
         description: `Third, Mogli from Jungle book, those Sunday mornings still make me nostalgic.`
       },
       {
-        desktopPath: this.getImagePath('etch_04_desk'),
-        tabPath: this.getImagePath('etch_04_tab'),
-        mobilePath: this.getImagePath('etch_04_mob'),
+        hiPath: this.getImagePath('etch_04_hi'),
+        loPath: this.getImagePath('etch_04_lo'),
         thumbPath: this.getImagePath('etch_04_thumb'),
         alt: 'Asterix',
         text: '',
         description: `Fourth, Asterix n Obelix, their adventures still bring a smile to my face.`
       },
       {
-        desktopPath: this.getImagePath('etch_05_desk'),
-        tabPath: this.getImagePath('etch_05_tab'),
-        mobilePath: this.getImagePath('etch_05_mob'),
+        hiPath: this.getImagePath('etch_05_hi'),
+        loPath: this.getImagePath('etch_05_lo'),
         thumbPath: this.getImagePath('etch_05_thumb'),
         alt: 'Archie',
         text: '',
@@ -75,9 +69,8 @@ export class ProjectEtchService {
         goes on.`
       },
       {
-        desktopPath: this.getImagePath('etch_06_desk'),
-        tabPath: this.getImagePath('etch_06_tab'),
-        mobilePath: this.getImagePath('etch_06_mob'),
+        hiPath: this.getImagePath('etch_06_hi'),
+        loPath: this.getImagePath('etch_06_lo'),
         thumbPath: this.getImagePath('etch_06_thumb'),
         alt: 'Archie',
         text: '',
@@ -85,9 +78,8 @@ export class ProjectEtchService {
         the comics strip page from the newspaper and start my day.`
       },
       {
-        desktopPath: this.getImagePath('etch_07_desk'),
-        tabPath: this.getImagePath('etch_07_tab'),
-        mobilePath: this.getImagePath('etch_07_mob'),
+        hiPath: this.getImagePath('etch_07_hi'),
+        loPath: this.getImagePath('etch_07_lo'),
         thumbPath: this.getImagePath('etch_07_thumb'),
         alt: 'Samurai Jack',
         text: '',
@@ -95,9 +87,8 @@ export class ProjectEtchService {
         dialogue, 1 amazing show`
       },
       {
-        desktopPath: this.getImagePath('etch_08_desk'),
-        tabPath: this.getImagePath('etch_08_tab'),
-        mobilePath: this.getImagePath('etch_08_mob'),
+        hiPath: this.getImagePath('etch_08_hi'),
+        loPath: this.getImagePath('etch_08_lo'),
         thumbPath: this.getImagePath('etch_08_thumb'),
         alt: 'Avatar Aang',
         text: '',
@@ -105,9 +96,8 @@ export class ProjectEtchService {
         comics`
       },
       {
-        desktopPath: this.getImagePath('etch_09_desk'),
-        tabPath: this.getImagePath('etch_09_tab'),
-        mobilePath: this.getImagePath('etch_09_mob'),
+        hiPath: this.getImagePath('etch_09_hi'),
+        loPath: this.getImagePath('etch_09_lo'),
         thumbPath: this.getImagePath('etch_09_thumb'),
         alt: 'Naruto',
         text: '',
@@ -115,9 +105,8 @@ export class ProjectEtchService {
         series.`
       },
       {
-        desktopPath: this.getImagePath('etch_10_desk'),
-        tabPath: this.getImagePath('etch_10_tab'),
-        mobilePath: this.getImagePath('etch_10_mob'),
+        hiPath: this.getImagePath('etch_10_hi'),
+        loPath: this.getImagePath('etch_10_lo'),
         thumbPath: this.getImagePath('etch_10_thumb'),
         alt: 'Major Kusanagi',
         text: '',
@@ -125,9 +114,8 @@ export class ProjectEtchService {
         my humble opinion.`
       },
       {
-        desktopPath: this.getImagePath('etch_11_desk'),
-        tabPath: this.getImagePath('etch_11_tab'),
-        mobilePath: this.getImagePath('etch_11_mob'),
+        hiPath: this.getImagePath('etch_11_hi'),
+        loPath: this.getImagePath('etch_11_lo'),
         thumbPath: this.getImagePath('etch_11_thumb'),
         alt: 'Ed and Al Elric',
         text: '',
@@ -135,9 +123,8 @@ export class ProjectEtchService {
         this series, but it was the chemistry between the brothers that set it apart.`
       },
       {
-        desktopPath: this.getImagePath('etch_12_desk'),
-        tabPath: this.getImagePath('etch_12_tab'),
-        mobilePath: this.getImagePath('etch_12_mob'),
+        hiPath: this.getImagePath('etch_12_hi'),
+        loPath: this.getImagePath('etch_12_lo'),
         thumbPath: this.getImagePath('etch_12_thumb'),
         alt: 'Miyamoto Musashi',
         text: '',
@@ -146,9 +133,8 @@ export class ProjectEtchService {
         have my limits.`
       },
       {
-        desktopPath: this.getImagePath('etch_13_desk'),
-        tabPath: this.getImagePath('etch_13_tab'),
-        mobilePath: this.getImagePath('etch_13_mob'),
+        hiPath: this.getImagePath('etch_13_hi'),
+        loPath: this.getImagePath('etch_13_lo'),
         thumbPath: this.getImagePath('etch_13_thumb'),
         alt: 'Phantom',
         text: '',
@@ -156,9 +142,8 @@ export class ProjectEtchService {
         strips and also whatever digests I could get my hands on back in the days.`
       },
       {
-        desktopPath: this.getImagePath('etch_14_desk'),
-        tabPath: this.getImagePath('etch_14_tab'),
-        mobilePath: this.getImagePath('etch_14_mob'),
+        hiPath: this.getImagePath('etch_14_hi'),
+        loPath: this.getImagePath('etch_14_lo'),
         thumbPath: this.getImagePath('etch_14_thumb'),
         alt: 'Afro Samurai',
         text: '',
@@ -166,9 +151,8 @@ export class ProjectEtchService {
         said!`
       },
       {
-        desktopPath: this.getImagePath('etch_15_desk'),
-        tabPath: this.getImagePath('etch_15_tab'),
-        mobilePath: this.getImagePath('etch_15_mob'),
+        hiPath: this.getImagePath('etch_15_hi'),
+        loPath: this.getImagePath('etch_15_lo'),
         thumbPath: this.getImagePath('etch_15_thumb'),
         alt: 'Scorpion',
         text: '',
@@ -176,9 +160,8 @@ export class ProjectEtchService {
         used this move/power so often in the game ...`
       },
       {
-        desktopPath: this.getImagePath('etch_16_desk'),
-        tabPath: this.getImagePath('etch_16_tab'),
-        mobilePath: this.getImagePath('etch_16_mob'),
+        hiPath: this.getImagePath('etch_16_hi'),
+        loPath: this.getImagePath('etch_16_lo'),
         thumbPath: this.getImagePath('etch_16_thumb'),
         alt: 'Batman n Superman',
         text: '',
@@ -187,9 +170,8 @@ export class ProjectEtchService {
         these 2 together.`
       },
       {
-        desktopPath: this.getImagePath('etch_17_desk'),
-        tabPath: this.getImagePath('etch_17_tab'),
-        mobilePath: this.getImagePath('etch_17_mob'),
+        hiPath: this.getImagePath('etch_17_hi'),
+        loPath: this.getImagePath('etch_17_lo'),
         thumbPath: this.getImagePath('etch_17_thumb'),
         alt: 'Spawn',
         text: '',
@@ -197,18 +179,16 @@ export class ProjectEtchService {
         otherwise.`
       },
       {
-        desktopPath: this.getImagePath('etch_18_desk'),
-        tabPath: this.getImagePath('etch_18_tab'),
-        mobilePath: this.getImagePath('etch_18_mob'),
+        hiPath: this.getImagePath('etch_18_hi'),
+        loPath: this.getImagePath('etch_18_lo'),
         thumbPath: this.getImagePath('etch_18_thumb'),
         alt: 'Wolverine',
         text: '',
         description: `Eighteenth, Wolverine ... He is just too cool ...`
       },
       {
-        desktopPath: this.getImagePath('etch_19_desk'),
-        tabPath: this.getImagePath('etch_19_tab'),
-        mobilePath: this.getImagePath('etch_19_mob'),
+        hiPath: this.getImagePath('etch_19_hi'),
+        loPath: this.getImagePath('etch_19_lo'),
         thumbPath: this.getImagePath('etch_19_thumb'),
         alt: 'Arthas',
         text: '',
@@ -216,18 +196,16 @@ export class ProjectEtchService {
         IMHO. Took me 2 days to complete this...`
       },
       {
-        desktopPath: this.getImagePath('etch_20_desk'),
-        tabPath: this.getImagePath('etch_20_tab'),
-        mobilePath: this.getImagePath('etch_20_mob'),
+        hiPath: this.getImagePath('etch_20_hi'),
+        loPath: this.getImagePath('etch_20_lo'),
         thumbPath: this.getImagePath('etch_20_thumb'),
         alt: 'Bonnie',
         text: '',
         description: `Extra... Bonnie`
       },
       {
-        desktopPath: this.getImagePath('etch_21_desk'),
-        tabPath: this.getImagePath('etch_21_tab'),
-        mobilePath: this.getImagePath('etch_21_mob'),
+        hiPath: this.getImagePath('etch_21_hi'),
+        loPath: this.getImagePath('etch_21_lo'),
         thumbPath: this.getImagePath('etch_21_thumb'),
         alt: 'Putai',
         text: '',

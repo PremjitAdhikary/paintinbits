@@ -16,45 +16,40 @@ export class DoodlesService {
   getSlide(): IImage[] {
     return [
       {
-        desktopPath: this.getImagePath('doodles_reDog_desk'),
-        tabPath: this.getImagePath('doodles_reDog_tab'),
-        mobilePath: this.getImagePath('doodles_reDog_mob'),
+        hiPath: this.getImagePath('doodles_reDog_hi'),
+        loPath: this.getImagePath('doodles_reDog_lo'),
         thumbPath: this.getImagePath('doodles_reDog_thumb'),
         alt: 'Dog from Resident Evil',
         text: '',
         description: `The creature designs in Resident Evil impressed me a lot back then.`
       },
       {
-        desktopPath: this.getImagePath('doodles_forest_desk'),
-        tabPath: this.getImagePath('doodles_forest_tab'),
-        mobilePath: this.getImagePath('doodles_forest_mob'),
+        hiPath: this.getImagePath('doodles_forest_hi'),
+        loPath: this.getImagePath('doodles_forest_lo'),
         thumbPath: this.getImagePath('doodles_forest_thumb'),
         alt: 'Forest Sketch',
         text: '',
         description: `Most probably from some game.`
       },
       {
-        desktopPath: this.getImagePath('doodles_furnace_desk'),
-        tabPath: this.getImagePath('doodles_furnace_tab'),
-        mobilePath: this.getImagePath('doodles_furnace_mob'),
+        hiPath: this.getImagePath('doodles_furnace_hi'),
+        loPath: this.getImagePath('doodles_furnace_lo'),
         thumbPath: this.getImagePath('doodles_furnace_thumb'),
         alt: 'Forest Sketch',
         text: '',
         description: `Another game environment.`
       },
       {
-        desktopPath: this.getImagePath('doodles_dh_desk'),
-        tabPath: this.getImagePath('doodles_dh_tab'),
-        mobilePath: this.getImagePath('doodles_dh_mob'),
+        hiPath: this.getImagePath('doodles_dh_hi'),
+        loPath: this.getImagePath('doodles_dh_lo'),
         thumbPath: this.getImagePath('doodles_dh_thumb'),
         alt: 'Demon Hunter',
         text: '',
         description: `Demon Hunter from Diablo 3.`
       },
       {
-        desktopPath: this.getImagePath('doodles_rorschach_desk'),
-        tabPath: this.getImagePath('doodles_rorschach_tab'),
-        mobilePath: this.getImagePath('doodles_rorschach_mob'),
+        hiPath: this.getImagePath('doodles_rorschach_hi'),
+        loPath: this.getImagePath('doodles_rorschach_lo'),
         thumbPath: this.getImagePath('doodles_rorschach_thumb'),
         alt: 'Rorschach',
         text: '',

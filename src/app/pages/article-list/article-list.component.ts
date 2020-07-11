@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Meta, Title } from '@angular/platform-browser';
 import { ArticlesService } from 'src/app/shared/services/articles.service';
 import { ImageLocationService } from 'src/app/shared/services/image-location.service';
-import { MetaTagService } from 'src/app/shared/services/meta-tag.service';
 
 @Component({
   selector: 'app-article-list',
@@ -15,10 +13,7 @@ export class ArticleListComponent implements OnInit {
 
   constructor(
     private _articlesService: ArticlesService,
-    private title: Title,
-    private meta: Meta,
-    private _imgLocationService: ImageLocationService,
-    private _metaTagService: MetaTagService
+    private _imgLocationService: ImageLocationService
     ) { }
 
   ngOnInit(): void {
@@ -27,14 +22,6 @@ export class ArticleListComponent implements OnInit {
         this.articles = data;
         this.articles.reverse();
       });
-      
-    this._metaTagService.updateMeta(
-      this.title,
-      this.meta,
-      'Paint In Bits',
-      'An online collection of all my drawings.',
-      this.getImagePath('page_banner')
-    );
   }
 
   formatDate(date: string): string {

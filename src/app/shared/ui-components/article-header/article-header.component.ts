@@ -1,9 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Meta, Title } from '@angular/platform-browser';
 import { ArticlesService } from '../../services/articles.service';
 import { IArticle } from '../../domain/article';
 import { ImageLocationService } from '../../services/image-location.service';
-import { MetaTagService } from '../../services/meta-tag.service';
 
 @Component({
   selector: 'app-article-header',
@@ -17,10 +15,7 @@ export class ArticleHeaderComponent implements OnInit {
 
   constructor(
     private _articlesService : ArticlesService,
-    private title: Title,
-    private meta: Meta,
-    private _imgLocationService: ImageLocationService,
-    private _metaTagService: MetaTagService
+    private _imgLocationService: ImageLocationService
     ) { 
   }
 
@@ -28,13 +23,6 @@ export class ArticleHeaderComponent implements OnInit {
     this._articlesService.getArticles()
       .subscribe(data => {
         this.article = data.filter(d => d.id == this.id)[0];
-        this._metaTagService.updateMeta(
-          this.title,
-          this.meta,
-          this.article.name,
-          this.article.description,
-          this.getImagePath(this.article.preview)
-        );
       });
   }
 

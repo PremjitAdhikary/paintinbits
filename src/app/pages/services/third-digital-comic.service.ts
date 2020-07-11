@@ -16,45 +16,40 @@ export class ThirdDigitalComicService {
   getComic(): IImage[] {
     return [
       {
-        desktopPath: this.getImagePath('third_01_desk'),
-        tabPath: this.getImagePath('third_01_tab'),
-        mobilePath: this.getImagePath('third_01_mob'),
+        hiPath: this.getImagePath('third_01_hi'),
+        loPath: this.getImagePath('third_01_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        desktopPath: this.getImagePath('third_02a_desk'),
-        tabPath: this.getImagePath('third_02a_tab'),
-        mobilePath: this.getImagePath('third_02a_mob'),
+        hiPath: this.getImagePath('third_02a_hi'),
+        loPath: this.getImagePath('third_02a_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        desktopPath: this.getImagePath('third_02b_desk'),
-        tabPath: this.getImagePath('third_02b_tab'),
-        mobilePath: this.getImagePath('third_02b_mob'),
+        hiPath: this.getImagePath('third_02b_hi'),
+        loPath: this.getImagePath('third_02b_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        desktopPath: this.getImagePath('third_03_desk'),
-        tabPath: this.getImagePath('third_03_tab'),
-        mobilePath: this.getImagePath('third_03_mob'),
+        hiPath: this.getImagePath('third_03_hi'),
+        loPath: this.getImagePath('third_03_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        desktopPath: this.getImagePath('third_04_desk'),
-        tabPath: this.getImagePath('third_04_tab'),
-        mobilePath: this.getImagePath('third_04_mob'),
+        hiPath: this.getImagePath('third_04_hi'),
+        loPath: this.getImagePath('third_04_lo'),
         thumbPath: '',
         alt: '',
         text: '',
@@ -65,9 +60,8 @@ export class ThirdDigitalComicService {
 
   getStrip1Inspiration(): IImage {
     return {
-      desktopPath: this.getImagePath('third_01_inspire_desk'),
-      tabPath: this.getImagePath('third_01_inspire_tab'),
-      mobilePath: this.getImagePath('third_01_inspire_mob'),
+      hiPath: this.getImagePath('third_01_inspire_hi'),
+      loPath: this.getImagePath('third_01_inspire_lo'),
       thumbPath: '',
       alt: 'Inspiration',
       text: '',
@@ -78,63 +72,56 @@ export class ThirdDigitalComicService {
   getStrip1Slide(): IImage[] {
     return [
       {
-        desktopPath: this.getImagePath('third_01_1_desk'),
-        tabPath: this.getImagePath('third_01_1_tab'),
-        mobilePath: this.getImagePath('third_01_1_mob'),
+        hiPath: this.getImagePath('third_01_1_hi'),
+        loPath: this.getImagePath('third_01_1_lo'),
         thumbPath: this.getImagePath('third_01_1_thumb'),
         alt: 'Step 1',
         text: 'Pencils or Outline',
         description: ``
       },
       {
-        desktopPath: this.getImagePath('third_01_2_desk'),
-        tabPath: this.getImagePath('third_01_2_tab'),
-        mobilePath: this.getImagePath('third_01_2_mob'),
+        hiPath: this.getImagePath('third_01_2_hi'),
+        loPath: this.getImagePath('third_01_2_lo'),
         thumbPath: this.getImagePath('third_01_2_thumb'),
         alt: 'Step 2',
         text: 'Base colors for the Characters',
         description: ``
       },
       {
-        desktopPath: this.getImagePath('third_01_3_desk'),
-        tabPath: this.getImagePath('third_01_3_tab'),
-        mobilePath: this.getImagePath('third_01_3_mob'),
+        hiPath: this.getImagePath('third_01_3_hi'),
+        loPath: this.getImagePath('third_01_3_lo'),
         thumbPath: this.getImagePath('third_01_3_thumb'),
         alt: 'Step 3',
         text: 'Layout the Background',
         description: ``
       },
       {
-        desktopPath: this.getImagePath('third_01_4_desk'),
-        tabPath: this.getImagePath('third_01_4_tab'),
-        mobilePath: this.getImagePath('third_01_4_mob'),
+        hiPath: this.getImagePath('third_01_4_hi'),
+        loPath: this.getImagePath('third_01_4_lo'),
         thumbPath: this.getImagePath('third_01_4_thumb'),
         alt: 'Step 4',
         text: 'Detail out the Background',
         description: ``
       },
       {
-        desktopPath: this.getImagePath('third_01_5_desk'),
-        tabPath: this.getImagePath('third_01_5_tab'),
-        mobilePath: this.getImagePath('third_01_5_mob'),
+        hiPath: this.getImagePath('third_01_5_hi'),
+        loPath: this.getImagePath('third_01_5_lo'),
         thumbPath: this.getImagePath('third_01_5_thumb'),
         alt: 'Step 5',
         text: 'Lights and Shadows',
         description: ``
       },
       {
-        desktopPath: this.getImagePath('third_01_6_desk'),
-        tabPath: this.getImagePath('third_01_6_tab'),
-        mobilePath: this.getImagePath('third_01_6_mob'),
+        hiPath: this.getImagePath('third_01_6_hi'),
+        loPath: this.getImagePath('third_01_6_lo'),
         thumbPath: this.getImagePath('third_01_6_thumb'),
         alt: 'Step 6',
         text: 'Finishing touch',
         description: ``
       },
       {
-        desktopPath: this.getImagePath('third_01_7_desk'),
-        tabPath: this.getImagePath('third_01_7_tab'),
-        mobilePath: this.getImagePath('third_01_7_mob'),
+        hiPath: this.getImagePath('third_01_7_hi'),
+        loPath: this.getImagePath('third_01_7_lo'),
         thumbPath: this.getImagePath('third_01_7_thumb'),
         alt: 'Step 7',
         text: 'Add Text',
@@ -146,63 +133,56 @@ export class ThirdDigitalComicService {
   getStrangeSlide(): IImage[] {
     return [
       {
-        desktopPath: this.getImagePath('third_strange_1_desk'),
-        tabPath: this.getImagePath('third_strange_1_tab'),
-        mobilePath: this.getImagePath('third_strange_1_mob'),
+        hiPath: this.getImagePath('third_strange_1_hi'),
+        loPath: this.getImagePath('third_strange_1_lo'),
         thumbPath: this.getImagePath('third_strange_1_thumb'),
         alt: 'Inspiration',
         text: 'Inspiration from the Movie',
         description: ``
       },
       {
-        desktopPath: this.getImagePath('third_strange_2_desk'),
-        tabPath: this.getImagePath('third_strange_2_tab'),
-        mobilePath: this.getImagePath('third_strange_2_mob'),
+        hiPath: this.getImagePath('third_strange_2_hi'),
+        loPath: this.getImagePath('third_strange_2_lo'),
         thumbPath: this.getImagePath('third_strange_2_thumb'),
         alt: 'Step 1',
         text: 'Pencils',
         description: ``
       },
       {
-        desktopPath: this.getImagePath('third_strange_3_desk'),
-        tabPath: this.getImagePath('third_strange_3_tab'),
-        mobilePath: this.getImagePath('third_strange_3_mob'),
+        hiPath: this.getImagePath('third_strange_3_hi'),
+        loPath: this.getImagePath('third_strange_3_lo'),
         thumbPath: this.getImagePath('third_strange_3_thumb'),
         alt: 'Step 2',
         text: 'Blacks',
         description: ``
       },
       {
-        desktopPath: this.getImagePath('third_strange_4_desk'),
-        tabPath: this.getImagePath('third_strange_4_tab'),
-        mobilePath: this.getImagePath('third_strange_4_mob'),
+        hiPath: this.getImagePath('third_strange_4_hi'),
+        loPath: this.getImagePath('third_strange_4_lo'),
         thumbPath: this.getImagePath('third_strange_4_thumb'),
         alt: 'Step 3',
         text: 'Colors',
         description: ``
       },
       {
-        desktopPath: this.getImagePath('third_strange_5_desk'),
-        tabPath: this.getImagePath('third_strange_5_tab'),
-        mobilePath: this.getImagePath('third_strange_5_mob'),
+        hiPath: this.getImagePath('third_strange_5_hi'),
+        loPath: this.getImagePath('third_strange_5_lo'),
         thumbPath: this.getImagePath('third_strange_5_thumb'),
         alt: 'Step 4',
         text: 'Lights and Shadows',
         description: ``
       },
       {
-        desktopPath: this.getImagePath('third_strange_6_desk'),
-        tabPath: this.getImagePath('third_strange_6_tab'),
-        mobilePath: this.getImagePath('third_strange_6_mob'),
+        hiPath: this.getImagePath('third_strange_6_hi'),
+        loPath: this.getImagePath('third_strange_6_lo'),
         thumbPath: this.getImagePath('third_strange_6_thumb'),
         alt: 'Step 5',
         text: 'Background',
         description: ``
       },
       {
-        desktopPath: this.getImagePath('third_strange_7_desk'),
-        tabPath: this.getImagePath('third_strange_7_tab'),
-        mobilePath: this.getImagePath('third_strange_7_mob'),
+        hiPath: this.getImagePath('third_strange_7_hi'),
+        loPath: this.getImagePath('third_strange_7_lo'),
         thumbPath: this.getImagePath('third_strange_7_thumb'),
         alt: 'Step 6',
         text: 'Background Details',
@@ -213,9 +193,8 @@ export class ThirdDigitalComicService {
 
   getStrip3Inspiration(): IImage {
     return {
-      desktopPath: this.getImagePath('third_03_inspire_desk'),
-      tabPath: this.getImagePath('third_03_inspire_tab'),
-      mobilePath: this.getImagePath('third_03_inspire_mob'),
+      hiPath: this.getImagePath('third_03_inspire_hi'),
+      loPath: this.getImagePath('third_03_inspire_lo'),
       thumbPath: '',
       alt: 'Inspiration',
       text: '',
@@ -225,9 +204,8 @@ export class ThirdDigitalComicService {
 
   getStrip4Blacks(): IImage {
     return {
-      desktopPath: this.getImagePath('third_04_black_desk'),
-      tabPath: this.getImagePath('third_04_black_tab'),
-      mobilePath: this.getImagePath('third_04_black_mob'),
+      hiPath: this.getImagePath('third_04_black_hi'),
+      loPath: this.getImagePath('third_04_black_lo'),
       thumbPath: '',
       alt: 'Blacks',
       text: '',

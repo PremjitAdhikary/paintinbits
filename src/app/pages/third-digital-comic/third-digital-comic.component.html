@@ -101,13 +101,17 @@
       from the movie in the comic, whatever I did, made the art messy.  So instead I just kept him 
       afloat.
     </p>
-    <p>
-      <app-carousel 
-        [allImages]="strangeSlide" 
-        [showText]="true" 
-        [showDescription]="false" 
-        [showBelt]="true"></app-carousel>
-    </p>
+    <div class="strange-slides-holder">
+      <div class="strange-slides">
+        <p>
+          <app-carousel 
+            [allImages]="strangeSlide" 
+            [showText]="true" 
+            [showDescription]="false" 
+            [showBelt]="true"></app-carousel>
+        </p>
+      </div>
+    </div>
   </app-collapsible-section>
   
   <app-collapsible-section heading="Strip: Will your paper survive the snap?">

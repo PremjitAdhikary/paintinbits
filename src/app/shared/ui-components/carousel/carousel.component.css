@@ -30,6 +30,7 @@
 
 .image-container {
   position: relative;
+  max-width: 100%;
 }
 
 .float-left, .float-right {
@@ -68,9 +69,9 @@
 }
 
 .unselected-thumb {
-  border: 2px solid black;
+  border: 5px solid black;
 }
 
 .selected-thumb {
-  border: 2px solid #cccccc;
+  border: 5px solid #cccccc;
 }

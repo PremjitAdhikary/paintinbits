@@ -15,9 +15,8 @@ export class ProjectSkinService {
 
   getSkinImage(): IImage {
     return {
-      desktopPath: this.getImagePath('projectskin_skin_desk'),
-      tabPath: this.getImagePath('projectskin_skin_tab'),
-      mobilePath: this.getImagePath('projectskin_skin_mob'),
+      hiPath: this.getImagePath('projectskin_skin_hi'),
+      loPath: this.getImagePath('projectskin_skin_lo'),
       thumbPath: '',
       alt: 'The Skin',
       text: '',
@@ -27,9 +26,8 @@ export class ProjectSkinService {
 
   getAvatarImage(): IImage {
     return {
-      desktopPath: this.getImagePath('projectskin_avatar_desk'),
-      tabPath: this.getImagePath('projectskin_avatar_tab'),
-      mobilePath: this.getImagePath('projectskin_avatar_mob'),
+      hiPath: this.getImagePath('projectskin_avatar_hi'),
+      loPath: this.getImagePath('projectskin_avatar_lo'),
       thumbPath: '',
       alt: 'The Avatar',
       text: '',
@@ -39,9 +37,8 @@ export class ProjectSkinService {
 
   getWallpaperImage(): IImage {
     return {
-      desktopPath: this.getImagePath('projectskin_wallpaper_desk'),
-      tabPath: this.getImagePath('projectskin_wallpaper_tab'),
-      mobilePath: this.getImagePath('projectskin_wallpaper_mob'),
+      hiPath: this.getImagePath('projectskin_wallpaper_hi'),
+      loPath: this.getImagePath('projectskin_wallpaper_lo'),
       thumbPath: '',
       alt: 'The Wallpaper',
       text: '',

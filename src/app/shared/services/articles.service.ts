@@ -21,7 +21,6 @@ export class ArticlesService {
     ) { }
 
   getArticles(): Observable<IArticle[]> {
-    console.log(this.baseHref);
     return this.http.get<IArticle[]>(this.baseHref + this._url);
   }
 

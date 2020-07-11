@@ -16,9 +16,8 @@ export class MoodsService {
   getSlideImages(): IImage[] {
     return [
       {
-        desktopPath: this.getImagePath('moods_shine_desk'),
-        tabPath: this.getImagePath('moods_shine_tab'),
-        mobilePath: this.getImagePath('moods_shine_mob'),
+        hiPath: this.getImagePath('moods_shine_hi'),
+        loPath: this.getImagePath('moods_shine_lo'),
         thumbPath: '',
         alt: 'Mood 1 - Shine',
         text: 'Mood 1 - Shine',
@@ -27,18 +26,16 @@ export class MoodsService {
         simple, brightest day ever.`
       },
       {
-        desktopPath: this.getImagePath('moods_set_desk'),
-        tabPath: this.getImagePath('moods_set_tab'),
-        mobilePath: this.getImagePath('moods_set_mob'),
+        hiPath: this.getImagePath('moods_set_hi'),
+        loPath: this.getImagePath('moods_set_lo'),
         thumbPath: '',
         alt: 'Mood 2 - Set',
         text: 'Mood 2 - Set',
         description: `Romantic mood anyone?`
       },
       {
-        desktopPath: this.getImagePath('moods_dark_desk'),
-        tabPath: this.getImagePath('moods_dark_tab'),
-        mobilePath: this.getImagePath('moods_dark_mob'),
+        hiPath: this.getImagePath('moods_dark_hi'),
+        loPath: this.getImagePath('moods_dark_lo'),
         thumbPath: '',
         alt: 'Mood 3 - Dark',
         text: 'Mood 3 - Dark',

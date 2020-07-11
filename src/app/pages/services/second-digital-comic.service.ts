@@ -16,36 +16,32 @@ export class SecondDigitalComicService {
   getComic(): IImage[] {
     return [
       {
-        desktopPath: this.getImagePath('second_01_desk'),
-        tabPath: this.getImagePath('second_01_tab'),
-        mobilePath: this.getImagePath('second_01_mob'),
+        hiPath: this.getImagePath('second_01_hi'),
+        loPath: this.getImagePath('second_01_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        desktopPath: this.getImagePath('second_02_desk'),
-        tabPath: this.getImagePath('second_02_tab'),
-        mobilePath: this.getImagePath('second_02_mob'),
+        hiPath: this.getImagePath('second_02_hi'),
+        loPath: this.getImagePath('second_02_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        desktopPath: this.getImagePath('second_03_desk'),
-        tabPath: this.getImagePath('second_03_tab'),
-        mobilePath: this.getImagePath('second_03_mob'),
+        hiPath: this.getImagePath('second_03_hi'),
+        loPath: this.getImagePath('second_03_lo'),
         thumbPath: '',
         alt: '',
         text: '',
         description: ``
       },
       {
-        desktopPath: this.getImagePath('second_04_desk'),
-        tabPath: this.getImagePath('second_04_tab'),
-        mobilePath: this.getImagePath('second_04_mob'),
+        hiPath: this.getImagePath('second_04_hi'),
+        loPath: this.getImagePath('second_04_lo'),
         thumbPath: '',
         alt: '',
         text: '',

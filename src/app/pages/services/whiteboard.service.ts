@@ -15,9 +15,8 @@ export class WhiteboardService {
 
   getFromMyComicImage(): IImage {
     return {
-      desktopPath: this.getImagePath('whiteboard_from_my_comic_desk'),
-      tabPath: this.getImagePath('whiteboard_from_my_comic_tab'),
-      mobilePath: this.getImagePath('whiteboard_from_my_comic_mob'),
+      hiPath: this.getImagePath('whiteboard_from_my_comic_hi'),
+      loPath: this.getImagePath('whiteboard_from_my_comic_lo'),
       thumbPath: '',
       alt: 'From My Comic',
       text: '',
@@ -28,9 +27,8 @@ export class WhiteboardService {
   getSlideImages(): IImage[] {
     return [
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_01_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_01_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_01_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_01_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_01_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_01_thumb'),
         alt: 'Eddy',
         text: 'Eddy',
@@ -39,9 +37,8 @@ export class WhiteboardService {
           out pretty good.`
       },
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_02_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_02_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_02_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_02_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_02_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_02_thumb'),
         alt: 'Arthas',
         text: 'Arthas',
@@ -50,9 +47,8 @@ export class WhiteboardService {
           darkness.  I have used the same in my comic too.`
       },
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_03_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_03_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_03_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_03_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_03_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_03_thumb'),
         alt: 'Portal',
         text: 'Portal',
@@ -60,9 +56,8 @@ export class WhiteboardService {
         pieces had a majestic feel to them (you should try surfing for the original art).`
       },
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_06_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_06_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_06_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_06_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_06_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_06_thumb'),
         alt: 'Blob',
         text: 'Blob',
@@ -70,9 +65,8 @@ export class WhiteboardService {
         concept art from a game.  Just loved it, had to draw it.`
       },
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_08_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_08_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_08_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_08_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_08_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_08_thumb'),
         alt: 'Wolverine',
         text: 'Wolverine',
@@ -81,9 +75,8 @@ export class WhiteboardService {
         manga-ish Wolverines somewhere on the net.  Had to try.`
       },
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_09_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_09_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_09_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_09_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_09_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_09_thumb'),
         alt: 'Rammstein',
         text: 'Rammstein',
@@ -93,9 +86,8 @@ export class WhiteboardService {
         original article, I just couldn't stop myself from drawing this.`
       },
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_04_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_04_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_04_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_04_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_04_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_04_thumb'),
         alt: 'Excorcist',
         text: 'Excorcist',
@@ -105,9 +97,8 @@ export class WhiteboardService {
         surprising.`
       },
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_05_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_05_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_05_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_05_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_05_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_05_thumb'),
         alt: 'Random Characters',
         text: 'Random Characters',
@@ -116,9 +107,8 @@ export class WhiteboardService {
         Fantasy Game Characters.  Picked 3 of them and wala, whiteboard updated.`
       },
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_07_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_07_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_07_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_07_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_07_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_07_thumb'),
         alt: 'Clash',
         text: 'Clash',
@@ -129,18 +119,16 @@ export class WhiteboardService {
         Fiery Dragon.`
       },
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_10_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_10_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_10_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_10_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_10_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_10_thumb'),
         alt: 'Peace',
         text: 'Peace',
         description: `This was another album artwork.  Problem is I can't remember which.`
       },
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_11_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_11_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_11_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_11_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_11_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_11_thumb'),
         alt: 'Zombies',
         text: 'Zombies',
@@ -151,9 +139,8 @@ export class WhiteboardService {
         viewers imagination to fill in the details.`
       },
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_14_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_14_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_14_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_14_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_14_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_14_thumb'),
         alt: 'Spawn',
         text: 'Spawn',
@@ -161,9 +148,8 @@ export class WhiteboardService {
         had the greatest cover art I could find.  I took 2 random covers and did a whiteboard.`
       },
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_15_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_15_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_15_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_15_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_15_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_15_thumb'),
         alt: 'More Spawn',
         text: 'More Spawn',
@@ -172,9 +158,8 @@ export class WhiteboardService {
         regretted drawing the legs.  It would have been much cooler with just the cape floating.`
       },
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_12_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_12_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_12_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_12_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_12_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_12_thumb'),
         alt: 'The Joker',
         text: 'The Joker',
@@ -183,18 +168,17 @@ export class WhiteboardService {
         board.  Again this was a disturbing image for my colleagues.`
       },
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_ln_01_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_ln_01_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_ln_01_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_ln_01_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_ln_01_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_ln_01_thumb'),
         alt: 'Still More Spawn',
         text: 'Still More Spawn',
-        description: `Another Spawn cover.  I know, I love their covers.`
+        description: `Another Spawn cover.  I know, I love their covers.  And my first witeboard 
+        art in the US of A.`
       },
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_ln_02_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_ln_02_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_ln_02_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_ln_02_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_ln_02_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_ln_02_thumb'),
         alt: 'Bleach',
         text: 'Bleach',
@@ -204,9 +188,8 @@ export class WhiteboardService {
         art found online.`
       },
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_16_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_16_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_16_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_16_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_16_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_16_thumb'),
         alt: 'Tyrael from Diablo',
         text: 'Tyrael from Diablo',
@@ -214,43 +197,39 @@ export class WhiteboardService {
         playing Diablo 2 in college.  This is Tyrael from Diablo 3.`
       },
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_17_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_17_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_17_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_17_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_17_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_17_thumb'),
         alt: 'Joker Again',
         text: 'Joker Again',
         description: `Another Joker.  Christmas Special ...`
       },
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_18_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_18_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_18_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_18_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_18_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_18_thumb'),
         alt: 'Batman v Superman',
         text: 'Batman v Superman',
         description: `Always been a bog fan of the Worlds finest.  This was when Batman v Superman 
-        hit the theaters.`
+        hit the Big Screen.`
       },
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_19_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_19_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_19_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_19_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_19_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_19_thumb'),
         alt: 'Ichigo Again',
         text: 'Ichigo Again',
         description: `Another Ichigo.  When will they finish the anime???`
       },
       {
-        desktopPath: this.getImagePath('whiteboard_artwork_c_01_desk'),
-        tabPath: this.getImagePath('whiteboard_artwork_c_01_tab'),
-        mobilePath: this.getImagePath('whiteboard_artwork_c_01_mob'),
+        hiPath: this.getImagePath('whiteboard_artwork_c_01_hi'),
+        loPath: this.getImagePath('whiteboard_artwork_c_01_lo'),
         thumbPath: this.getImagePath('whiteboard_artwork_c_01_thumb'),
         alt: 'Leap of Faith',
         text: 'Leap of Faith',
         description: `Assassin's Creed...  Never played the game, but loved the game videos.  I was 
         happy with the movie too...`
-      }
+      },
     ];
   }
 }

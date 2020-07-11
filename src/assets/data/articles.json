@@ -3,7 +3,7 @@
     "id": 1001,
     "name": "Whiteboard",
     "path": "articles/whiteboard",
-    "description": "Here I talk about my attempts on the office whiteboard. These little art attempts kept my juices running. They kept me in touch with my artistic side.",
+    "description": "My attempts on the office whiteboard. These little art attempts kept my juices running. They kept me in touch with my artistic side.",
     "date": "2012-05-04",
     "preview": "whiteboard_banner"
   },
@@ -11,7 +11,7 @@
     "id": 1002,
     "name": "Project Skin",
     "path": "articles/project-skin",
-    "description": "Here I talk about one of my fun projects. The main aim was to create a skin for my laptop, everything else just fell into place.",
+    "description": "One of my fun projects. The main aim was to create a skin for my laptop, everything else just fell into place.",
     "date": "2012-05-05",
     "preview": "projectskin_banner"
   },
@@ -19,7 +19,7 @@
     "id": 1003,
     "name": "Landscapes",
     "path": "articles/landscapes",
-    "description": "Here I talk about my first attempts at serious digital paintings.",
+    "description": "My first attempts at serious digital paintings.",
     "date": "2012-05-06",
     "preview": "landscapes_banner"
   },
@@ -27,7 +27,7 @@
     "id": 1004,
     "name": "Moods",
     "path": "articles/moods",
-    "description": "Here I talk about how much more the Sky is than just a blue background.",
+    "description": "The Sky is much more than just a blue background.",
     "date": "2012-05-07",
     "preview": "moods_banner"
   },
@@ -43,15 +43,15 @@
     "id": 1006,
     "name": "Avatars",
     "path": "articles/avatars",
-    "description": "Here I detail out on all my different avatars that I had created.  From way early days when I first started to draw digitally.  You will find how the avatars evolved from my early feeble attempts.",
+    "description": "All my different avatars that I had created.  From way early days when I first started to draw digitally.  You will find how the avatars evolved from my early feeble attempts.",
     "date": "2012-05-09",
     "preview": "avatars_banner"
   },
   {
     "id": 1007,
-    "name": "First Digital Comic",
+    "name": "First Digital Comics",
     "path": "articles/first-digital-comic",
-    "description": "Here I talk about my first attempt on a digital comic.",
+    "description": "My first attempt on a digital comics.",
     "date": "Dec 27, 2016",
     "preview": "first_comic_banner"
   },
@@ -65,17 +65,17 @@
   },
   {
     "id": 1009,
-    "name": "Second Digital Comic",
+    "name": "Second Digital Comics",
     "path": "articles/second-digital-comic",
-    "description": "Here I talk about my second attempt on a digital comic.",
+    "description": "My next digital comics.",
     "date": "Jan 3, 2017",
     "preview": "second_comic_banner"
   },
   {
     "id": 1010,
-    "name": "Third Digital Comic",
+    "name": "Third Digital Comics",
     "path": "articles/third-digital-comic",
-    "description": "Here I talk about my third attempt on a digital comic.",
+    "description": "My third attempt on a digital comics.",
     "date": "Sep 2, 2018",
     "preview": "third_comic_banner"
   },
@@ -86,5 +86,13 @@
     "description": "All my doodles.",
     "date": "Jan 5, 2020",
     "preview": "doodles_banner"
+  },
+  {
+    "id": 1012,
+    "name": "An Agent",
+    "path": "articles/an-agent",
+    "description": "Adventures of an Agent.",
+    "date": "Jul 10, 2020",
+    "preview": "agent_banner"
   }
 ]

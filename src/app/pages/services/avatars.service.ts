@@ -15,9 +15,8 @@ export class AvatarsService {
 
   getFirstAvatar(): IImage {
     return {
-      desktopPath: this.getImagePath('avatar_01_desk'),
-      tabPath: this.getImagePath('avatar_01_tab'),
-      mobilePath: this.getImagePath('avatar_01_mob'),
+      hiPath: this.getImagePath('avatar_01_hi'),
+      loPath: this.getImagePath('avatar_01_lo'),
       thumbPath: '',
       alt: '1st avatar',
       text: '',
@@ -27,9 +26,8 @@ export class AvatarsService {
 
   getChicagoAvatar(): IImage {
     return {
-      desktopPath: this.getImagePath('avatar_02_desk'),
-      tabPath: this.getImagePath('avatar_02_tab'),
-      mobilePath: this.getImagePath('avatar_02_mob'),
+      hiPath: this.getImagePath('avatar_02_hi'),
+      loPath: this.getImagePath('avatar_02_lo'),
       thumbPath: '',
       alt: 'In Chicago',
       text: '',
@@ -39,9 +37,8 @@ export class AvatarsService {
 
   getCedarPointAvatar(): IImage {
     return {
-      desktopPath: this.getImagePath('avatar_03_desk'),
-      tabPath: this.getImagePath('avatar_03_tab'),
-      mobilePath: this.getImagePath('avatar_03_mob'),
+      hiPath: this.getImagePath('avatar_03_hi'),
+      loPath: this.getImagePath('avatar_03_lo'),
       thumbPath: '',
       alt: 'In Cedar Point',
       text: '',
@@ -51,9 +48,8 @@ export class AvatarsService {
 
   getRaftingAvatar(): IImage {
     return {
-      desktopPath: this.getImagePath('avatar_04_desk'),
-      tabPath: this.getImagePath('avatar_04_tab'),
-      mobilePath: this.getImagePath('avatar_04_mob'),
+      hiPath: this.getImagePath('avatar_04_hi'),
+      loPath: this.getImagePath('avatar_04_lo'),
       thumbPath: '',
       alt: 'Raft Away',
       text: '',
@@ -64,36 +60,32 @@ export class AvatarsService {
   getTravellingAvatars(): IImage[] {
     return [
       {
-        desktopPath: this.getImagePath('avatar_05_desk'),
-        tabPath: this.getImagePath('avatar_05_tab'),
-        mobilePath: this.getImagePath('avatar_05_mob'),
+        hiPath: this.getImagePath('avatar_05_hi'),
+        loPath: this.getImagePath('avatar_05_lo'),
         thumbPath: '',
         alt: 'Smoky Trip',
         text: '',
         description: ''
       },
       {
-        desktopPath: this.getImagePath('avatar_06_desk'),
-        tabPath: this.getImagePath('avatar_06_tab'),
-        mobilePath: this.getImagePath('avatar_06_mob'),
+        hiPath: this.getImagePath('avatar_06_hi'),
+        loPath: this.getImagePath('avatar_06_lo'),
         thumbPath: '',
         alt: 'Devil Trip',
         text: '',
         description: ''
       },
       {
-        desktopPath: this.getImagePath('avatar_07_desk'),
-        tabPath: this.getImagePath('avatar_07_tab'),
-        mobilePath: this.getImagePath('avatar_07_mob'),
+        hiPath: this.getImagePath('avatar_07_hi'),
+        loPath: this.getImagePath('avatar_07_lo'),
         thumbPath: '',
         alt: 'Miami Trip',
         text: '',
         description: ''
       },
       {
-        desktopPath: this.getImagePath('avatar_08_desk'),
-        tabPath: this.getImagePath('avatar_08_tab'),
-        mobilePath: this.getImagePath('avatar_08_mob'),
+        hiPath: this.getImagePath('avatar_08_hi'),
+        loPath: this.getImagePath('avatar_08_lo'),
         thumbPath: '',
         alt: 'Las Vegas',
         text: '',
@@ -104,9 +96,8 @@ export class AvatarsService {
 
   getLaAvatar(): IImage {
     return {
-      desktopPath: this.getImagePath('avatar_09_desk'),
-      tabPath: this.getImagePath('avatar_09_tab'),
-      mobilePath: this.getImagePath('avatar_09_mob'),
+      hiPath: this.getImagePath('avatar_09_hi'),
+      loPath: this.getImagePath('avatar_09_lo'),
       thumbPath: '',
       alt: 'Las Vegas',
       text: '',
@@ -116,9 +107,8 @@ export class AvatarsService {
 
   getLastAvatar(): IImage {
     return {
-      desktopPath: this.getImagePath('avatar_10_desk'),
-      tabPath: this.getImagePath('avatar_10_tab'),
-      mobilePath: this.getImagePath('avatar_10_mob'),
+      hiPath: this.getImagePath('avatar_10_hi'),
+      loPath: this.getImagePath('avatar_10_lo'),
       thumbPath: '',
       alt: 'Las Vegas',
       text: '',

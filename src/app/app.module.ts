@@ -12,7 +12,6 @@ import { CarouselComponent } from './shared/ui-components/carousel/carousel.comp
 
 import { ArticlesService } from './shared/services/articles.service';
 import { ImageLocationService } from './shared/services/image-location.service';
-import { MetaTagService } from './shared/services/meta-tag.service';
 
 @NgModule({
   declarations: [
@@ -28,7 +27,7 @@ import { MetaTagService } from './shared/services/meta-tag.service';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [ArticlesService, ImageLocationService, MetaTagService,
+  providers: [ArticlesService, ImageLocationService, 
   {
     provide: APP_BASE_HREF,
     useFactory: (s: PlatformLocation) => s.getBaseHrefFromDOM(),

@@ -3,3 +3,12 @@
   color: #2e2e2e;
   padding: 2px 20px;
 }
+
+.strange-slides-holder {
+  text-align: center;
+}
+
+.strange-slides {
+  display: inline-block;
+  max-width: 70%;
+}

@@ -1,0 +1,8 @@
+.all-slides-holder {
+  text-align: center;
+}
+
+.all-slides {
+  display: inline-block;
+  max-width: 80%;
+}

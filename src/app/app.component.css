@@ -6,8 +6,10 @@
 }
 
 .toolbar {
-  background-image: url("https://github.com/PremjitAdhikary/myFiles/blob/master/paintinbits/header_desk.jpg?raw=true");
+  background-image: url("https://github.com/PremjitAdhikary/media-repo/blob/master/paintinbits/header_hi.jpg?raw=true");
+  /* background-image: url("/assets/img/header_hi.jpg"); */
   background-repeat: no-repeat;
+  background-size: contain;
   width: 950px;
   height: 250px;
   line-height: 250px;
