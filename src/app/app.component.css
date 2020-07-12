@@ -55,7 +55,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .content {
     border: 1px blue solid;
   }
@@ -65,4 +65,4 @@
   .content {
     border: 1px green solid;
   }
-}
+} */

@@ -15,10 +15,14 @@
       (click)="select(allImages.length-1)">Last</span>
   </div>
   <div class="image-container">
-    <app-image-holder 
-      [imageDetails]="currentImage"
-      [showText]="showText" [showDescription]="showDescription">
-    </app-image-holder>
+    <div *ngFor="let image of allImages; index as i;">
+      <div [ngClass]="{'selected-img': currentImageIndex == i , 'unselected-img': currentImageIndex != i}">
+          <app-image-holder 
+            [imageDetails]="image"
+            [showText]="showText" [showDescription]="showDescription">
+          </app-image-holder>
+      </div>
+    </div>
     <div 
       [ngClass]="{'float-left': currentImageIndex != 0}" 
       (click)="prev()"></div>
