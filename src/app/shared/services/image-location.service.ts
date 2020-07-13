@@ -414,8 +414,8 @@ export class ImageLocationService {
     agent_18_lo: '/an-agent/agent_18_lo.jpg'
   };
 
-  private hostUrl: string = 'https://github.com/PremjitAdhikary/media-repo/blob/master/paintinbits';
-  private hostUrlSuffix: string = '?raw=true';
+  private hostUrl: string = 'https://premjitadhikary.github.io//media-repo/paintinbits';
+  private hostUrlSuffix: string = '';
   
   constructor() { }
 
