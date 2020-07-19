@@ -6,6 +6,8 @@ import { Injectable } from '@angular/core';
 export class ImageLocationService {
 
   private _imgLocations = {
+    page_banner: '/header_lo.jpg',
+
     whiteboard_banner: '/whiteboard/ArtWork_02_lo.jpg',
     whiteboard_from_my_comic_hi: '/whiteboard/fromMyComic_orig.jpg',
     whiteboard_from_my_comic_lo: '/whiteboard/fromMyComic_orig.jpg',
@@ -388,8 +390,8 @@ export class ImageLocationService {
     agent_05_lo: '/an-agent/agent_05_lo.jpg',
     agent_06_hi: '/an-agent/agent_06_hi.jpg',
     agent_06_lo: '/an-agent/agent_06_lo.jpg',
-    agent_07_hi: '/an-agent/agent_07_hi.jpg',
-    agent_07_lo: '/an-agent/agent_07_lo.jpg',
+    agent_07_hi: '/an-agent/agent_07_hi_v2.jpg',
+    agent_07_lo: '/an-agent/agent_07_lo_v2.jpg',
     agent_08_hi: '/an-agent/agent_08_hi.jpg',
     agent_08_lo: '/an-agent/agent_08_lo.jpg',
     agent_09_hi: '/an-agent/agent_09_hi.jpg',

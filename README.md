@@ -46,3 +46,9 @@ Build:
 ng build --prod --output-path docs --base-href "https://premjitadhikary.github.io/paintinbits/"
 ```
 Copy index.html in docs folder and rename to 404.html.
+
+Social Check:
+
+https://cards-dev.twitter.com/validator
+
+https://developers.facebook.com/tools/debug
