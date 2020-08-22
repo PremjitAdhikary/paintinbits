@@ -378,6 +378,8 @@ export class ImageLocationService {
     doodles_rorschach_thumb: '/doodles/rorschach_thumb.jpg',
 
     agent_banner: '/an-agent/an_agent_banner_lo.jpg',
+    agent_cover_hi: '/an-agent/agent_cover_hi.jpg',
+    agent_cover_lo: '/an-agent/agent_cover_lo.jpg',
     agent_01_hi: '/an-agent/agent_01_hi.jpg',
     agent_01_lo: '/an-agent/agent_01_lo.jpg',
     agent_02_hi: '/an-agent/agent_02_hi.jpg',

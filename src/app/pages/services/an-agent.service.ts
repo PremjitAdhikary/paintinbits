@@ -16,6 +16,14 @@ export class AnAgentService {
   getComic(): IImage[] {
     return [
       {
+        hiPath: this.getImagePath('agent_cover_hi'),
+        loPath: this.getImagePath('agent_cover_lo'),
+        thumbPath: '',
+        alt: '',
+        text: '',
+        description: ``
+      },
+      {
         hiPath: this.getImagePath('agent_01_hi'),
         loPath: this.getImagePath('agent_01_lo'),
         thumbPath: '',
