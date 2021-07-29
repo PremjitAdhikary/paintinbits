@@ -1,6 +1,6 @@
 # Paintinbits
 
-For Art.
+For Art. [Check it Out](https://premjitadhikary.github.io/paintinbits/article-list)
 
 ## To add article
 
