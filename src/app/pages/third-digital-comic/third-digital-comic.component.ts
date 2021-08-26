@@ -15,6 +15,7 @@ export class ThirdDigitalComicComponent implements OnInit {
   public strangeSlide: IImage[];
   public strip3Inspiration: IImage;
   public strip4Blacks: IImage;
+  public thirdWin: IImage;
 
   constructor(private _thirdService: ThirdDigitalComicService) { }
 
@@ -24,7 +25,8 @@ export class ThirdDigitalComicComponent implements OnInit {
     this.strip1Slide = this._thirdService.getStrip1Slide();
     this.strangeSlide = this._thirdService.getStrangeSlide();
     this.strip3Inspiration = this._thirdService.getStrip3Inspiration();
-    this.strip4Blacks = this._thirdService.getStrip4Blacks()
+    this.strip4Blacks = this._thirdService.getStrip4Blacks();
+    this.thirdWin = this._thirdService.getThirdWin();
   }
 
 }

@@ -11,5 +11,5 @@
       </picture>
       <div *ngIf="showText">{{ imageDetails.text }}</div>
   </span>
-  <div *ngIf="showDescription"><p>{{ imageDetails.description }}</p></div>
+  <div *ngIf="showDescription"><p class="img-p" [innerHtml]="processMdText(imageDetails.description)"></p></div>
 </div>

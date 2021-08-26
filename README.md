@@ -6,10 +6,10 @@ For Art.
 
   - Add article component under 'pages'
   - Add article service under 'pages/services'
-  - add to imports in app-routing.module.ts. Add route for the page
-  - remove all imports and @ngModule entries from app.module.ts
-  - add all the image locations in image service
-  - update articles.json
+  - Add to imports in app-routing.module.ts. Add route for the page
+  - Remove all imports and @ngModule entries from app.module.ts
+  - Add all the image locations in image service
+  - Update articles.json
 
 ## Image Specs
 

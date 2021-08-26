@@ -212,4 +212,15 @@ export class ThirdDigitalComicService {
       description: ``
     };
   }
+
+  getThirdWin(): IImage {
+    return {
+      hiPath: this.getImagePath('third_win_hi'),
+      loPath: this.getImagePath('third_win_lo'),
+      thumbPath: '',
+      alt: 'Hell Yeah!!',
+      text: '',
+      description: ``
+    };
+  }
 }

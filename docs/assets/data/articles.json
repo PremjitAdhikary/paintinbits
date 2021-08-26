@@ -52,7 +52,7 @@
     "name": "First Digital Comics",
     "path": "articles/first-digital-comic",
     "description": "My first attempt on a digital comics.",
-    "date": "Dec 27, 2016",
+    "date": "2016-12-27",
     "preview": "first_comic_banner"
   },
   {
@@ -60,7 +60,7 @@
     "name": "Project Etch",
     "path": "articles/project-etch",
     "description": "Here I put out the characters that I had done to be later etched onto my laptop.",
-    "date": "Dec 28, 2016",
+    "date": "2016-12-28",
     "preview": "etch_banner"
   },
   {
@@ -68,7 +68,7 @@
     "name": "Second Digital Comics",
     "path": "articles/second-digital-comic",
     "description": "My next digital comics.",
-    "date": "Jan 3, 2017",
+    "date": "2017-01-03",
     "preview": "second_comic_banner"
   },
   {
@@ -76,7 +76,7 @@
     "name": "Third Digital Comics",
     "path": "articles/third-digital-comic",
     "description": "My third attempt on a digital comics.",
-    "date": "Sep 2, 2018",
+    "date": "2018-09-02",
     "preview": "third_comic_banner"
   },
   {
@@ -84,7 +84,7 @@
     "name": "Doodles",
     "path": "articles/doodles",
     "description": "All my doodles.",
-    "date": "Jan 5, 2020",
+    "date": "2020-01-05",
     "preview": "doodles_banner"
   },
   {
@@ -92,7 +92,15 @@
     "name": "An Agent",
     "path": "articles/an-agent",
     "description": "Adventures of an Agent.",
-    "date": "Jul 10, 2020",
+    "date": "2020-07-10",
     "preview": "agent_banner"
+  },
+  {
+    "id": 1013,
+    "name": "A Diwali Mission",
+    "path": "articles/a-diwali-mission",
+    "description": "A Hostel Five Story.",
+    "date": "2021-08-28",
+    "preview": "adm_banner"
   }
 ]

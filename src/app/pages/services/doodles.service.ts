@@ -21,7 +21,7 @@ export class DoodlesService {
         thumbPath: this.getImagePath('doodles_reDog_thumb'),
         alt: 'Dog from Resident Evil',
         text: '',
-        description: `The creature designs in Resident Evil impressed me a lot back then.`
+        description: `The creature designs in _Resident Evil_ impressed me a lot back then.`
       },
       {
         hiPath: this.getImagePath('doodles_forest_hi'),
@@ -45,7 +45,7 @@ export class DoodlesService {
         thumbPath: this.getImagePath('doodles_dh_thumb'),
         alt: 'Demon Hunter',
         text: '',
-        description: `Demon Hunter from Diablo 3.`
+        description: `__Demon Hunter__ from _Diablo 3_.`
       },
       {
         hiPath: this.getImagePath('doodles_rorschach_hi'),
@@ -53,7 +53,8 @@ export class DoodlesService {
         thumbPath: this.getImagePath('doodles_rorschach_thumb'),
         alt: 'Rorschach',
         text: '',
-        description: `Rorschach from Watchmen. This art was a skect and animation hybrid.`
+        description: `__Rorschach__ from _Watchmen_. This art was a sketch and animation hybrid. 
+        Check out the (animation)[https://premjitadhikary.github.io/Mesmerize/rorschach/] here`
       }
     ];
   }

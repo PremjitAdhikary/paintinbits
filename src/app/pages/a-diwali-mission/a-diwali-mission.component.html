@@ -1,0 +1,33 @@
+<div>
+  <app-article-header id=1013></app-article-header>
+  <p>
+    My college will celebrate Diamond Jubilee this year. Among many things, there is a plan to bring 
+    out a Souvenir. The committee in charge reached out to all students of Jorhat Engineering College 
+    to submit their articles/stories/poems/cartoons related to JEC and it's life.
+  </p>
+  <p>I submitted a comics.</p>
+  <p>
+    Regarding the art style, I kept it simple. There was a deadline by which this had to be 
+    submitted. So simple lines with mostly flat colors.
+  </p>
+  <p>Fair warning, comics are best experienced on a laptop or desktop.</p>
+  <p>
+    <app-carousel 
+      [allImages]="comics" 
+      [showText]="false" 
+      [showDescription]="false" 
+      [showBelt]="false"></app-carousel>
+  </p>
+  <app-collapsible-section heading="The Making">
+    <p>
+      A glimpse into what went in for the art.
+    </p>
+    <p>
+      <app-carousel 
+        [allImages]="making" 
+        [showText]="true" 
+        [showDescription]="false" 
+        [showBelt]="true"></app-carousel>
+    </p>
+  </app-collapsible-section>
+</div>

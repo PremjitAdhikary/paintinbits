@@ -13,6 +13,38 @@ export class AnAgentService {
     return this._imgLocationService.getImagePath(imgPath);
   }
 
+  getXtra(): IImage[] {
+    return [
+      {
+        hiPath: this.getImagePath('xtra_01_hi'),
+        loPath: this.getImagePath('xtra_01_lo'),
+        thumbPath: '',
+        alt: '',
+        text: '',
+        description: `__Architecture Drawing__ This is from the second page of the comic. The 
+        white spaces are where the other panels go.`
+      }, 
+      {
+        hiPath: this.getImagePath('xtra_02_hi'),
+        loPath: this.getImagePath('xtra_02_lo'),
+        thumbPath: '',
+        alt: '',
+        text: '',
+        description: `__Intermediate Drawing__ This is from page 8. The other panels added to 
+        this page hide the tree in the final page.`
+      }, 
+      {
+        hiPath: this.getImagePath('xtra_03_hi'),
+        loPath: this.getImagePath('xtra_03_lo'),
+        thumbPath: '',
+        alt: '',
+        text: '',
+        description: `_Medley_ of sorts. Got my daughter to color a bit. And for the Security Cam 
+        shot, as you can see, a _lot of planning_ was done.`
+      }
+    ];
+  }
+
   getComic(): IImage[] {
     return [
       {
