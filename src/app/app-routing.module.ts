@@ -33,7 +33,7 @@ const routes: Routes = [
   { path: 'articles/doodles', component: DoodlesComponent },
   { path: 'articles/an-agent', component: AnAgentComponent },
   { path: 'articles/a-diwali-mission', component: ADiwaliMissionComponent },
-  { path: '', redirectTo: '/article-list', pathMatch: 'full' }
+  { path: '', redirectTo: 'article-list', pathMatch: 'full' }
 ];
 
 @NgModule({
