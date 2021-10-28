@@ -13,11 +13,14 @@ export class ADiwaliMissionComponent implements OnInit {
 
   public making: IImage[];
 
+  public mesmerize: IImage;
+
   constructor(private _aDiwaliMissionService: ADiwaliMissionService) { }
 
   ngOnInit(): void {
     this.comics = this._aDiwaliMissionService.getComic();
     this.making = this._aDiwaliMissionService.getMaking();
+    this.mesmerize = this._aDiwaliMissionService.getMesmerize();
   }
 
 }

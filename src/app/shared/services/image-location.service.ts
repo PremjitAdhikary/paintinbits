@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class ImageLocationService {
 
-  private _imgLocations = {
+  private mediaRepoImgLocations = {
     page_banner: '/header_lo.jpg',
 
     whiteboard_banner: '/whiteboard/ArtWork_02_lo.jpg',
@@ -430,12 +430,14 @@ export class ImageLocationService {
     adm_01_lo: '/a-diwali-mission/adm_01_lo.jpg',
     adm_02_hi: '/a-diwali-mission/adm_02_hi.jpg',
     adm_02_lo: '/a-diwali-mission/adm_02_lo.jpg',
-    adm_03_hi: '/a-diwali-mission/adm_03_hi_v2.jpg',
-    adm_03_lo: '/a-diwali-mission/adm_03_lo_v2.jpg',
+    adm_03_hi: '/a-diwali-mission/adm_03_hi_v3.jpg',
+    adm_03_lo: '/a-diwali-mission/adm_03_lo_v3.jpg',
     adm_04_hi: '/a-diwali-mission/adm_04_hi.jpg',
     adm_04_lo: '/a-diwali-mission/adm_04_lo.jpg',
     adm_05_hi: '/a-diwali-mission/adm_05_hi.jpg',
     adm_05_lo: '/a-diwali-mission/adm_05_lo.jpg',
+    adm_06_hi: '/a-diwali-mission/adm_06_hi.jpg',
+    adm_06_lo: '/a-diwali-mission/adm_06_lo.jpg',
     adm_making_01_hi: '/a-diwali-mission/adm_making_01_hi.jpg',
     adm_making_01_lo: '/a-diwali-mission/adm_making_01_lo.jpg',
     adm_making_01_thumb: '/a-diwali-mission/adm_making_01_thumb.jpg',
@@ -459,14 +461,24 @@ export class ImageLocationService {
     adm_making_07_thumb: '/a-diwali-mission/adm_making_07_thumb.jpg'
   };
 
-  private hostUrl: string = 'https://premjitadhikary.github.io/media-repo/paintinbits';
-  private hostUrlSuffix: string = '';
+  private mediaRepoHostUrl: string = 'https://premjitadhikary.github.io/media-repo/paintinbits';
+  private mediaRepoHostUrlSuffix: string = '';
+
+  private externalImgLocations = {
+    adm_mesmerize_hi: 'https://premjitadhikary.github.io/Mesmerize/diwali-special/img/myCanvas.jpg',
+    adm_mesmerize_lo: 'https://premjitadhikary.github.io/Mesmerize/diwali-special/img/preview.jpg'
+  };
   
   constructor() { }
 
   getImagePath(img: string): string {
-    // return '/assets/img' + this._imgLocations[img];
-    return this.hostUrl + this._imgLocations[img] + this.hostUrlSuffix;
+    if (this.mediaRepoImgLocations[img]) {
+      return this.mediaRepoHostUrl + this.mediaRepoImgLocations[img] + this.mediaRepoHostUrlSuffix;
+    }
+    if (this.externalImgLocations[img]) {
+      return this.externalImgLocations[img];
+    }
+    return '';
   }
 
 }

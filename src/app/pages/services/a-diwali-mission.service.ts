@@ -54,6 +54,14 @@ export class ADiwaliMissionService {
         alt: '',
         text: '',
         description: ``
+      },
+      {
+        hiPath: this.getImagePath('adm_06_hi'),
+        loPath: this.getImagePath('adm_06_lo'),
+        thumbPath: '',
+        alt: '',
+        text: '',
+        description: ``
       }
     ];
   }
@@ -117,6 +125,17 @@ export class ADiwaliMissionService {
         description: ``
       }
     ];
+  }
+
+  getMesmerize(): IImage {
+    return {
+      hiPath: this.getImagePath('adm_mesmerize_hi'),
+      loPath: this.getImagePath('adm_mesmerize_lo'),
+      thumbPath: '',
+      alt: 'Animation!!',
+      text: '',
+      description: ``
+    };
   }
 
 }
