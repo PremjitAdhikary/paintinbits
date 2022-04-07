@@ -15,12 +15,15 @@ export class ADiwaliMissionComponent implements OnInit {
 
   public mesmerize: IImage;
 
+  public published: IImage[];
+
   constructor(private _aDiwaliMissionService: ADiwaliMissionService) { }
 
   ngOnInit(): void {
     this.comics = this._aDiwaliMissionService.getComic();
     this.making = this._aDiwaliMissionService.getMaking();
     this.mesmerize = this._aDiwaliMissionService.getMesmerize();
+    this.published = this._aDiwaliMissionService.getPublished();
   }
 
 }

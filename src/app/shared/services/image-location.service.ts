@@ -458,7 +458,11 @@ export class ImageLocationService {
     adm_making_06_thumb: '/a-diwali-mission/adm_making_06_thumb.jpg',
     adm_making_07_hi: '/a-diwali-mission/adm_making_07_hi.jpg',
     adm_making_07_lo: '/a-diwali-mission/adm_making_07_lo.jpg',
-    adm_making_07_thumb: '/a-diwali-mission/adm_making_07_thumb.jpg'
+    adm_making_07_thumb: '/a-diwali-mission/adm_making_07_thumb.jpg',
+    adm_publish_01_hi: '/a-diwali-mission/adm_publish_01_orig.jpg',
+    adm_publish_01_lo: '/a-diwali-mission/adm_publish_01_lo.jpg',
+    adm_publish_02_hi: '/a-diwali-mission/adm_publish_02_orig.jpg',
+    adm_publish_02_lo: '/a-diwali-mission/adm_publish_02_lo.jpg'
   };
 
   private mediaRepoHostUrl: string = 'https://premjitadhikary.github.io/media-repo/paintinbits';

@@ -138,4 +138,25 @@ export class ADiwaliMissionService {
     };
   }
 
+  getPublished(): IImage[] {
+    return [
+      {
+        hiPath: this.getImagePath('adm_publish_01_hi'),
+        loPath: this.getImagePath('adm_publish_01_lo'),
+        thumbPath: '',
+        alt: '',
+        text: 'Pg 60-61',
+        description: ``
+      },
+      {
+        hiPath: this.getImagePath('adm_publish_02_hi'),
+        loPath: this.getImagePath('adm_publish_02_lo'),
+        thumbPath: '',
+        alt: '',
+        text: 'Pg 62-63',
+        description: ``
+      }
+    ];
+  }
+
 }
