@@ -102,5 +102,13 @@
     "description": "A Hostel Five Story.",
     "date": "2021-08-28",
     "preview": "adm_banner"
+  },
+  {
+    "id": 1014,
+    "name": "Art of VS 50",
+    "path": "articles/art-of-vs50",
+    "description": "Artwork done for VS 50.",
+    "date": "2023-02-12",
+    "preview": "avf_banner"
   }
 ]

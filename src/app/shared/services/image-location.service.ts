@@ -462,7 +462,25 @@ export class ImageLocationService {
     adm_publish_01_hi: '/a-diwali-mission/adm_publish_01_orig.jpg',
     adm_publish_01_lo: '/a-diwali-mission/adm_publish_01_lo.jpg',
     adm_publish_02_hi: '/a-diwali-mission/adm_publish_02_orig.jpg',
-    adm_publish_02_lo: '/a-diwali-mission/adm_publish_02_lo.jpg'
+    adm_publish_02_lo: '/a-diwali-mission/adm_publish_02_lo.jpg', 
+
+    avf_banner: '/art-of-vs50/LordRam-lo.jpg', 
+    avf_mesmerize_vs50_ram_hi: '/art-of-vs50/LordRam-hi.jpg',
+    avf_mesmerize_vs50_ram_lo: '/art-of-vs50/LordRam-lo.jpg', 
+    avf_study_ram_hi: '/art-of-vs50/characterStudy-Ram-hi.jpg', 
+    avf_study_ram_lo: '/art-of-vs50/characterStudy-Ram-lo.jpg', 
+    avf_study_vanara_hi: '/art-of-vs50/characterStudy-Vanara-hi.jpg', 
+    avf_study_vanara_lo: '/art-of-vs50/characterStudy-Vanara-lo.jpg', 
+    avf_study_jambuvan_hi: '/art-of-vs50/characterStudy-Jambuvan-hi.jpg', 
+    avf_study_jambuvan_lo: '/art-of-vs50/characterStudy-Jambuvan-lo.jpg', 
+    avf_study_vali_hi: '/art-of-vs50/characterStudy-Vali-hi.jpg', 
+    avf_study_vali_lo: '/art-of-vs50/characterStudy-Vali-lo.jpg', 
+    avf_art_menu_hi: '/art-of-vs50/GameMenu-hi.jpg', 
+    avf_art_menu_lo: '/art-of-vs50/GameMenu-lo.jpg', 
+    avf_art_kishkindha_hi: '/art-of-vs50/KishKindha-hi.jpg', 
+    avf_art_kishkindha_lo: '/art-of-vs50/KishKindha-lo.jpg', 
+    avf_ram_run_hi: '/art-of-vs50/RamRun-hi.gif', 
+    avf_ram_run_lo: '/art-of-vs50/RamRun-lo.gif'
   };
 
   private mediaRepoHostUrl: string = 'https://premjitadhikary.github.io/media-repo/paintinbits';
@@ -470,7 +488,11 @@ export class ImageLocationService {
 
   private externalImgLocations = {
     adm_mesmerize_hi: 'https://premjitadhikary.github.io/Mesmerize/diwali-special/img/myCanvas.jpg',
-    adm_mesmerize_lo: 'https://premjitadhikary.github.io/Mesmerize/diwali-special/img/preview.jpg'
+    adm_mesmerize_lo: 'https://premjitadhikary.github.io/Mesmerize/diwali-special/img/preview.jpg', 
+    avf_mesmerize_vs50_preview_hi: 'https://premjitadhikary.github.io/Mesmerize/vs-50/img/animatedPreview-orig.gif',
+    avf_mesmerize_vs50_preview_lo: 'https://premjitadhikary.github.io/Mesmerize/vs-50/img/animatedPreview.gif', 
+    avf_mesmerize_sim_combat_preview_hi: 'https://premjitadhikary.github.io/Mesmerize/sim-phone/img/mes-tube/fighters.gif',
+    avf_mesmerize_sim_combat_preview_lo: 'https://premjitadhikary.github.io/Mesmerize/sim-phone/img/mes-tube/fighters.gif'
   };
   
   constructor() { }
@@ -482,6 +504,7 @@ export class ImageLocationService {
     if (this.externalImgLocations[img]) {
       return this.externalImgLocations[img];
     }
+    console.error('Not able to locate image:'+img);
     return '';
   }
 

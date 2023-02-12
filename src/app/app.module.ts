@@ -12,6 +12,7 @@ import { CarouselComponent } from './shared/ui-components/carousel/carousel.comp
 
 import { ArticlesService } from './shared/services/articles.service';
 import { ImageLocationService } from './shared/services/image-location.service';
+import { ArtOfVs50Component } from './pages/art-of-vs50/art-of-vs50.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ImageLocationService } from './shared/services/image-location.service';
     CollapsibleSectionComponent,
     ArticleHeaderComponent,
     ImageHolderComponent,
-    CarouselComponent
+    CarouselComponent,
+    ArtOfVs50Component
   ],
   imports: [
     BrowserModule,

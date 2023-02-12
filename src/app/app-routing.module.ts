@@ -15,6 +15,7 @@ import { ThirdDigitalComicComponent } from './pages/third-digital-comic/third-di
 import { DoodlesComponent } from './pages/doodles/doodles.component';
 import { AnAgentComponent } from './pages/an-agent/an-agent.component';
 import { ADiwaliMissionComponent } from './pages/a-diwali-mission/a-diwali-mission.component';
+import { ArtOfVs50Component } from './pages/art-of-vs50/art-of-vs50.component';
 
 
 const routes: Routes = [
@@ -33,6 +34,7 @@ const routes: Routes = [
   { path: 'articles/doodles', component: DoodlesComponent },
   { path: 'articles/an-agent', component: AnAgentComponent },
   { path: 'articles/a-diwali-mission', component: ADiwaliMissionComponent },
+  { path: 'articles/art-of-vs50', component: ArtOfVs50Component },
   { path: '', redirectTo: 'article-list', pathMatch: 'full' }
 ];
 
@@ -45,5 +47,6 @@ export const routingComponents = [
   ArticleListComponent, AboutComponent, WhiteboardComponent, ProjectSkinComponent, 
   LandscapesComponent, MoodsComponent, RaiseTheDeadComponent, AvatarsComponent, 
   FirstDigitalComicComponent, ProjectEtchComponent, SecondDigitalComicComponent, 
-  ThirdDigitalComicComponent, DoodlesComponent, AnAgentComponent, ADiwaliMissionComponent
+  ThirdDigitalComicComponent, DoodlesComponent, AnAgentComponent, ADiwaliMissionComponent, 
+  ArtOfVs50Component
 ]
