@@ -13,6 +13,28 @@ export class AnAgentService {
     return this._imgLocationService.getImagePath(imgPath);
   }
 
+  getMarkedPage12(): IImage {
+    return {
+      hiPath: this.getImagePath('agent_12_marked_hi'),
+      loPath: this.getImagePath('agent_12_marked_lo'),
+      thumbPath: '',
+      alt: 'Original Page 12 marked',
+      text: '',
+      description: ''
+    };
+  }
+
+  getOldPage17(): IImage {
+    return {
+      hiPath: this.getImagePath('agent_17_old_hi'),
+      loPath: this.getImagePath('agent_17_old_lo'),
+      thumbPath: '',
+      alt: 'Original Page 17',
+      text: '',
+      description: ''
+    };
+  }
+
   getXtra(): IImage[] {
     return [
       {
@@ -144,8 +166,16 @@ export class AnAgentService {
         description: ``
       },
       {
-        hiPath: this.getImagePath('agent_12_hi'),
-        loPath: this.getImagePath('agent_12_lo'),
+        hiPath: this.getImagePath('agent_12a_hi'),
+        loPath: this.getImagePath('agent_12a_lo'),
+        thumbPath: '',
+        alt: '',
+        text: '',
+        description: ``
+      },
+      {
+        hiPath: this.getImagePath('agent_12b_hi'),
+        loPath: this.getImagePath('agent_12b_lo'),
         thumbPath: '',
         alt: '',
         text: '',

@@ -404,8 +404,10 @@ export class ImageLocationService {
     agent_10_lo: '/an-agent/agent_10_lo.jpg',
     agent_11_hi: '/an-agent/agent_11_hi.jpg',
     agent_11_lo: '/an-agent/agent_11_lo.jpg',
-    agent_12_hi: '/an-agent/agent_12_hi.jpg',
-    agent_12_lo: '/an-agent/agent_12_lo.jpg',
+    agent_12a_hi: '/an-agent/agent_12a_hi.jpg',
+    agent_12a_lo: '/an-agent/agent_12a_lo.jpg',
+    agent_12b_hi: '/an-agent/agent_12b_hi.jpg',
+    agent_12b_lo: '/an-agent/agent_12b_lo.jpg',
     agent_13_hi: '/an-agent/agent_13_hi.jpg',
     agent_13_lo: '/an-agent/agent_13_lo.jpg',
     agent_14_hi: '/an-agent/agent_14_hi.jpg',
@@ -414,8 +416,8 @@ export class ImageLocationService {
     agent_15_lo: '/an-agent/agent_15_lo.jpg',
     agent_16_hi: '/an-agent/agent_16_hi.jpg',
     agent_16_lo: '/an-agent/agent_16_lo.jpg',
-    agent_17_hi: '/an-agent/agent_17_hi.jpg',
-    agent_17_lo: '/an-agent/agent_17_lo.jpg',
+    agent_17_hi: '/an-agent/agent_17v2_hi.jpg',
+    agent_17_lo: '/an-agent/agent_17v2_lo.jpg',
     agent_18_hi: '/an-agent/agent_18_hi.jpg',
     agent_18_lo: '/an-agent/agent_18_lo.jpg',
     xtra_01_hi: '/an-agent/xtra_01_hi.jpg',
@@ -424,6 +426,10 @@ export class ImageLocationService {
     xtra_02_lo: '/an-agent/xtra_02_lo.jpg',
     xtra_03_hi: '/an-agent/xtra_03_hi.jpg',
     xtra_03_lo: '/an-agent/xtra_03_lo.jpg',
+    agent_12_marked_hi: '/an-agent/agent_12-art-marked_orig.jpg',
+    agent_12_marked_lo: '/an-agent/agent_12-art-marked_orig.jpg',
+    agent_17_old_hi: '/an-agent/agent_17-old-orig.jpg',
+    agent_17_old_lo: '/an-agent/agent_17-old-orig.jpg',
 
     adm_banner: '/a-diwali-mission/adm_banner_lo.jpg',
     adm_01_hi: '/a-diwali-mission/adm_01_hi.jpg',
@@ -480,7 +486,19 @@ export class ImageLocationService {
     avf_art_kishkindha_hi: '/art-of-vs50/KishKindha-hi.jpg', 
     avf_art_kishkindha_lo: '/art-of-vs50/KishKindha-lo.jpg', 
     avf_ram_run_hi: '/art-of-vs50/RamRun-hi.gif', 
-    avf_ram_run_lo: '/art-of-vs50/RamRun-lo.gif'
+    avf_ram_run_lo: '/art-of-vs50/RamRun-lo.gif',
+    
+    aibohphobia_banner: '/aibohphobia/aibohphobia_banner_lo.jpg',
+    aibohphobia_cover_hi: '/aibohphobia/aibohphobia_Cover_hi.jpg',
+    aibohphobia_cover_lo: '/aibohphobia/aibohphobia_Cover_lo.jpg',
+    aibohphobia_01_hi: '/aibohphobia/aibohphobia_01_hi.jpg',
+    aibohphobia_01_lo: '/aibohphobia/aibohphobia_01_lo.jpg',
+    aibohphobia_02_hi: '/aibohphobia/aibohphobia_02_hi.jpg',
+    aibohphobia_02_lo: '/aibohphobia/aibohphobia_02_lo.jpg',
+    aibohphobia_03_hi: '/aibohphobia/aibohphobia_03_hi.jpg',
+    aibohphobia_03_lo: '/aibohphobia/aibohphobia_03_lo.jpg',
+    aibohphobia_04_hi: '/aibohphobia/aibohphobia_04_hi.jpg',
+    aibohphobia_04_lo: '/aibohphobia/aibohphobia_04_lo.jpg'
   };
 
   private mediaRepoHostUrl: string = 'https://premjitadhikary.github.io/media-repo/paintinbits';
@@ -494,10 +512,16 @@ export class ImageLocationService {
     avf_mesmerize_sim_combat_preview_hi: 'https://premjitadhikary.github.io/Mesmerize/sim-phone/img/mes-tube/fighters.gif',
     avf_mesmerize_sim_combat_preview_lo: 'https://premjitadhikary.github.io/Mesmerize/sim-phone/img/mes-tube/fighters.gif'
   };
+
+  private internalImgLocations = {
+  };
   
   constructor() { }
 
   getImagePath(img: string): string {
+    if (this.internalImgLocations[img]) {
+      return this.internalImgLocations[img];
+    }
     if (this.mediaRepoImgLocations[img]) {
       return this.mediaRepoHostUrl + this.mediaRepoImgLocations[img] + this.mediaRepoHostUrlSuffix;
     }

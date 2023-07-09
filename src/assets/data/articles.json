@@ -110,5 +110,13 @@
     "description": "Artwork done for VS 50.",
     "date": "2023-02-12",
     "preview": "avf_banner"
+  },
+  {
+    "id": 1015,
+    "name": "Agent Shots: Aibohphobia",
+    "path": "articles/agent-shots-aibohphobia",
+    "description": "A mini-comic about Agent.",
+    "date": "2023-07-08",
+    "preview": "aibohphobia_banner"
   }
 ]
