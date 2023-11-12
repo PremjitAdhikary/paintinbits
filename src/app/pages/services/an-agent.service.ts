@@ -63,6 +63,24 @@ export class AnAgentService {
         text: '',
         description: `_Medley_ of sorts. Got my daughter to color a bit. And for the Security Cam 
         shot, as you can see, a _lot of planning_ was done.`
+      }, 
+      {
+        hiPath: this.getImagePath('xtra_04_hi'),
+        loPath: this.getImagePath('xtra_04_lo'),
+        thumbPath: '',
+        alt: '',
+        text: '',
+        description: `__Intermediate Drawing__ This is with 2023 update. Art was expanded for some 
+        additional impact.`
+      }, 
+      {
+        hiPath: this.getImagePath('xtra_05_hi'),
+        loPath: this.getImagePath('xtra_05_lo'),
+        thumbPath: '',
+        alt: '',
+        text: '',
+        description: `__Intermediate Drawing__ This is also with 2023 update. Here too, art was 
+        modified for some additional impact.`
       }
     ];
   }

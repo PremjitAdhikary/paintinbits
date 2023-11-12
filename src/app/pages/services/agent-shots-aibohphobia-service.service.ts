@@ -54,6 +54,14 @@ export class AgentShotsAibohphobiaServiceService {
         alt: '',
         text: '',
         description: ``
+      }, 
+      {
+        hiPath: this.getImagePath('aibohphobia_05_hi'),
+        loPath: this.getImagePath('aibohphobia_05_lo'),
+        thumbPath: '',
+        alt: '',
+        text: '',
+        description: ``
       }
      ];
   }

@@ -426,6 +426,10 @@ export class ImageLocationService {
     xtra_02_lo: '/an-agent/xtra_02_lo.jpg',
     xtra_03_hi: '/an-agent/xtra_03_hi.jpg',
     xtra_03_lo: '/an-agent/xtra_03_lo.jpg',
+    xtra_04_hi: '/an-agent/xtra_04_hi.jpg',
+    xtra_04_lo: '/an-agent/xtra_04_lo.jpg',
+    xtra_05_hi: '/an-agent/xtra_05_hi.jpg',
+    xtra_05_lo: '/an-agent/xtra_05_lo.jpg',
     agent_12_marked_hi: '/an-agent/agent_12-art-marked_orig.jpg',
     agent_12_marked_lo: '/an-agent/agent_12-art-marked_orig.jpg',
     agent_17_old_hi: '/an-agent/agent_17-old-orig.jpg',
@@ -498,7 +502,9 @@ export class ImageLocationService {
     aibohphobia_03_hi: '/aibohphobia/aibohphobia_03_hi.jpg',
     aibohphobia_03_lo: '/aibohphobia/aibohphobia_03_lo.jpg',
     aibohphobia_04_hi: '/aibohphobia/aibohphobia_04_hi.jpg',
-    aibohphobia_04_lo: '/aibohphobia/aibohphobia_04_lo.jpg'
+    aibohphobia_04_lo: '/aibohphobia/aibohphobia_04_lo.jpg',
+    aibohphobia_05_hi: '/aibohphobia/aibohphobia_05_hi.jpg',
+    aibohphobia_05_lo: '/aibohphobia/aibohphobia_05_lo.jpg'
   };
 
   private mediaRepoHostUrl: string = 'https://premjitadhikary.github.io/media-repo/paintinbits';
