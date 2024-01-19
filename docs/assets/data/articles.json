@@ -51,7 +51,7 @@
     "id": 1007,
     "name": "First Digital Comics",
     "path": "articles/first-digital-comic",
-    "description": "My first attempt on a digital comics.",
+    "description": "My first attempt on a digital comics. This is the first Valentine's day of me and my then fiancee new wife.",
     "date": "2016-12-27",
     "preview": "first_comic_banner"
   },
@@ -67,7 +67,7 @@
     "id": 1009,
     "name": "Second Digital Comics",
     "path": "articles/second-digital-comic",
-    "description": "My next digital comics.",
+    "description": "My next digital comics. A proper primer on how newspapers come into being.",
     "date": "2017-01-03",
     "preview": "second_comic_banner"
   },
@@ -75,7 +75,7 @@
     "id": 1010,
     "name": "Third Digital Comics",
     "path": "articles/third-digital-comic",
-    "description": "My third attempt on a digital comics.",
+    "description": "My third attempt on a digital comics. Had a chance to draw some superheroes.",
     "date": "2018-09-02",
     "preview": "third_comic_banner"
   },
@@ -91,23 +91,25 @@
     "id": 1012,
     "name": "An Agent",
     "path": "articles/an-agent",
-    "description": "Adventures of an Agent.",
+    "description": "Adventures of an Agent. Ok, original character and story much inspired by James Bond and other fun stuff.",
     "date": "2020-07-10",
-    "preview": "agent_banner"
+    "preview": "agent_banner",
+    "tag": "agent"
   },
   {
     "id": 1013,
     "name": "A Diwali Mission",
     "path": "articles/a-diwali-mission",
-    "description": "A Hostel Five Story.",
+    "description": "A Hostel Five Story. More importantly a Hostel Five Diwali!",
     "date": "2021-08-28",
-    "preview": "adm_banner"
+    "preview": "adm_banner",
+    "tag": "h-v"
   },
   {
     "id": 1014,
     "name": "Art of VS 50",
     "path": "articles/art-of-vs50",
-    "description": "Artwork done for VS 50.",
+    "description": "Artwork done for VS 50, a game I built and deployed in Mesmerize.",
     "date": "2023-02-12",
     "preview": "avf_banner"
   },
@@ -115,8 +117,18 @@
     "id": 1015,
     "name": "Agent Shots: Aibohphobia",
     "path": "articles/agent-shots-aibohphobia",
-    "description": "A mini-comic about Agent.",
+    "description": "A mini-comics about Agent. This one is based on a Programming joke.",
     "date": "2023-07-08",
-    "preview": "aibohphobia_banner"
+    "preview": "aibohphobia_banner",
+    "tag": "agent"
+  },
+  {
+    "id": 1016,
+    "name": "Immortal Kombat",
+    "path": "articles/immortal-kombat",
+    "description": "A comics based on the game Mortal Kombat. FIGHT!",
+    "date": "2024-01-19",
+    "preview": "ik_banner",
+    "tag": "h-v"
   }
 ]

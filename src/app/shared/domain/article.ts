@@ -4,5 +4,6 @@ export interface IArticle {
   path: string,
   description: string,
   date: string,
-  preview: string
+  preview: string,
+  tag: string
 }

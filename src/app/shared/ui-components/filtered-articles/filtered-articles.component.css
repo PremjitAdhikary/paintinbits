@@ -1,0 +1,43 @@
+.list-container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+a {
+  color: #cccccc;
+}
+
+.heading {
+  width: 100%;
+  background-color: #cccccc;
+  color: #2e2e2e;
+  padding: 1px 0px 1px 10px;
+}
+
+.article-container {
+  display: block;
+  width: 95%;
+  padding: 1px 20px;
+  place-items: center;
+}
+
+.img-container {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.img-container > a > img {
+  max-width: 95%;
+  max-height: auto;
+  border: 5px solid black;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 575px) {
+  .list-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}

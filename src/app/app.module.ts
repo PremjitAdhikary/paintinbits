@@ -9,6 +9,7 @@ import { CollapsibleSectionComponent } from './shared/ui-components/collapsible-
 import { ArticleHeaderComponent } from './shared/ui-components/article-header/article-header.component';
 import { ImageHolderComponent } from './shared/ui-components/image-holder/image-holder.component';
 import { CarouselComponent } from './shared/ui-components/carousel/carousel.component';
+import { FilteredArticlesComponent } from './shared/ui-components/filtered-articles/filtered-articles.component';
 
 import { ArticlesService } from './shared/services/articles.service';
 import { ImageLocationService } from './shared/services/image-location.service';
@@ -20,7 +21,8 @@ import { ImageLocationService } from './shared/services/image-location.service';
     CollapsibleSectionComponent,
     ArticleHeaderComponent,
     ImageHolderComponent,
-    CarouselComponent
+    CarouselComponent,
+    FilteredArticlesComponent
   ],
   imports: [
     BrowserModule,

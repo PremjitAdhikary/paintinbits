@@ -16,6 +16,14 @@ export class ADiwaliMissionService {
   getComic(): IImage[] {
     return [
       {
+        hiPath: this.getImagePath('adm_cover_hi'),
+        loPath: this.getImagePath('adm_cover_lo'),
+        thumbPath: '',
+        alt: '',
+        text: '',
+        description: ``
+      },
+      {
         hiPath: this.getImagePath('adm_01_hi'),
         loPath: this.getImagePath('adm_01_lo'),
         thumbPath: '',

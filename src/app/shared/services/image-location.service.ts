@@ -436,6 +436,8 @@ export class ImageLocationService {
     agent_17_old_lo: '/an-agent/agent_17-old-orig.jpg',
 
     adm_banner: '/a-diwali-mission/adm_banner_lo.jpg',
+    adm_cover_hi: '/a-diwali-mission/adm_cover_hi.jpg',
+    adm_cover_lo: '/a-diwali-mission/adm_cover_lo.jpg',
     adm_01_hi: '/a-diwali-mission/adm_01_hi.jpg',
     adm_01_lo: '/a-diwali-mission/adm_01_lo.jpg',
     adm_02_hi: '/a-diwali-mission/adm_02_hi.jpg',
@@ -504,7 +506,35 @@ export class ImageLocationService {
     aibohphobia_04_hi: '/aibohphobia/aibohphobia_04_hi.jpg',
     aibohphobia_04_lo: '/aibohphobia/aibohphobia_04_lo.jpg',
     aibohphobia_05_hi: '/aibohphobia/aibohphobia_05_hi.jpg',
-    aibohphobia_05_lo: '/aibohphobia/aibohphobia_05_lo.jpg'
+    aibohphobia_05_lo: '/aibohphobia/aibohphobia_05_lo.jpg',
+    
+    ik_banner: '/immortal-kombat/immortal_kombat_banner_lo.jpg',
+    ik_cover_hi: '/immortal-kombat/ik_cover_hi.jpg',
+    ik_cover_lo: '/immortal-kombat/ik_cover_lo.jpg',
+    ik_01_hi: '/immortal-kombat/ik_01_hi.jpg',
+    ik_01_lo: '/immortal-kombat/ik_01_lo.jpg',
+    ik_02_hi: '/immortal-kombat/ik_02_hi.jpg',
+    ik_02_lo: '/immortal-kombat/ik_02_lo.jpg',
+    ik_03_hi: '/immortal-kombat/ik_03_hi.jpg',
+    ik_03_lo: '/immortal-kombat/ik_03_lo.jpg',
+    ik_04_hi: '/immortal-kombat/ik_04_hi.jpg',
+    ik_04_lo: '/immortal-kombat/ik_04_lo.jpg',
+    ik_05_hi: '/immortal-kombat/ik_05_hi.jpg',
+    ik_05_lo: '/immortal-kombat/ik_05_lo.jpg',
+    ik_06_hi: '/immortal-kombat/ik_06_hi.jpg',
+    ik_06_lo: '/immortal-kombat/ik_06_lo.jpg',
+    ik_07_hi: '/immortal-kombat/ik_07_hi.jpg',
+    ik_07_lo: '/immortal-kombat/ik_07_lo.jpg',
+    ik_08_hi: '/immortal-kombat/ik_08_hi.jpg',
+    ik_08_lo: '/immortal-kombat/ik_08_lo.jpg',
+    ik_09_hi: '/immortal-kombat/ik_09_hi.jpg',
+    ik_09_lo: '/immortal-kombat/ik_09_lo.jpg',
+    ik_10_hi: '/immortal-kombat/ik_10_hi.jpg',
+    ik_10_lo: '/immortal-kombat/ik_10_lo.jpg',
+    ik_process_hi:'/immortal-kombat/process_hi.jpg',
+    ik_process_lo:'/immortal-kombat/process_lo.jpg',
+    ik_perspective_hi:'/immortal-kombat/perspective_hi.jpg',
+    ik_perspective_lo:'/immortal-kombat/perspective_lo.jpg'
   };
 
   private mediaRepoHostUrl: string = 'https://premjitadhikary.github.io/media-repo/paintinbits';
