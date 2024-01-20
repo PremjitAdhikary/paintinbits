@@ -1,5 +1,4 @@
-import { Component, OnInit, Input, Injectable, Inject } from '@angular/core';
-import { APP_BASE_HREF } from '@angular/common';
+import { Component, OnInit, Input, Inject } from '@angular/core';
 import { ArticlesService } from '../../services/articles.service';
 import { IArticle } from '../../domain/article';
 import { ImageLocationService } from '../../services/image-location.service';
@@ -16,7 +15,6 @@ export class FilteredArticlesComponent implements OnInit {
   public filteredArticles: IArticle[] = [];
 
   constructor(
-    @Inject(APP_BASE_HREF) private baseHref: string,
     private _articlesService : ArticlesService,
     private _imgLocationService: ImageLocationService) { }
 
@@ -24,10 +22,6 @@ export class FilteredArticlesComponent implements OnInit {
     this._articlesService.getArticles()
       .subscribe(data => 
         this.filteredArticles = data.filter(d => d.tag == this.tag));
-  }
-
-  getBaseRefedUrl(url) {console.log('baseRef kega:'+this.baseHref+'+'+url)
-    return this.baseHref + url;
   }
 
   getImagePath(imgPath: string) {

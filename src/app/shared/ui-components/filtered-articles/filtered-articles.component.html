@@ -6,7 +6,7 @@
   <div class="list-container">
     <div *ngFor="let article of filteredArticles" class="article-container">
       <div class="img-container">
-        <a routerLink="{{ getBaseRefedUrl(article.path) }}">
+        <a routerLink="../../{{ article.path }}">
           <img src='{{ getImagePath(article.preview) }}'>
         </a>
       </div><br>
