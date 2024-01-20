@@ -26,7 +26,7 @@ export class FilteredArticlesComponent implements OnInit {
         this.filteredArticles = data.filter(d => d.tag == this.tag));
   }
 
-  getBaseRefedUrl(url) {
+  getBaseRefedUrl(url) {console.log('baseRef kega:'+this.baseHref+'+'+url)
     return this.baseHref + url;
   }
 
