@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { IImage } from 'src/app/shared/domain/image';
-import { AgentShotsAibohphobiaServiceService } from '../services/agent-shots-aibohphobia-service.service';
+import { AgentShotsAibohphobiaService } from '../services/agent-shots-aibohphobia.service';
 
 @Component({
   selector: 'app-agent-shots-aibohphobia',
@@ -11,7 +11,7 @@ export class AgentShotsAibohphobiaComponent implements OnInit {
   
   public comics: IImage[];
 
-  constructor(private _aibohphobiaService: AgentShotsAibohphobiaServiceService) { }
+  constructor(private _aibohphobiaService: AgentShotsAibohphobiaService) { }
 
   ngOnInit(): void {
     this.comics = this._aibohphobiaService.getComic();

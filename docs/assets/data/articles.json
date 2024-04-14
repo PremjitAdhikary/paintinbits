@@ -130,5 +130,13 @@
     "date": "2024-01-19",
     "preview": "ik_banner",
     "tag": "h-v"
+  },
+  {
+    "id": 1017,
+    "name": "Inner Brahma",
+    "path": "articles/inner-brahma",
+    "description": "A concept or an idea that I follow, presented here",
+    "date": "2024-04-14",
+    "preview": "ib_banner"
   }
 ]

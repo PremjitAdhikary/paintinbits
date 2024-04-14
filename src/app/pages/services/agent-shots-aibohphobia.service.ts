@@ -5,7 +5,7 @@ import { IImage } from 'src/app/shared/domain/image';
 @Injectable({
   providedIn: 'root'
 })
-export class AgentShotsAibohphobiaServiceService {
+export class AgentShotsAibohphobiaService {
 
   constructor(private _imgLocationService: ImageLocationService) { }
 

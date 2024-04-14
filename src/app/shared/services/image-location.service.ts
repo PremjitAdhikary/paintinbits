@@ -435,7 +435,7 @@ export class ImageLocationService {
     agent_17_old_hi: '/an-agent/agent_17-old-orig.jpg',
     agent_17_old_lo: '/an-agent/agent_17-old-orig.jpg',
 
-    adm_banner: '/a-diwali-mission/adm_banner_lo.jpg',
+    adm_banner: '/a-diwali-mission/adm_banner_v2_lo.jpg',
     adm_cover_hi: '/a-diwali-mission/adm_cover_hi.jpg',
     adm_cover_lo: '/a-diwali-mission/adm_cover_lo.jpg',
     adm_01_hi: '/a-diwali-mission/adm_01_hi.jpg',
@@ -508,7 +508,7 @@ export class ImageLocationService {
     aibohphobia_05_hi: '/aibohphobia/aibohphobia_05_hi.jpg',
     aibohphobia_05_lo: '/aibohphobia/aibohphobia_05_lo.jpg',
     
-    ik_banner: '/immortal-kombat/immortal_kombat_banner_lo.jpg',
+    ik_banner: '/immortal-kombat/immortal_kombat_banner_v2_lo.jpg',
     ik_cover_hi: '/immortal-kombat/ik_cover_hi.jpg',
     ik_cover_lo: '/immortal-kombat/ik_cover_lo.jpg',
     ik_01_hi: '/immortal-kombat/ik_01_hi.jpg',
@@ -534,7 +534,21 @@ export class ImageLocationService {
     ik_process_hi:'/immortal-kombat/process_hi.jpg',
     ik_process_lo:'/immortal-kombat/process_lo.jpg',
     ik_perspective_hi:'/immortal-kombat/perspective_hi.jpg',
-    ik_perspective_lo:'/immortal-kombat/perspective_lo.jpg'
+    ik_perspective_lo:'/immortal-kombat/perspective_lo.jpg',
+    
+    ib_banner: '/inner-brahma/inner_brahma_banner_lo.jpg',
+    ib_cover_hi: '/inner-brahma/inner_brahma_cover_hi.jpg',
+    ib_cover_lo: '/inner-brahma/inner_brahma_cover_lo.jpg',
+    ib_01_hi: '/inner-brahma/inner_brahma_01_hi.jpg',
+    ib_01_lo: '/inner-brahma/inner_brahma_01_lo.jpg',
+    ib_02_hi: '/inner-brahma/inner_brahma_02_hi.jpg',
+    ib_02_lo: '/inner-brahma/inner_brahma_02_lo.jpg',
+    ib_03_hi: '/inner-brahma/inner_brahma_03_hi.jpg',
+    ib_03_lo: '/inner-brahma/inner_brahma_03_lo.jpg',
+    ib_04_hi: '/inner-brahma/inner_brahma_04_hi.jpg',
+    ib_04_lo: '/inner-brahma/inner_brahma_04_lo.jpg',
+    ib_publish_hi: '/inner-brahma/magazine_hi.jpg',
+    ib_publish_lo: '/inner-brahma/magazine_lo.jpg'
   };
 
   private mediaRepoHostUrl: string = 'https://premjitadhikary.github.io/media-repo/paintinbits';
