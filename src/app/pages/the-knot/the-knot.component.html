@@ -1,0 +1,54 @@
+<div>
+  <app-article-header id=1018></app-article-header>
+  <p>
+    For my wedding I had hosted a website on <em>Google Sites</em> where I put up the invitation 
+    card, few pictures and also some stories on how we met and the likes.  Later I collected all 
+    those stories and reformatted it in a way so that they can be printed as a book.  The idea 
+    was to gift one to each of our families and keep one for ourselves.
+  </p>
+  <p>
+    The reformatting took almost a year to complete (Sep 2011 to Oct 2012).  New content was added 
+    for the book.  Existing stories were modified with new art work.  The comics had to be upscaled 
+    to a bigger page size.  After all the color adjustments, the book was printed.
+  </p>
+  <p>
+    <app-image-holder 
+      [imageDetails]="published">
+    </app-image-holder>
+  </p>
+  <p>
+    Google Sites allowed small javascript to be added to it's page.  I customised my site with 
+    small javascript code bits to have a comic viewer for the digital version of the book.  The 
+    whole book was put up there on the comics viewer for anyone to read (if interested).
+  </p>
+  <p>
+    Then came 2021 and Google decided to stop Classic Sites from being available for public to 
+    view.  The push was to move to the <em>new Google Sites</em>.  The javascript comic viewer 
+    didn't work on the new site and I couldn't be bothered to debug it.
+  </p>
+  <p>
+    Fast forward to 2024 and I came across the pages archived on my Google Drive.  I decided to 
+    upload them on <em>Paint in Bits</em>.
+  </p>
+  <p>Below buttons act as a book mark to the individual stories for faster access.</p>
+  <ul><li>
+      What Just Happened? &nbsp;<span class="button" (click)="chapOne()">Go</span>
+  </li></ul>
+  <ul><li>
+      1st Feb 14th &nbsp;<span class="button" (click)="chapTwo()">Go</span>
+  </li></ul>
+  <ul><li>
+      The Chest &nbsp;<span class="button" (click)="chapThree()">Go</span>
+  </li></ul>
+  <ul><li>
+      Extras &nbsp;<span class="button" (click)="chapExtra()">Go</span>
+  </li></ul>
+  <p>
+    <app-carousel #comicsHolder 
+      [allImages]="comics" 
+      [showText]="false" 
+      [showDescription]="false" 
+      [showBelt]="false"></app-carousel>
+  </p>
+  <br>
+</div>

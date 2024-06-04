@@ -5,5 +5,6 @@ export interface IArticle {
   description: string,
   date: string,
   preview: string,
-  tag: string
+  tag: string, 
+  internal: boolean
 }

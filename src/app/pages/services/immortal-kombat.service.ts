@@ -88,6 +88,14 @@ export class ImmortalKombatService {
         description: ``
       }, 
       {
+        hiPath: this.getImagePath('ik_characters_hi'),
+        loPath: this.getImagePath('ik_characters_lo'),
+        thumbPath: '',
+        alt: '',
+        text: '',
+        description: ``
+      }, 
+      {
         hiPath: this.getImagePath('ik_09_hi'),
         loPath: this.getImagePath('ik_09_lo'),
         thumbPath: '',

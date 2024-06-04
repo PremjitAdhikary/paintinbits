@@ -19,6 +19,7 @@ import { ArtOfVs50Component } from './pages/art-of-vs50/art-of-vs50.component';
 import { AgentShotsAibohphobiaComponent } from './pages/agent-shots-aibohphobia/agent-shots-aibohphobia.component';
 import { ImmortalKombatComponent } from './pages/immortal-kombat/immortal-kombat.component';
 import { InnerBrahmaComponent } from './pages/inner-brahma/inner-brahma.component';
+import { TheKnotComponent } from './pages/the-knot/the-knot.component';
 
 
 const routes: Routes = [
@@ -41,6 +42,7 @@ const routes: Routes = [
   { path: 'articles/agent-shots-aibohphobia', component: AgentShotsAibohphobiaComponent },
   { path: 'articles/immortal-kombat', component: ImmortalKombatComponent },
   { path: 'articles/inner-brahma', component: InnerBrahmaComponent },
+  { path: 'articles/the-knot', component: TheKnotComponent },
   { path: '', redirectTo: 'article-list', pathMatch: 'full' }
 ];
 
@@ -55,5 +57,5 @@ export const routingComponents = [
   FirstDigitalComicComponent, ProjectEtchComponent, SecondDigitalComicComponent, 
   ThirdDigitalComicComponent, DoodlesComponent, AnAgentComponent, ADiwaliMissionComponent, 
   ArtOfVs50Component, AgentShotsAibohphobiaComponent, ImmortalKombatComponent, 
-  InnerBrahmaComponent
+  InnerBrahmaComponent, TheKnotComponent
 ]

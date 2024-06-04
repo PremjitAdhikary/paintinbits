@@ -24,7 +24,7 @@ export class ArticleListComponent implements OnInit {
   ngOnInit(): void {
     this._articlesService.getArticles()
       .subscribe(data => {
-        this.articles = data;
+        this.articles = data.filter(a => !a.internal);
         this.articles.reverse();
       });
       
