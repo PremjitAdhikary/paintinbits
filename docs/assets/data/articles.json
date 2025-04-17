@@ -147,5 +147,21 @@
     "date": "2024-06-04",
     "preview": "", 
     "internal": true
+  },
+  {
+    "id": 1019,
+    "name": "Elf and the Robot",
+    "path": "articles/elf-and-the-robot",
+    "description": "A father daughter collaboration for a fantasy",
+    "date": "2025-04-17",
+    "preview": "eatr_banner"
+  },
+  {
+    "id": 1020,
+    "name": "Making Stories",
+    "path": "articles/making-stories",
+    "description": "A meta commentary on the making of Gogona",
+    "date": "2025-04-17",
+    "preview": "ms_banner"
   }
 ]

@@ -1,0 +1,98 @@
+<div>
+  <app-article-header id=1020></app-article-header>
+  <p>
+    It is 2025 and time for the next edition of <strong><i>Gogona</i></strong>.  Last year I had 
+    submitted <a href="https://premjitadhikary.github.io/paintinbits/articles/inner-brahma" 
+    target="_blank" >Inner Brahma</a> which was well received.  This time my submission was more 
+    of a fun reflection.
+  </p>
+  <p>
+    Unlike last year where I rushed to finish, I had a lot of time at my disposal to create this.  
+    Which is why this time I have some story going on.
+  </p>
+  <p>Fair warning, comics are best experienced on a laptop or desktop.</p>
+  <p>
+    <app-carousel 
+      [allImages]="comics" 
+      [showText]="false" 
+      [showDescription]="false" 
+      [showBelt]="false"
+      [showNavOnImage]="false"></app-carousel>
+  </p>
+  <br>
+  <app-collapsible-section heading="The Stories">
+    <p>
+      I came up with a total of six stories for this collection.  While the stories were inspired 
+      by actual events, the narrative put forward did not always reflect on what exactly happened.
+    </p>
+    <ul>
+      <li>
+        <strong>A Cover Story:</strong> This is a legit retelling of what transpired between me 
+        and Chintanu.
+      </li>
+      <li>
+        <strong>A Thematic Story:</strong> Many discussions and debates on theme had occurred 
+        which is condensed in a single page here.
+      </li>
+      <li>
+        <strong>A Budget Story:</strong> I could not get any material on sponsors and budget 
+        before the due date for submission came up. So I had to <i>make up</i> a few potential 
+        sponsors!
+      </li>
+      <li>
+        <strong>A Selection Story:</strong> The keen reader might observe that I had let my 
+        imagination go wild here. I was not so sure about the <i>'program a random number 
+        generator'</i> option, not all reader's would relate, but then I thought, <i>Meh</i>.
+      </li>
+      <li>
+        <strong>A Submission Story:</strong> Again a story based on conversations between me 
+        and Chintanu.
+      </li>
+      <li>
+        <strong>After Cover Story:</strong> This was more on the disagreement Bonnie and I had 
+        over the cover art. Again, a wild imagination. This story was not submitted for the 
+        magazine.
+      </li>
+    </ul>
+    <p>There were other events of interest in the making:</p>
+    <ul>
+      <li>
+        How our editor reached out to renown writers from Assam to pen a <i>greeting</i> for 
+        our magazine
+      </li>
+      <li>Our editor ensuring deadlines are met</li>
+    </ul>
+    <p>
+      But just because something happened, doesn't mean that it can be moulded into a <i>good 
+      story to tell</i>.
+    </p>
+  </app-collapsible-section>
+  <br>
+  
+  <app-collapsible-section heading="The Covers">
+    <p>
+      For 2025 <em>Gogona</em>, I got the opportunity to provide the cover page art.
+    </p>
+    <p>
+      <app-carousel 
+        [allImages]="covers" 
+        [showText]="true" 
+        [showDescription]="true" 
+        [showBelt]="false"
+        [showNavOnImage]="true"></app-carousel>
+    </p>
+  </app-collapsible-section>
+  <br>
+  <app-collapsible-section heading="Got Published">
+    <p>
+      This submission got published in the 16th edition of Gogona on April 2025. I got a physical 
+      copy of the magazine. Here's a collage of some snaps taken of it.
+    </p>
+    <p>
+      <app-image-holder 
+        [imageDetails]="published">
+      </app-image-holder>
+    </p>
+  </app-collapsible-section>
+  <br>
+</div>

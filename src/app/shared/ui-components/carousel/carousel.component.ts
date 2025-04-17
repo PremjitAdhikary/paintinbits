@@ -12,6 +12,7 @@ export class CarouselComponent implements OnInit {
   @Input() public showText = false;
   @Input() public showDescription = false;
   @Input() public showBelt = true;
+  @Input() public showNavOnImage = true;
   @Input() public currentImageIndex: number = 0;
   public currentImage: IImage;
 

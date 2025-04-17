@@ -23,10 +23,10 @@
           </app-image-holder>
       </div>
     </div>
-    <div 
+    <div *ngIf="showNavOnImage" 
       [ngClass]="{'float-left': currentImageIndex != 0}" 
       (click)="prev()"></div>
-    <div 
+    <div *ngIf="showNavOnImage" 
       [ngClass]="{'float-right': currentImageIndex != allImages.length-1}" 
       (click)="next()"></div>
   </div>

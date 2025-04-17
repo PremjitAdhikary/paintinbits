@@ -379,7 +379,7 @@ export class ImageLocationService {
     doodles_rorschach_lo: '/doodles/rorschach_lo.jpg',
     doodles_rorschach_thumb: '/doodles/rorschach_thumb.jpg',
 
-    agent_banner: '/an-agent/an_agent_banner_lo.jpg',
+    agent_banner: '/an-agent/an_agent_banner_v2_lo.jpg',
     agent_cover_hi: '/an-agent/agent_cover_hi.jpg',
     agent_cover_lo: '/an-agent/agent_cover_lo.jpg',
     agent_01_hi: '/an-agent/agent_01_hi.jpg',
@@ -494,7 +494,7 @@ export class ImageLocationService {
     avf_ram_run_hi: '/art-of-vs50/RamRun-hi.gif', 
     avf_ram_run_lo: '/art-of-vs50/RamRun-lo.gif',
     
-    aibohphobia_banner: '/aibohphobia/aibohphobia_banner_lo.jpg',
+    aibohphobia_banner: '/aibohphobia/aibohphobia_banner_v2_lo.jpg',
     aibohphobia_cover_hi: '/aibohphobia/aibohphobia_Cover_hi.jpg',
     aibohphobia_cover_lo: '/aibohphobia/aibohphobia_Cover_lo.jpg',
     aibohphobia_01_hi: '/aibohphobia/aibohphobia_01_hi.jpg',
@@ -525,14 +525,14 @@ export class ImageLocationService {
     ik_06_lo: '/immortal-kombat/ik_06_lo.jpg',
     ik_07_hi: '/immortal-kombat/ik_07_hi.jpg',
     ik_07_lo: '/immortal-kombat/ik_07_lo.jpg',
-    ik_08_hi: '/immortal-kombat/ik_08_hi.jpg',
-    ik_08_lo: '/immortal-kombat/ik_08_lo.jpg',
+    ik_08_hi: '/immortal-kombat/ik_08_v2_hi.jpg',
+    ik_08_lo: '/immortal-kombat/ik_08_v2_lo.jpg',
     ik_09_hi: '/immortal-kombat/ik_09_hi.jpg',
     ik_09_lo: '/immortal-kombat/ik_09_lo.jpg',
     ik_10_hi: '/immortal-kombat/ik_10_hi.jpg',
     ik_10_lo: '/immortal-kombat/ik_10_lo.jpg',
-    ik_characters_hi: '/immortal-kombat/ik_characters_hi.jpg',
-    ik_characters_lo: '/immortal-kombat/ik_characters_lo.jpg',
+    ik_characters_hi: '/immortal-kombat/ik_characters_v2_hi.jpg',
+    ik_characters_lo: '/immortal-kombat/ik_characters_v2_lo.jpg',
     ik_process_hi:'/immortal-kombat/process_hi.jpg',
     ik_process_lo:'/immortal-kombat/process_lo.jpg',
     ik_perspective_hi:'/immortal-kombat/perspective_hi.jpg',
@@ -677,11 +677,36 @@ export class ImageLocationService {
     tk_backCover_hi: '/the-knot/backCover_hi.jpg', 
     tk_backCover_lo: '/the-knot/backCover_lo.jpg',
     tk_three_books_hi: '/the-knot/three_books_orig.jpg', 
-    tk_three_books_lo: '/the-knot/three_books_orig.jpg'
+    tk_three_books_lo: '/the-knot/three_books_orig.jpg',
+  
+    ms_banner: '/making-stories/ms_banner_lo.jpg',
+    ms_cover_hi: '/making-stories/ms_cover_hi.jpg',
+    ms_cover_lo: '/making-stories/ms_cover_lo.jpg',
+    ms_00_hi: '/making-stories/ms_00_v2_hi.jpg',
+    ms_00_lo: '/making-stories/ms_00_v2_lo.jpg',
+    ms_01_hi: '/making-stories/ms_01_hi.jpg',
+    ms_01_lo: '/making-stories/ms_01_lo.jpg',
+    ms_02_hi: '/making-stories/ms_02_hi.jpg',
+    ms_02_lo: '/making-stories/ms_02_lo.jpg',
+    ms_03_hi: '/making-stories/ms_03_hi.jpg',
+    ms_03_lo: '/making-stories/ms_03_lo.jpg',
+    ms_04_hi: '/making-stories/ms_04_hi.jpg',
+    ms_04_lo: '/making-stories/ms_04_lo.jpg',
+    ms_05_hi: '/making-stories/ms_05_hi.jpg',
+    ms_05_lo: '/making-stories/ms_05_lo.jpg',
+    ms_06_hi: '/making-stories/ms_06_hi.jpg',
+    ms_06_lo: '/making-stories/ms_06_lo.jpg',
+    ms_07_hi: '/making-stories/ms_07_v2_hi.jpg',
+    ms_07_lo: '/making-stories/ms_07_v2_lo.jpg',
+    ms_end_hi: '/making-stories/ms_end_v2_hi.jpg',
+    ms_end_lo: '/making-stories/ms_end_v2_lo.jpg',
+    ms_publish_hi: '/making-stories/ms_printed_hi.jpg',
+    ms_publish_lo: '/making-stories/ms_printed_printed_lo.jpg'
   };
 
   private mediaRepoHostUrl: string = 'https://premjitadhikary.github.io/media-repo/paintinbits';
   private mediaRepoHostUrlSuffix: string = '';
+  private mediaRepoIIHostUrl: string = 'https://premjitadhikary.github.io/media-repo-ii/paintinbits';
 
   private externalImgLocations = {
     adm_mesmerize_hi: 'https://premjitadhikary.github.io/Mesmerize/diwali-special/img/myCanvas.jpg',
@@ -694,6 +719,25 @@ export class ImageLocationService {
 
   private internalImgLocations = {
   };
+
+  private mediaRepoIIImgLocations = {
+    eatr_banner: '/elf-and-the-robot/elf_n_robot_banner_lo.jpg',
+    eatr_01_hi: '/elf-and-the-robot/elf_n_robot_p1_hi.jpg',
+    eatr_01_lo: '/elf-and-the-robot/elf_n_robot_p1_lo.jpg',
+    eatr_02_hi: '/elf-and-the-robot/elf_n_robot_p2_v2_hi.jpg',
+    eatr_02_lo: '/elf-and-the-robot/elf_n_robot_p2_v2_lo.jpg',
+    eatr_03_hi: '/elf-and-the-robot/elf_n_robot_p3_hi.jpg',
+    eatr_03_lo: '/elf-and-the-robot/elf_n_robot_p3_lo.jpg',
+    eatr_04_hi: '/elf-and-the-robot/elf_n_robot_p4_hi.jpg',
+    eatr_04_lo: '/elf-and-the-robot/elf_n_robot_p4_lo.jpg',
+    eatr_publish_hi: '/elf-and-the-robot/elf_n_robot_published_hi.jpg',
+    eatr_publish_lo: '/elf-and-the-robot/elf_n_robot_published_lo.jpg', 
+    gogona_cover_hi: '/elf-and-the-robot/Gogona_2025_Cover_v2_hi.jpg',
+    gogona_cover_lo: '/elf-and-the-robot/Gogona_2025_Cover_v2_lo.jpg', 
+    gogona_backcover_hi: '/elf-and-the-robot/Gogona_2025_BackCover_hi.jpg',
+    gogona_backcover_lo: '/elf-and-the-robot/Gogona_2025_BackCover_lo.jpg'
+
+  };
   
   constructor() { }
 
@@ -703,6 +747,9 @@ export class ImageLocationService {
     }
     if (this.mediaRepoImgLocations[img]) {
       return this.mediaRepoHostUrl + this.mediaRepoImgLocations[img] + this.mediaRepoHostUrlSuffix;
+    }
+    if (this.mediaRepoIIImgLocations[img]) {
+      return this.mediaRepoIIHostUrl + this.mediaRepoIIImgLocations[img];
     }
     if (this.externalImgLocations[img]) {
       return this.externalImgLocations[img];

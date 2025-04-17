@@ -2,8 +2,8 @@
   <div class="heading" (click)="show = !show">
     &nbsp;&nbsp;
     <div *ngIf="show; then thenBlock; else elseBlock">this is ignored</div>
-    <ng-template #thenBlock>&#8722;</ng-template>
-    <ng-template #elseBlock><b>&#43;</b></ng-template>
+    <ng-template #thenBlock><span class="round-button">&#8722;</span></ng-template>
+    <ng-template #elseBlock><span class="round-button"><b>&#43;</b></span></ng-template>
     &nbsp;&nbsp;
     <h3>{{ heading }}</h3>
   </div>

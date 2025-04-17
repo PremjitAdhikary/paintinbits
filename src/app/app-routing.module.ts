@@ -20,6 +20,9 @@ import { AgentShotsAibohphobiaComponent } from './pages/agent-shots-aibohphobia/
 import { ImmortalKombatComponent } from './pages/immortal-kombat/immortal-kombat.component';
 import { InnerBrahmaComponent } from './pages/inner-brahma/inner-brahma.component';
 import { TheKnotComponent } from './pages/the-knot/the-knot.component';
+import { ElfAndTheRobotComponent } from './pages/elf-and-the-robot/elf-and-the-robot.component';
+import { MakingStoriesComponent } from './pages/making-stories/making-stories.component';
+import { NoSuchPageComponent } from './pages/no-such-page/no-such-page.component';
 
 
 const routes: Routes = [
@@ -43,7 +46,9 @@ const routes: Routes = [
   { path: 'articles/immortal-kombat', component: ImmortalKombatComponent },
   { path: 'articles/inner-brahma', component: InnerBrahmaComponent },
   { path: 'articles/the-knot', component: TheKnotComponent },
-  { path: '', redirectTo: 'article-list', pathMatch: 'full' }
+  { path: 'articles/elf-and-the-robot', component: ElfAndTheRobotComponent },
+  { path: 'articles/making-stories', component: MakingStoriesComponent },
+  { path: '**', pathMatch: 'full', component: NoSuchPageComponent }
 ];
 
 @NgModule({
@@ -57,5 +62,6 @@ export const routingComponents = [
   FirstDigitalComicComponent, ProjectEtchComponent, SecondDigitalComicComponent, 
   ThirdDigitalComicComponent, DoodlesComponent, AnAgentComponent, ADiwaliMissionComponent, 
   ArtOfVs50Component, AgentShotsAibohphobiaComponent, ImmortalKombatComponent, 
-  InnerBrahmaComponent, TheKnotComponent
+  InnerBrahmaComponent, TheKnotComponent, ElfAndTheRobotComponent, MakingStoriesComponent, 
+  NoSuchPageComponent
 ]
