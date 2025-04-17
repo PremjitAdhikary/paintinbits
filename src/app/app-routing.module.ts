@@ -48,6 +48,7 @@ const routes: Routes = [
   { path: 'articles/the-knot', component: TheKnotComponent },
   { path: 'articles/elf-and-the-robot', component: ElfAndTheRobotComponent },
   { path: 'articles/making-stories', component: MakingStoriesComponent },
+  { path: '', redirectTo: 'article-list', pathMatch: 'full' }, 
   { path: '**', pathMatch: 'full', component: NoSuchPageComponent }
 ];
 
