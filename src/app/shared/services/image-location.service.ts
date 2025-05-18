@@ -222,6 +222,8 @@ export class ImageLocationService {
     first_17_lo: '/first-digital-comic/first_17_lo.jpg',
     first_18_hi: '/first-digital-comic/first_18_hi.jpg',
     first_18_lo: '/first-digital-comic/first_18_lo.jpg',
+    first_publish_hi: '/first-digital-comic/fried_eye_editorial_hi.jpg',
+    first_publish_lo: '/first-digital-comic/fried_eye_editorial_lo.jpg',
 
     etch_banner: '/project-etch/Etch_banner.jpg',
     etch_01_hi: '/project-etch/Etch_01_hi.jpg',
@@ -735,7 +737,31 @@ export class ImageLocationService {
     gogona_cover_hi: '/elf-and-the-robot/Gogona_2025_Cover_v2_hi.jpg',
     gogona_cover_lo: '/elf-and-the-robot/Gogona_2025_Cover_v2_lo.jpg', 
     gogona_backcover_hi: '/elf-and-the-robot/Gogona_2025_BackCover_hi.jpg',
-    gogona_backcover_lo: '/elf-and-the-robot/Gogona_2025_BackCover_lo.jpg'
+    gogona_backcover_lo: '/elf-and-the-robot/Gogona_2025_BackCover_lo.jpg',
+    
+    patience_banner: '/patience/patience_banner_lo.jpg',
+    patience_cover_hi: '/patience/patience_cover_hi.jpg',
+    patience_cover_lo: '/patience/patience_cover_lo.jpg',
+    patience_01_hi: '/patience/patience_01_hi.jpg',
+    patience_01_lo: '/patience/patience_01_lo.jpg',
+    patience_02_hi: '/patience/patience_02_hi.jpg',
+    patience_02_lo: '/patience/patience_02_lo.jpg',
+    patience_03_hi: '/patience/patience_03_hi.jpg',
+    patience_03_lo: '/patience/patience_03_lo.jpg',
+    patience_04_05_hi: '/patience/patience_04_05_hi.jpg',
+    patience_04_05_lo: '/patience/patience_04_05_lo.jpg',
+    patience_04_hi: '/patience/patience_04_hi.jpg',
+    patience_04_lo: '/patience/patience_04_lo.jpg',
+    patience_05_hi: '/patience/patience_05_hi.jpg',
+    patience_05_lo: '/patience/patience_05_lo.jpg',
+    patience_06_hi: '/patience/patience_06_hi.jpg',
+    patience_06_lo: '/patience/patience_06_lo.jpg',
+    patience_07_hi: '/patience/patience_07_hi.jpg',
+    patience_07_lo: '/patience/patience_07_lo.jpg',
+    patience_making_01_hi: '/patience/patience_m1_hi.jpg',
+    patience_making_01_lo: '/patience/patience_m1_lo.jpg',
+    patience_making_02_hi: '/patience/patience_m2_hi.jpg',
+    patience_making_02_lo: '/patience/patience_m2_lo.jpg'
 
   };
   

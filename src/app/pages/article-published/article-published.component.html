@@ -1,0 +1,23 @@
+<div>
+  <h2>Published Articles</h2>
+  <br>
+  <div>
+    This is a list of all the articles/stories on this site that were published on a web magazine, 
+    a physical magazine or both.
+  </div>
+  <br>
+  <div class="list-container">
+    <div *ngFor="let article of publishedArticles" class="article-container">
+      <div class="img-container">
+        <a routerLink="../{{ article.path }}">
+          <img src='{{ getImagePath(article.preview) }}'>
+        </a>
+      </div><br>
+      <div>
+        <a routerLink="../{{ article.path }}"><b>{{ article.name }}</b></a><br><br> 
+        <p>{{ article.publication }}</p>
+      </div>
+    </div>
+  </div>
+  <br>
+</div>

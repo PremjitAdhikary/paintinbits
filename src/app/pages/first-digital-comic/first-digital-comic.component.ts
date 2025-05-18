@@ -10,11 +10,13 @@ import { IImage } from 'src/app/shared/domain/image';
 export class FirstDigitalComicComponent implements OnInit {
 
   public comics: IImage[];
+  public published: IImage;
 
   constructor(private _firstComicService: FirstDigitalComicService) { }
 
   ngOnInit(): void {
     this.comics = this._firstComicService.getComic();
+    this.published = this._firstComicService.getPublished();
   }
 
 }

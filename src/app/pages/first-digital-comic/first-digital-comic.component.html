@@ -6,16 +6,40 @@
     story).  So I rolled up my sleeves and got to work.
   </p>
   <p>
-    Took lot more time and effort than I initially estimated, but I did complete.  A few more 
-    revisions and here I present the final product.
+    I started working on this comics back in Nov 2009.  Took lot more time and effort than I 
+    initially estimated, but I did complete in Jun 2010 and published on a website for my 
+    wedding that I had hosted on the now defunct <em>Google Sites</em>.
+  </p>
+  <p>
+    Sep 2011, I started reformating the stories (including this one) that I had put up on the 
+    site, intention was to arrange on individual pages that can be printed into a book. The 
+    final product presented here is after those revisions.
   </p>
   <p>Fair warning, comics are best experienced on a laptop or desktop.</p>
-  <p>
-    <app-carousel 
-      [allImages]="comics" 
-      [showText]="false" 
-      [showDescription]="false" 
-      [showBelt]="false"
-      [showNavOnImage]="false"></app-carousel>
-  </p>
+  <app-comic-holder [comics]="comics"></app-comic-holder>
+  <br>
+  <app-collapsible-section heading="Got Published">
+    <p>
+      Just after the reformatting of this comics was done, I was reached out by <em>Fried Eye</em>, 
+      an online magazine, if they could publish my comics on their site as a <em>Valentine's 
+      day special.</em>
+    </p>
+    <p><em>Ok</em></p>
+    <p>
+      Got published on their 2012 Feb edition. Here's the <a target="_blank" 
+      href="https://www.friedeye.com/valentine-plan-unplanned-by-premjit-adhikary/" 
+      >Fried Eye article</a>.
+    </p>
+    <p>
+      Also an interesting cover the editor had for the <a target="_blank" 
+      href="https://www.friedeye.com/editorial-51/">editorial</a>.  I took the liberty and 
+      grabbed a screen shot.  Their artist took one of the frames from this comics, edited it 
+      a bit to give a fried eye touch.  Can you spot the differences?
+    </p>
+    <p>
+      <app-image-holder 
+        [imageDetails]="published">
+      </app-image-holder>
+    </p>
+  </app-collapsible-section>
 </div>

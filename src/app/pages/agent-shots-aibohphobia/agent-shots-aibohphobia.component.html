@@ -15,20 +15,11 @@
     to proof read them.
   </p>
   <p>Fair warning, comics are best experienced on a laptop or desktop.</p>
-  <p>
-    <app-carousel 
-      [allImages]="comics" 
-      [showText]="false" 
-      [showDescription]="false" 
-      [showBelt]="false"
-      [showNavOnImage]="false"></app-carousel>
-  </p>
+  <app-comic-holder [comics]="comics"></app-comic-holder>
   <p>
     <em>Fact:</em>  Palindrome was one of the first programs that I had coded back in my Engineering days 
     (in good old C).
   </p>
-  <p>
-    <app-filtered-articles tag="agent" tagname="An Agent Universe"></app-filtered-articles>
-  </p>
+  <app-agent-collection></app-agent-collection>
   <br>
 </div>

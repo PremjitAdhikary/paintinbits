@@ -11,14 +11,7 @@
     submitted. So simple lines with mostly flat colors.
   </p>
   <p>Fair warning, comics are best experienced on a laptop or desktop.</p>
-  <p>
-    <app-carousel 
-      [allImages]="comics" 
-      [showText]="false" 
-      [showDescription]="false" 
-      [showBelt]="false"
-      [showNavOnImage]="false"></app-carousel>
-  </p>
+  <app-comic-holder [comics]="comics"></app-comic-holder>
 
   <app-collapsible-section heading="Animation">
     <p>
@@ -69,8 +62,6 @@
       web version!
     </p>
   </app-collapsible-section>
-  <p>
-    <app-filtered-articles tag="h-v" tagname="Hostel 5"></app-filtered-articles>
-  </p>
+  <app-hostel-v-collection></app-hostel-v-collection>
   <br>
 </div>

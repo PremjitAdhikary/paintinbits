@@ -161,4 +161,15 @@ export class FirstDigitalComicService {
       }
     ];
   }
+
+  getPublished(): IImage {
+    return {
+      hiPath: this.getImagePath('first_publish_hi'),
+      loPath: this.getImagePath('first_publish_lo'),
+      thumbPath: '',
+      alt: 'Gogona 2025',
+      text: '',
+      description: ``
+    };
+  }
 }

@@ -23,11 +23,14 @@ import { TheKnotComponent } from './pages/the-knot/the-knot.component';
 import { ElfAndTheRobotComponent } from './pages/elf-and-the-robot/elf-and-the-robot.component';
 import { MakingStoriesComponent } from './pages/making-stories/making-stories.component';
 import { NoSuchPageComponent } from './pages/no-such-page/no-such-page.component';
+import { ArticlePublishedComponent } from './pages/article-published/article-published.component';
+import { AgentShotsPatienceComponent } from './pages/agent-shots-patience/agent-shots-patience.component';
 
 
 const routes: Routes = [
   { path: 'article-list', component: ArticleListComponent },
   { path: 'about', component: AboutComponent },
+  { path: 'published', component: ArticlePublishedComponent },
   { path: 'articles/whiteboard', component: WhiteboardComponent },
   { path: 'articles/project-skin', component: ProjectSkinComponent },
   { path: 'articles/landscapes', component: LandscapesComponent },
@@ -48,6 +51,7 @@ const routes: Routes = [
   { path: 'articles/the-knot', component: TheKnotComponent },
   { path: 'articles/elf-and-the-robot', component: ElfAndTheRobotComponent },
   { path: 'articles/making-stories', component: MakingStoriesComponent },
+  { path: 'articles/agent-shots-patience', component: AgentShotsPatienceComponent },
   { path: '', redirectTo: 'article-list', pathMatch: 'full' }, 
   { path: '**', pathMatch: 'full', component: NoSuchPageComponent }
 ];
@@ -64,5 +68,5 @@ export const routingComponents = [
   ThirdDigitalComicComponent, DoodlesComponent, AnAgentComponent, ADiwaliMissionComponent, 
   ArtOfVs50Component, AgentShotsAibohphobiaComponent, ImmortalKombatComponent, 
   InnerBrahmaComponent, TheKnotComponent, ElfAndTheRobotComponent, MakingStoriesComponent, 
-  NoSuchPageComponent
+  NoSuchPageComponent, ArticlePublishedComponent, AgentShotsPatienceComponent
 ]

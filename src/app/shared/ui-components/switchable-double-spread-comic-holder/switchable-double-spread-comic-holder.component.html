@@ -1,0 +1,33 @@
+<div>
+  <p>This comics has <em>Double Page Spread</em> content.</p>
+  <div *ngIf="isDoublePageLayoutView">
+    <p>
+      Current viewer is setup to show double page spread as a single image. <span 
+      class="button" (click)="toggleView()">Click here</span> to show individual pages.
+    </p>
+  </div>
+  <div *ngIf="!isDoublePageLayoutView">
+    <p>
+      Current viewer is setup to show individual pages. <span class="button" 
+      (click)="toggleView()">Click here</span> to show as double page spread as a single 
+      image.
+    </p>
+  </div>
+  <p [hidden]="!isDoublePageLayoutView">
+    <app-carousel #comicsDoubleHolder 
+      [allImages]="comicsDouble" 
+      [showText]="false" 
+      [showDescription]="false" 
+      [showBelt]="false"
+      [showNavOnImage]="false"></app-carousel>
+  </p>
+  <p [hidden]="isDoublePageLayoutView">
+    <app-carousel #comicsSingleHolder  
+      [allImages]="comicsSingle" 
+      [showText]="false" 
+      [showDescription]="false" 
+      [showBelt]="false"
+      [showNavOnImage]="false"></app-carousel>
+  </p>
+  <br>
+</div>

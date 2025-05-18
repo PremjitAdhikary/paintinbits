@@ -10,14 +10,7 @@
     second week that I was able to release this.
   </p>
   <p>Fair warning, comics are best experienced on a laptop or desktop.</p>
-  <p>
-    <app-carousel 
-      [allImages]="comics" 
-      [showText]="false" 
-      [showDescription]="false" 
-      [showBelt]="false"
-      [showNavOnImage]="false"></app-carousel>
-  </p>
+  <app-comic-holder [comics]="comics"></app-comic-holder>
   <app-collapsible-section heading="Xtras from the making">
     <p>
       Few images taken out while making.
@@ -84,8 +77,6 @@
       </div>
     </div>
   </app-collapsible-section>
-  <p>
-    <app-filtered-articles tag="agent" tagname="An Agent Universe"></app-filtered-articles>
-  </p>
+  <app-agent-collection></app-agent-collection>
   <br>
 </div>

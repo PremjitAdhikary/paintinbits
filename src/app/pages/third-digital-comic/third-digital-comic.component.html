@@ -19,14 +19,7 @@
     few narrations, selected the best ones and hit the drawing board
   </p>
   <p>Fair warning, comics are best experienced on a laptop or desktop.</p>
-  <p>
-    <app-carousel 
-      [allImages]="comics" 
-      [showText]="false" 
-      [showDescription]="false" 
-      [showBelt]="false"
-      [showNavOnImage]="false"></app-carousel>
-  </p>
+  <app-comic-holder [comics]="comics"></app-comic-holder>
 
   <app-collapsible-section heading="Process and Artwork">
     <p>The simple process I followed to come up with the comic strips:</p>

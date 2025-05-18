@@ -9,14 +9,7 @@
     Read on for a <em>No Holds Barred</em> all out FIGHT.
   </p>
   <p>Fair warning, comics are best experienced on a laptop or desktop.</p>
-  <p>
-    <app-carousel 
-      [allImages]="comics" 
-      [showText]="false" 
-      [showDescription]="false" 
-      [showBelt]="false"
-      [showNavOnImage]="false"></app-carousel>
-  </p>
+  <app-comic-holder [comics]="comics"></app-comic-holder>
   <app-collapsible-section heading="The Making">
     <p>
       My primary drive to create this comics was to try my hands at drawing action. For that I kept 
@@ -79,8 +72,6 @@
       term relevant.
     </p>
   </app-collapsible-section>
-  <p>
-    <app-filtered-articles tag="h-v" tagname="Hostel 5"></app-filtered-articles>
-  </p>
+  <app-hostel-v-collection></app-hostel-v-collection>
   <br>
 </div>

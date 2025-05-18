@@ -1,0 +1,32 @@
+<div>
+  <app-article-header id=1021></app-article-header>
+  <p>
+    Another mini-comic set in <em>An Agent</em> universe.  In this one it's just our main character 
+    with his shenanigans.  The last mini-comic had a lot, and I mean a lot of dialogues.  So in 
+    this one, no dialogues, only action.
+  </p>
+  <p>Fair warning, comics are best experienced on a laptop or desktop.</p>
+  <app-switchable-double-spread-comic-holder 
+    [singlePages] = "comicsSingle" 
+    [doublePages] = "comicsDouble" 
+    [singleToDoubleMap] = "pageMap"
+  ></app-switchable-double-spread-comic-holder>
+
+  <app-collapsible-section heading="The Making">
+    <p>
+      Presented here is the script and the initial thumbnails with which I ideated.  From the 
+      initial thumbnails to the final pages, some changes were done.
+    </p>
+    <p>
+      <app-carousel 
+        [allImages]="making" 
+        [showText]="true" 
+        [showDescription]="true" 
+        [showBelt]="false"></app-carousel>
+    </p>
+    <br>
+  </app-collapsible-section>
+
+  <app-agent-collection></app-agent-collection>
+  <br>
+</div>

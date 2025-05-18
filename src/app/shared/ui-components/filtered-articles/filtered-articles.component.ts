@@ -11,7 +11,7 @@ import { ImageLocationService } from '../../services/image-location.service';
 export class FilteredArticlesComponent implements OnInit {
 
   @Input() public tag: string;
-  @Input() public tagname: string;
+  @Input() public tagtitle: string;
   public filteredArticles: IArticle[] = [];
 
   constructor(

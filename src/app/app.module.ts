@@ -10,9 +10,13 @@ import { ArticleHeaderComponent } from './shared/ui-components/article-header/ar
 import { ImageHolderComponent } from './shared/ui-components/image-holder/image-holder.component';
 import { CarouselComponent } from './shared/ui-components/carousel/carousel.component';
 import { FilteredArticlesComponent } from './shared/ui-components/filtered-articles/filtered-articles.component';
+import { AgentCollectionComponent } from './shared/ui-components/agent-collection/agent-collection.component';
+import { HostelVCollectionComponent } from './shared/ui-components/hostel-v-collection/hostel-v-collection.component'
 
 import { ArticlesService } from './shared/services/articles.service';
 import { ImageLocationService } from './shared/services/image-location.service';
+import { ComicHolderComponent } from './shared/ui-components/comic-holder/comic-holder.component';
+import { SwitchableDoubleSpreadComicHolderComponent } from './shared/ui-components/switchable-double-spread-comic-holder/switchable-double-spread-comic-holder.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { ImageLocationService } from './shared/services/image-location.service';
     ArticleHeaderComponent,
     ImageHolderComponent,
     CarouselComponent,
-    FilteredArticlesComponent
+    FilteredArticlesComponent,
+    AgentCollectionComponent,
+    HostelVCollectionComponent,
+    ComicHolderComponent,
+    SwitchableDoubleSpreadComicHolderComponent
   ],
   imports: [
     BrowserModule,
