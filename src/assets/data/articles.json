@@ -187,5 +187,14 @@
     "date": "2025-05-18",
     "preview": "patience_banner",
     "tag": "agent"
+  },
+  {
+    "id": 1022,
+    "name": "All Wallpapers",
+    "path": "articles/all-wallpapers",
+    "description": "All the wallpapers",
+    "date": "2025-05-23",
+    "preview": "", 
+    "internal": true
   }
 ]

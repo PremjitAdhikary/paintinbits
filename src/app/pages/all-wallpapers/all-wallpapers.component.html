@@ -1,0 +1,36 @@
+<div>
+  <app-article-header id=1022></app-article-header>
+  <div>
+    <p>All wallpapers in one place.  These are based on the art published on this site.</p>
+  </div>
+  <app-collapsible-section heading="Desktop Wallpapers">
+    <p>
+      Collection of UHD (Ultra High Definition) resolution wallpapers for desktops and laptops.
+    </p>
+    <p>
+      <app-carousel #desktopWallpapersHolder 
+        [allImages]="desktopWallpapers" 
+        [showText]="true" 
+        [showDescription]="true" 
+        [showBelt]="true"></app-carousel>
+    </p>
+    <p class="middle">
+      <span class="button" (click)="downloadDesktopWallpaper()">Get this Wallpaper</span>
+    </p>
+  </app-collapsible-section>
+  <app-collapsible-section heading="Mobile Wallpapers">
+    <p>
+      Collection of QHD (Quad High Definition) resolution wallpapers for mobile devices.
+    </p>
+    <p>
+      <app-carousel #mobileWallpapersHolder 
+        [allImages]="mobileWallpapers" 
+        [showText]="true" 
+        [showDescription]="true" 
+        [showBelt]="true"></app-carousel>
+    </p>
+    <p class="middle">
+      <span class="button" (click)="downloadMobileWallpaper()">Get this Wallpaper</span>
+    </p>
+  </app-collapsible-section>
+</div>
