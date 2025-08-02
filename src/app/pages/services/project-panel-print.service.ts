@@ -71,9 +71,9 @@ export class ProjectPanelPrintService {
         description: ``
       },
       {
-        hiPath: this.getImagePath('ppp_bob_hi'),
-        loPath: this.getImagePath('ppp_bob_lo'),
-        thumbPath: this.getImagePath('ppp_bob_th'),
+        hiPath: this.getImagePath('ppp_bob_05_hi'),
+        loPath: this.getImagePath('ppp_bob_05_lo'),
+        thumbPath: this.getImagePath('ppp_bob_05_th'),
         alt: 'Finished Color',
         text: 'Finished Color',
         description: ``

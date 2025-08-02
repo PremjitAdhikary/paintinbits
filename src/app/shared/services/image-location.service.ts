@@ -817,9 +817,8 @@ export class ImageLocationService {
     agent_sydney_wallpaper_mqhd: '/all-wallpapers/an_agent_in_sydney_wallpaper_uhd_orig.jpg', 
 
     ppp_banner: '/project-panel-print/blessings_of_brahma_banner_lo.jpg',
-    ppp_bob_hi: '/project-panel-print/bob_05_color_hi.jpg',
-    ppp_bob_lo: '/project-panel-print/bob_05_color_lo.jpg',
-    ppp_bob_th: '/project-panel-print/bob_05_color_thumb.jpg',
+    ppp_bob_hi: '/project-panel-print/blessings_of_brahma_hi.jpg',
+    ppp_bob_lo: '/project-panel-print/blessings_of_brahma_lo.jpg',
     ppp_bob_01_hi: '/project-panel-print/bob_01_rough_1_hi.jpg',
     ppp_bob_01_lo: '/project-panel-print/bob_01_rough_1_lo.jpg',
     ppp_bob_01_th: '/project-panel-print/bob_01_rough_1_thumb.jpg',
@@ -832,6 +831,9 @@ export class ImageLocationService {
     ppp_bob_04_hi: '/project-panel-print/bob_04_grayScale_2_hi.jpg',
     ppp_bob_04_lo: '/project-panel-print/bob_04_grayScale_2_lo.jpg',
     ppp_bob_04_th: '/project-panel-print/bob_04_grayScale_2_thumb.jpg',
+    ppp_bob_05_hi: '/project-panel-print/bob_05_color_hi.jpg',
+    ppp_bob_05_lo: '/project-panel-print/bob_05_color_lo.jpg',
+    ppp_bob_05_th: '/project-panel-print/bob_05_color_thumb.jpg',
     ppp_uni_exp_hi: '/project-panel-print/exp_uni_hi.jpg',
     ppp_uni_exp_lo: '/project-panel-print/exp_uni_lo.jpg'
   };
