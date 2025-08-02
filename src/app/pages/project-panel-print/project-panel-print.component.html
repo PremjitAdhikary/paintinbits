@@ -1,0 +1,38 @@
+<div>
+  <app-article-header id=1023></app-article-header>
+  <p>
+    Time for a new rig.  Got myself a desktop this time (after soooo many years).  I have been 
+    customising my prize pocessions with my own art wherever possible.  Based on solutions 
+    available, I was able to customise.
+  </p>
+  <p>
+    I had customised my first laptop with a <a target="_blank" 
+    href="https://premjitadhikary.github.io/paintinbits/articles/project-skin" >skin</a>.
+  </p>
+  <p>
+    My second laptop customisation was a bit more permanent. I went with  
+    <a href="https://premjitadhikary.github.io/paintinbits/articles/project-etch" 
+    target="_blank">etching solution</a>.
+  </p>
+  <p>
+    <app-carousel 
+      [allImages]="customArtImages" 
+      [showText]="true" 
+      [showDescription]="true" 
+      [showBelt]="false"></app-carousel>
+  </p>
+  <br>
+  <app-collapsible-section heading="The Making">
+    <p>
+      Here I share the Intermediate steps on the making of <em>Blessings of Brahma</em> artwork.
+    </p>
+    <p>
+      <app-carousel 
+        [allImages]="makingOfBOB" 
+        [showText]="true" 
+        [showDescription]="false" 
+        [showBelt]="true"></app-carousel>
+    </p>
+    <br>
+  </app-collapsible-section>
+</div>

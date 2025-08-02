@@ -1,4 +1,6 @@
 <div>
-  <h2>{{ article ? article.name : '' }}</h2>
+  <p *ngIf="custom; then thenBlock; else elseBlock">this is ignored</p>
+  <ng-template #thenBlock><br><ng-content></ng-content></ng-template>
+  <ng-template #elseBlock><h2>{{ article.name }}</h2></ng-template>
   <p>Date: {{ article ? formatDate(article.date) : '' }}</p>
 </div>

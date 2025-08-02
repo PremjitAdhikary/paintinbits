@@ -71,6 +71,14 @@ export class AllWallpapersService {
         alt: 'Patience',
         text: 'Agent Shots : Patience',
         description: `Desktop Wallpaper from comics _Agent Shots : Patience_`
+      },
+      {
+        hiPath: this.getImagePath('agent_sydney_wallpaper_mqhd_hi'),
+        loPath: this.getImagePath('agent_sydney_wallpaper_mqhd_lo'),
+        thumbPath: this.getImagePath('agent_sydney_wallpaper_mqhd_th'),
+        alt: 'An Agent in Sydney',
+        text: 'An Agent in Sydney',
+        description: `Desktop Wallpaper based on _An Agent_`
       }
     ];
   }

@@ -22,3 +22,13 @@ p {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: vectroid;
+  src: url(assets/font/Vectroid.otf) format("opentype");
+}
+
+@font-face {
+  font-family: baveuse;
+  src: url(assets/font/Baveuse3d.otf) format("opentype");
+}

@@ -26,6 +26,7 @@ import { NoSuchPageComponent } from './pages/no-such-page/no-such-page.component
 import { ArticlePublishedComponent } from './pages/article-published/article-published.component';
 import { AgentShotsPatienceComponent } from './pages/agent-shots-patience/agent-shots-patience.component';
 import { AllWallpapersComponent } from './pages/all-wallpapers/all-wallpapers.component';
+import { ProjectPanelPrintComponent } from './pages/project-panel-print/project-panel-print.component';
 
 
 const routes: Routes = [
@@ -54,6 +55,7 @@ const routes: Routes = [
   { path: 'articles/making-stories', component: MakingStoriesComponent },
   { path: 'articles/agent-shots-patience', component: AgentShotsPatienceComponent },
   { path: 'articles/all-wallpapers', component: AllWallpapersComponent },
+  { path: 'articles/project-panel-print', component: ProjectPanelPrintComponent },
   { path: '', redirectTo: 'article-list', pathMatch: 'full' }, 
   { path: '**', pathMatch: 'full', component: NoSuchPageComponent }
 ];
@@ -71,5 +73,5 @@ export const routingComponents = [
   ArtOfVs50Component, AgentShotsAibohphobiaComponent, ImmortalKombatComponent, 
   InnerBrahmaComponent, TheKnotComponent, ElfAndTheRobotComponent, MakingStoriesComponent, 
   NoSuchPageComponent, ArticlePublishedComponent, AgentShotsPatienceComponent, 
-  AllWallpapersComponent
+  AllWallpapersComponent, ProjectPanelPrintComponent
 ]

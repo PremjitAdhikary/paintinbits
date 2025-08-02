@@ -196,5 +196,13 @@
     "date": "2025-05-23",
     "preview": "", 
     "internal": true
+  },
+  {
+    "id": 1023,
+    "name": "Project Panel Print",
+    "path": "articles/project-panel-print",
+    "description": "New Desktop. Came up with artwork to be custom printed on the panels.",
+    "date": "2025-08-02",
+    "preview": "ppp_banner"
   }
 ]

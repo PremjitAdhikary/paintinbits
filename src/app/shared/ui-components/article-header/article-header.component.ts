@@ -13,6 +13,7 @@ import { MetaTagService } from '../../services/meta-tag.service';
 export class ArticleHeaderComponent implements OnInit {
 
   @Input() public id = 0;
+  @Input() public custom = false;
   public article: IArticle;
 
   constructor(
