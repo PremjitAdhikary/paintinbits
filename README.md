@@ -52,3 +52,16 @@ Social Check:
 https://cards-dev.twitter.com/validator
 
 https://developers.facebook.com/tools/debug
+
+
+Brand new project setup from github:
+
+Install node version 12.18.1 (download windows installer and run)
+Install angular version 9.1.11
+```sh
+npm install -g @angular/cli@9.1.11
+```
+Install npm packages (in project folder location)
+```sh
+npm install
+```

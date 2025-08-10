@@ -73,12 +73,20 @@ export class AllWallpapersService {
         description: `Desktop Wallpaper from comics _Agent Shots : Patience_`
       },
       {
-        hiPath: this.getImagePath('agent_sydney_wallpaper_mqhd_hi'),
-        loPath: this.getImagePath('agent_sydney_wallpaper_mqhd_lo'),
-        thumbPath: this.getImagePath('agent_sydney_wallpaper_mqhd_th'),
+        hiPath: this.getImagePath('agent_sydney_wallpaper_uhd_hi'),
+        loPath: this.getImagePath('agent_sydney_wallpaper_uhd_lo'),
+        thumbPath: this.getImagePath('agent_sydney_wallpaper_uhd_th'),
         alt: 'An Agent in Sydney',
         text: 'An Agent in Sydney',
         description: `Desktop Wallpaper based on _An Agent_`
+      },
+      {
+        hiPath: this.getImagePath('ppp_bti_wallpaper_uhd_hi'),
+        loPath: this.getImagePath('ppp_bti_wallpaper_uhd_lo'),
+        thumbPath: this.getImagePath('ppp_bti_wallpaper_uhd_th'),
+        alt: 'Panel Paint arts',
+        text: 'Panel Paint arts',
+        description: `Desktop Wallpaper with art done for panel paint`
       }
     ];
   }
@@ -119,6 +127,16 @@ export class AllWallpapersService {
         downloadPath: this.getImagePath('patience_wallpaper_uhd'),
         downloadDisplay: "Patience",
         downloadFileName: "An_Agent_Patience(UHD).jpg"
+      }, 
+      {
+        downloadPath: this.getImagePath('agent_sydney_wallpaper_uhd'),
+        downloadDisplay: "In Sydney",
+        downloadFileName: "An_Agent_in_Sydney(UHD).jpg"
+      }, 
+      {
+        downloadPath: this.getImagePath('ppp_bti_wallpaper_uhd'),
+        downloadDisplay: "Panel Art",
+        downloadFileName: "Panel_Art(UHD).jpg"
       }
     ];
   }
@@ -164,6 +182,22 @@ export class AllWallpapersService {
         alt: 'Patience',
         text: 'Agent Shots : Patience',
         description: `Mobile Device Wallpaper from comics _Agent Shots : Patience_`
+      },
+      {
+        hiPath: this.getImagePath('ppp_bob_wallpaper_mqhd_hi'),
+        loPath: this.getImagePath('ppp_bob_wallpaper_mqhd_lo'),
+        thumbPath: this.getImagePath('ppp_bob_wallpaper_mqhd_th'),
+        alt: 'Blessings of Brahma',
+        text: 'Blessings of Brahma',
+        description: `Mobile Device Wallpaper of art _Blessings of Brahma_`
+      },
+      {
+        hiPath: this.getImagePath('ppp_exp_uni_wallpaper_mqhd_hi'),
+        loPath: this.getImagePath('ppp_exp_uni_wallpaper_mqhd_lo'),
+        thumbPath: this.getImagePath('ppp_exp_uni_wallpaper_mqhd_th'),
+        alt: 'Universe of Imagination',
+        text: 'Universe of Imagination',
+        description: `Mobile Device Wallpaper of art _Universe of Imagination_`
       }
     ];
   }
@@ -194,6 +228,16 @@ export class AllWallpapersService {
         downloadPath: this.getImagePath('patience_wallpaper_mqhd'),
         downloadDisplay: "Patience",
         downloadFileName: "An_Agent_Patience(MQHD).jpg"
+      }, 
+      {
+        downloadPath: this.getImagePath('ppp_bob_wallpaper_mqhd'),
+        downloadDisplay: "Blessings of Brahma",
+        downloadFileName: "Blessings_of_Brahma(MQHD).jpg"
+      }, 
+      {
+        downloadPath: this.getImagePath('ppp_exp_uni_wallpaper_mqhd'),
+        downloadDisplay: "Universe of Imagination",
+        downloadFileName: "Universe_of_Imagination(MQHD).jpg"
       }
     ];
   }

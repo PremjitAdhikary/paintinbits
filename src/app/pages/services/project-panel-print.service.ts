@@ -81,4 +81,15 @@ export class ProjectPanelPrintService {
     ];
   }
 
+  getDesktopImage(): IImage {
+    return {
+      hiPath: this.getImagePath('ppp_desktop_hi'),
+      loPath: this.getImagePath('ppp_desktop_lo'),
+      thumbPath: '',
+      alt: 'New Desktop',
+      text: '',
+      description: ''
+    };
+  }
+
 }

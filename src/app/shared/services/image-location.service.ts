@@ -811,10 +811,10 @@ export class ImageLocationService {
     patience_wallpaper_mqhd_th: '/patience/patience_wallpaper_mqhd_thumb.jpg',
     patience_wallpaper_mqhd: '/patience/patience_wallpaper_mqhd_orig.jpg',
     
-    agent_sydney_wallpaper_mqhd_hi: '/all-wallpapers/an_agent_in_sydney_wallpaper_uhd_hi.jpg',
-    agent_sydney_wallpaper_mqhd_lo: '/all-wallpapers/an_agent_in_sydney_wallpaper_uhd_lo.jpg',
-    agent_sydney_wallpaper_mqhd_th: '/all-wallpapers/an_agent_in_sydney_wallpaper_uhd_thumb.jpg',
-    agent_sydney_wallpaper_mqhd: '/all-wallpapers/an_agent_in_sydney_wallpaper_uhd_orig.jpg', 
+    agent_sydney_wallpaper_uhd_hi: '/all-wallpapers/an_agent_in_sydney_wallpaper_uhd_hi.jpg',
+    agent_sydney_wallpaper_uhd_lo: '/all-wallpapers/an_agent_in_sydney_wallpaper_uhd_lo.jpg',
+    agent_sydney_wallpaper_uhd_th: '/all-wallpapers/an_agent_in_sydney_wallpaper_uhd_thumb.jpg',
+    agent_sydney_wallpaper_uhd: '/all-wallpapers/an_agent_in_sydney_wallpaper_uhd_orig.jpg', 
 
     ppp_banner: '/project-panel-print/blessings_of_brahma_banner_lo.jpg',
     ppp_bob_hi: '/project-panel-print/blessings_of_brahma_hi.jpg',
@@ -835,7 +835,22 @@ export class ImageLocationService {
     ppp_bob_05_lo: '/project-panel-print/bob_05_color_lo.jpg',
     ppp_bob_05_th: '/project-panel-print/bob_05_color_thumb.jpg',
     ppp_uni_exp_hi: '/project-panel-print/exp_uni_hi.jpg',
-    ppp_uni_exp_lo: '/project-panel-print/exp_uni_lo.jpg'
+    ppp_uni_exp_lo: '/project-panel-print/exp_uni_lo.jpg',
+    ppp_desktop_hi: '/project-panel-print/the_beast_hi.jpeg',
+    ppp_desktop_lo: '/project-panel-print/the_beast_lo.jpeg',
+    ppp_bti_wallpaper_uhd_hi: '/project-panel-print/blessings_to_imagine_uhd_hi.jpg',
+    ppp_bti_wallpaper_uhd_lo: '/project-panel-print/blessings_to_imagine_uhd_lo.jpg',
+    ppp_bti_wallpaper_uhd_th: '/project-panel-print/blessings_to_imagine_uhd_thumb.jpg',
+    ppp_bti_wallpaper_uhd: '/project-panel-print/blessings_to_imagine_uhd_orig.jpg',
+    ppp_bob_wallpaper_mqhd_hi: '/project-panel-print/bob_mqhd_hi.jpg',
+    ppp_bob_wallpaper_mqhd_lo: '/project-panel-print/bob_mqhd_lo.jpg',
+    ppp_bob_wallpaper_mqhd_th: '/project-panel-print/bob_mqhd_thumb.jpg',
+    ppp_bob_wallpaper_mqhd: '/project-panel-print/bob_mqhd_orig.jpg',
+    ppp_exp_uni_wallpaper_mqhd_hi: '/project-panel-print/exp_uni_mqhd_hi.jpg',
+    ppp_exp_uni_wallpaper_mqhd_lo: '/project-panel-print/exp_uni_mqhd_lo.jpg',
+    ppp_exp_uni_wallpaper_mqhd_th: '/project-panel-print/exp_uni_mqhd_thumb.jpg',
+    ppp_exp_uni_wallpaper_mqhd: '/project-panel-print/exp_uni_mqhd_orig.jpg'
+    
   };
   
   constructor() { }

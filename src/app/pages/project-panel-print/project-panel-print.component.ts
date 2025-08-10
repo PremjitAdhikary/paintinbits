@@ -11,10 +11,12 @@ export class ProjectPanelPrintComponent implements OnInit {
 
   public customArtImages: IImage[];
   public makingOfBOB: IImage[];
+  public desktopImg: IImage;
 
   constructor(private _projectPanelPrintService:ProjectPanelPrintService ) {
     this.customArtImages = this._projectPanelPrintService.getCustomArtImages();
     this.makingOfBOB = this._projectPanelPrintService.getMakingOfBOB();
+    this.desktopImg = this._projectPanelPrintService.getDesktopImage();
   }
 
   ngOnInit(): void {
