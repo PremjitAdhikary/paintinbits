@@ -1,4 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Inject } from '@angular/core';
+import { APP_BASE_HREF } from '@angular/common';
 
 @Component({
   selector: 'app-hostel-v-header',
@@ -8,15 +9,16 @@ import { Component, OnInit, Input } from '@angular/core';
 export class HostelVHeaderComponent implements OnInit {
 
   @Input() public id = 0;
-  @Input() public title = "Story Title";
+  @Input() public vLogoPath = "";
   public articleId: number;
   public articleTitle: string;
+  private _url: string = "assets/img/circularLogo.png";
 
-  constructor() { }
+  constructor(@Inject(APP_BASE_HREF) private baseHref: string) { }
 
   ngOnInit(): void {
     this.articleId = this.id;
-    this.articleTitle = this.title;
+    this.vLogoPath = this.baseHref + this._url;
   }
 
 }

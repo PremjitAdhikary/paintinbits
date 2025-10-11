@@ -849,8 +849,25 @@ export class ImageLocationService {
     ppp_exp_uni_wallpaper_mqhd_hi: '/project-panel-print/exp_uni_mqhd_hi.jpg',
     ppp_exp_uni_wallpaper_mqhd_lo: '/project-panel-print/exp_uni_mqhd_lo.jpg',
     ppp_exp_uni_wallpaper_mqhd_th: '/project-panel-print/exp_uni_mqhd_thumb.jpg',
-    ppp_exp_uni_wallpaper_mqhd: '/project-panel-print/exp_uni_mqhd_orig.jpg'
+    ppp_exp_uni_wallpaper_mqhd: '/project-panel-print/exp_uni_mqhd_orig.jpg', 
     
+    aac_banner: '/awesome-assam-convention/aac_banner_lo.jpg',
+    aac_00_hi: '/awesome-assam-convention/aac_cover_hi.jpg',
+    aac_00_lo: '/awesome-assam-convention/aac_cover_lo.jpg',
+    aac_01_hi: '/awesome-assam-convention/aac_p1_hi.jpg',
+    aac_01_lo: '/awesome-assam-convention/aac_p1_lo.jpg',
+    aac_02_hi: '/awesome-assam-convention/aac_p2_hi.jpg',
+    aac_02_lo: '/awesome-assam-convention/aac_p2_lo.jpg',
+    aac_03_hi: '/awesome-assam-convention/aac_p3_hi.jpg',
+    aac_03_lo: '/awesome-assam-convention/aac_p3_lo.jpg',
+    aac_04_hi: '/awesome-assam-convention/aac_p4_hi.jpg',
+    aac_04_lo: '/awesome-assam-convention/aac_p4_lo.jpg',
+    aac_05_hi: '/awesome-assam-convention/aac_p5_hi.jpg',
+    aac_05_lo: '/awesome-assam-convention/aac_p5_lo.jpg',
+    aac_06_hi: '/awesome-assam-convention/aac_p6_hi.jpg',
+    aac_06_lo: '/awesome-assam-convention/aac_p6_lo.jpg',
+    aac_07_hi: '/awesome-assam-convention/aac_p7_hi.jpg',
+    aac_07_lo: '/awesome-assam-convention/aac_p7_lo.jpg'
   };
   
   constructor() { }

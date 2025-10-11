@@ -28,6 +28,7 @@ export class ArticleHeaderComponent implements OnInit {
   ngOnInit(): void {
     this._articlesService.getArticles()
       .subscribe(data => {
+        // data.includes(d => d.id == this.id)
         this.article = data.filter(d => d.id == this.id)[0];
         this._metaTagService.updateMeta(
           this.title,
