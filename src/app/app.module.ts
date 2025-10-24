@@ -19,6 +19,7 @@ import { HostelVHeaderComponent } from './shared/ui-components/hostel-v-header/h
 
 import { ArticlesService } from './shared/services/articles.service';
 import { ImageLocationService } from './shared/services/image-location.service';
+import { ElfCollectionComponent } from './shared/ui-components/elf-collection/elf-collection.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ImageLocationService } from './shared/services/image-location.service';
     ComicHolderComponent,
     SwitchableDoubleSpreadComicHolderComponent,
     AgentHeaderComponent,
-    HostelVHeaderComponent
+    HostelVHeaderComponent,
+    ElfCollectionComponent
   ],
   imports: [
     BrowserModule,

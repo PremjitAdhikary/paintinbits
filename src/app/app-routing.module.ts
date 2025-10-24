@@ -28,6 +28,7 @@ import { AgentShotsPatienceComponent } from './pages/agent-shots-patience/agent-
 import { AllWallpapersComponent } from './pages/all-wallpapers/all-wallpapers.component';
 import { ProjectPanelPrintComponent } from './pages/project-panel-print/project-panel-print.component';
 import { AwesomeAssamConventionComponent } from './pages/awesome-assam-convention/awesome-assam-convention.component';
+import { AftermathComponent } from './pages/aftermath/aftermath.component';
 
 
 const routes: Routes = [
@@ -58,6 +59,7 @@ const routes: Routes = [
   { path: 'articles/all-wallpapers', component: AllWallpapersComponent },
   { path: 'articles/project-panel-print', component: ProjectPanelPrintComponent },
   { path: 'articles/awesome-assam-convention', component: AwesomeAssamConventionComponent },
+  { path: 'articles/aftermath', component: AftermathComponent },
   { path: '', redirectTo: 'article-list', pathMatch: 'full' }, 
   { path: '**', pathMatch: 'full', component: NoSuchPageComponent }
 ];
@@ -75,5 +77,6 @@ export const routingComponents = [
   ArtOfVs50Component, AgentShotsAibohphobiaComponent, ImmortalKombatComponent, 
   InnerBrahmaComponent, TheKnotComponent, ElfAndTheRobotComponent, MakingStoriesComponent, 
   NoSuchPageComponent, ArticlePublishedComponent, AgentShotsPatienceComponent, 
-  AllWallpapersComponent, ProjectPanelPrintComponent, AwesomeAssamConventionComponent
+  AllWallpapersComponent, ProjectPanelPrintComponent, AwesomeAssamConventionComponent, 
+  AftermathComponent
 ]

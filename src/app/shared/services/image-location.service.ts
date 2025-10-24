@@ -867,7 +867,17 @@ export class ImageLocationService {
     aac_06_hi: '/awesome-assam-convention/aac_p6_hi.jpg',
     aac_06_lo: '/awesome-assam-convention/aac_p6_lo.jpg',
     aac_07_hi: '/awesome-assam-convention/aac_p7_hi.jpg',
-    aac_07_lo: '/awesome-assam-convention/aac_p7_lo.jpg'
+    aac_07_lo: '/awesome-assam-convention/aac_p7_lo.jpg', 
+    
+    ftm_banner: '/aftermath/aftermath_banner_lo.jpg',
+    ftm_01_hi: '/aftermath/aftermath_p1_hi.jpg',
+    ftm_01_lo: '/aftermath/aftermath_p1_lo.jpg',
+    ftm_02_hi: '/aftermath/aftermath_p2_hi.jpg',
+    ftm_02_lo: '/aftermath/aftermath_p2_lo.jpg',
+    ftm_03_hi: '/aftermath/aftermath_p3_hi.jpg',
+    ftm_03_lo: '/aftermath/aftermath_p3_lo.jpg',
+    ftm_04_hi: '/aftermath/aftermath_p4_hi.jpg',
+    ftm_04_lo: '/aftermath/aftermath_p4_lo.jpg'
   };
   
   constructor() { }

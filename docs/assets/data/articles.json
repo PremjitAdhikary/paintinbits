@@ -160,11 +160,12 @@
     "id": 1019,
     "name": "Elf and the Robot",
     "path": "articles/elf-and-the-robot",
-    "description": "A father daughter collaboration for a fantasy",
+    "description": "A father-daughter collaboration for a fantasy",
     "date": "2025-04-17",
     "preview": "eatr_banner",
     "published": true, 
-    "publication": "This got published on April 2025, in the 16th edition of Gogona."
+    "publication": "This got published on April 2025, in the 16th edition of Gogona.",
+    "tag": "elf"
   },
   {
     "id": 1020,
@@ -210,6 +211,17 @@
     "date": "2025-10-11",
     "preview": "aac_banner",
     "published": true, 
-    "publication": "This got published on the October 2025 edition of Xomonnoy."
+    "publication": "This got published on Xomonnoy, but yet to be released."
+  },
+  {
+    "id": 1025,
+    "name": "The Aftermath",
+    "path": "articles/aftermath",
+    "description": "The father-daughter collaboration continues ...",
+    "date": "2025-10-24",
+    "preview": "ftm_banner",
+    "published": true, 
+    "publication": "This got published on Xomonnoy, but yet to be released.",
+    "tag": "elf"
   }
 ]
