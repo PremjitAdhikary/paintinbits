@@ -223,5 +223,14 @@
     "published": true, 
     "publication": "This got published on Xomonnoy, but yet to be released.",
     "tag": "elf"
+  },
+  {
+    "id": 1026,
+    "name": "Games of Five Ch II: Speed Thrills",
+    "path": "articles/speed-thrills",
+    "description": "We gotta Need For Speed ... ",
+    "date": "2025-12-24",
+    "preview": "st_banner",
+    "tag": "h-v"
   }
 ]
