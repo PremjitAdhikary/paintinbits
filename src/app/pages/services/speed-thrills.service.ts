@@ -113,6 +113,14 @@ export class SpeedThrillsService {
         alt: '',
         text: '',
         description: ``
+      },
+      {
+        hiPath: this.getImagePath('st_10_hi'),
+        loPath: this.getImagePath('st_10_lo'),
+        thumbPath: '',
+        alt: '',
+        text: '',
+        description: ``
       }, 
       {
         hiPath: this.getImagePath('st_11_hi'),
@@ -177,6 +185,27 @@ export class SpeedThrillsService {
         alt: '',
         text: '',
         description: ``
+      }
+    ];
+  }
+
+  getMaking(): IImage[] {
+    return [
+      {
+        hiPath: this.getImagePath('st_making_1_hi'),
+        loPath: this.getImagePath('st_making_1_lo'),
+        thumbPath: '',
+        alt: '',
+        text: 'Painting landscapes',
+        description: `A quick overview on my landscapes approach`
+      }, 
+      {
+        hiPath: this.getImagePath('st_making_2_hi'),
+        loPath: this.getImagePath('st_making_2_lo'),
+        thumbPath: '',
+        alt: '',
+        text: 'Cars and motion',
+        description: `Different camera angles and depicting motion of the racecars`
       }
     ];
   }

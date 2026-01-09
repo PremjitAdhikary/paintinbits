@@ -890,10 +890,10 @@ export class ImageLocationService {
     st_02_lo: '/speed-thrills/st_02_lo.jpg',
     st_03_hi: '/speed-thrills/st_03_hi.jpg', 
     st_03_lo: '/speed-thrills/st_03_lo.jpg',
-    st_04_hi: '/speed-thrills/st_04_hi.jpg', 
-    st_04_lo: '/speed-thrills/st_04_lo.jpg',
-    st_05_hi: '/speed-thrills/st_05_hi.jpg', 
-    st_05_lo: '/speed-thrills/st_05_lo.jpg',
+    st_04_hi: '/speed-thrills/st_04_v2_hi.jpg', 
+    st_04_lo: '/speed-thrills/st_04_v2_lo.jpg',
+    st_05_hi: '/speed-thrills/st_05_v2_hi.jpg', 
+    st_05_lo: '/speed-thrills/st_05_v2_lo.jpg',
     st_06_hi: '/speed-thrills/st_06_hi.jpg', 
     st_06_lo: '/speed-thrills/st_06_lo.jpg',
     st_07_hi: '/speed-thrills/st_07_hi.jpg', 
@@ -902,8 +902,8 @@ export class ImageLocationService {
     st_08_lo: '/speed-thrills/st_08_lo.jpg',
     st_09_hi: '/speed-thrills/st_09_hi.jpg', 
     st_09_lo: '/speed-thrills/st_09_lo.jpg',
-    // st_10_hi: '/speed-thrills/st_10_hi.jpg', 
-    // st_10_lo: '/speed-thrills/st_10_lo.jpg',
+    st_10_hi: '/speed-thrills/st_10_hi.jpg', 
+    st_10_lo: '/speed-thrills/st_10_lo.jpg',
     st_11_hi: '/speed-thrills/st_11_hi.jpg', 
     st_11_lo: '/speed-thrills/st_11_lo.jpg',
     st_12_13_hi: '/speed-thrills/st_12_13_hi.jpg', 
@@ -921,7 +921,11 @@ export class ImageLocationService {
     st_17_hi: '/speed-thrills/st_17_hi.jpg', 
     st_17_lo: '/speed-thrills/st_17_lo.jpg',
     st_18_hi: '/speed-thrills/st_18_hi.jpg', 
-    st_18_lo: '/speed-thrills/st_18_lo.jpg'
+    st_18_lo: '/speed-thrills/st_18_lo.jpg',
+    st_making_1_hi: '/speed-thrills/st_making_p1_hi.jpg', 
+    st_making_1_lo: '/speed-thrills/st_making_p1_lo.jpg',
+    st_making_2_hi: '/speed-thrills/st_making_p2_hi.jpg', 
+    st_making_2_lo: '/speed-thrills/st_making_p2_lo.jpg'
   };
   
   constructor() { }

@@ -11,6 +11,7 @@ export class SpeedThrillsComponent implements OnInit {
   public comicsSingle: IImage[];
   public comicsDouble: IImage[];
   public pageMap: number[];
+  public making: IImage[];
 
   constructor(private _speedThrillService: SpeedThrillsService) { }
 
@@ -18,8 +19,9 @@ export class SpeedThrillsComponent implements OnInit {
     this.comicsDouble = this._speedThrillService.getComicDouble();
     this.comicsSingle = this._speedThrillService.getComicSingle();
     this.pageMap = [];
-    this.pageMap[12] = 0;
     this.pageMap[13] = 0;
+    this.pageMap[14] = 0;
+    this.making = this._speedThrillService.getMaking();
   }
 
 }
