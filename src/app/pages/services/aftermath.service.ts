@@ -50,4 +50,15 @@ export class AftermathService {
     ];
   }
 
+  getPublished(): IImage {
+    return {
+        hiPath: this.getImagePath('ftm_prnt_story_hi'),
+        loPath: this.getImagePath('ftm_prnt_story_lo'),
+        thumbPath: '',
+        alt: 'Xomonoy 2025',
+        text: '',
+        description: ``
+      }
+  }
+
 }

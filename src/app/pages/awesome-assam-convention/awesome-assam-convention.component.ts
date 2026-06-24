@@ -10,12 +10,13 @@ import { IImage } from 'src/app/shared/domain/image';
 export class AwesomeAssamConventionComponent implements OnInit {
 
   public comics: IImage[];
-  public published: IImage;
+  public published: IImage[];
 
   constructor(private _awesomeAssamConventionService : AwesomeAssamConventionService) { }
 
   ngOnInit(): void {
     this.comics = this._awesomeAssamConventionService.getComic();
+    this.published = this._awesomeAssamConventionService.getPublished();
   }
 
 }

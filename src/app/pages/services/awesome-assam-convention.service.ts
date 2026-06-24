@@ -81,4 +81,41 @@ export class AwesomeAssamConventionService {
       }
     ];
   }
+
+  getPublished(): IImage[] {
+    return [
+      {
+        hiPath: this.getImagePath('aac_prnt_cover_hi'),
+        loPath: this.getImagePath('aac_prnt_cover_lo'),
+        thumbPath: '',
+        alt: 'Xomonoy 2025',
+        text: '',
+        description: ``
+      }, 
+      {
+        hiPath: this.getImagePath('aac_prnt_01_hi'),
+        loPath: this.getImagePath('aac_prnt_01_lo'),
+        thumbPath: '',
+        alt: 'Comics for Xomonoy 2025',
+        text: '',
+        description: ``
+      }, 
+      {
+        hiPath: this.getImagePath('aac_prnt_02_hi'),
+        loPath: this.getImagePath('aac_prnt_02_lo'),
+        thumbPath: '',
+        alt: 'Comics for Xomonoy 2025',
+        text: '',
+        description: ``
+      }, 
+      {
+        hiPath: this.getImagePath('aac_prnt_03_hi'),
+        loPath: this.getImagePath('aac_prnt_03_lo'),
+        thumbPath: '',
+        alt: 'Comics for Xomonoy 2025',
+        text: '',
+        description: ``
+      }
+    ];
+  }
 }

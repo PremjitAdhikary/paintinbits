@@ -16,6 +16,7 @@ export class AftermathComponent implements OnInit {
 
   ngOnInit(): void {
     this.comics = this._aftermathService.getComic();
+    this.published = this._aftermathService.getPublished();
   }
 
 }
